@@ -1,0 +1,39 @@
+{
+    "hussar_1": {
+        "model_path": "Models/pdx_infantry2.obj",
+        "brigade_tag": "hussar_1",
+        "spriteTextureID": 1,
+
+        "suppression": 1.0, 
+	    "supply_use": 0.67,
+	    "supply_capacity": 10.0,
+	    "fuel_use": 0.0, 
+	    "fuel_capacity": 0.0,
+	    "weight": 10.0,
+	    "piercing": 0.0, 
+	    "armor": 0.0, 
+	    "breakthrough": 15.0,
+	    "soft_attack": 12.0,
+	    "hard_attack": 3.0, 
+	    "defense": 9.0,
+	    "organization": 40.0,
+        "strength": 3000,
+	    "max_speed": 5.0, 
+	    "reconnaissance": 1.0, 
+	    "max_entrenchment": 1.0,
+	    "hardness": 0.0, 
+	    "combat_width": 1.0,
+	    "maneuver": 4.0,
+        "air_defense": 0.0,
+        "air_attack": 0.0,
+
+        "build_goods" : {
+            "grain" : 600,
+			"luxury_clothes" : 600
+        },
+        "maintenance" : {
+			"grain" : 6,
+			"canned_food" : 5
+        }
+    }
+}

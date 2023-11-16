@@ -1,0 +1,22 @@
+{
+    "defamation_of_women": {
+        "requirements" : {
+
+        },
+        "modifiers" : {
+            "pop_growth" : 0.01
+        }
+    },
+    "electric_machinery": {
+        "requirements" : {
+            "tech" : "ITopic6_tech_4",
+            "chances": {
+                "invention_name" : 1,
+                "tech_name" : 1
+            }
+        },
+        "modifiers" : {
+            "pop_growth" : 0.01
+        }
+    }
+}

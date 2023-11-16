@@ -1,0 +1,81 @@
+{
+	"lightinfantrybrigade_1": {
+		"model_path": "Models/pdx_infantry2.obj",
+		"brigade_tag": "lightinfantrybrigade_1",
+		"spriteTextureID": 1,
+
+		"suppression": 1.0, 
+		"supply_use": 0.27,
+		"supply_capacity": 10.0,
+		"fuel_use": 0.0, 
+		"fuel_capacity": 0.0,
+		"weight": 5.0,
+		"piercing": 0.0, 
+		"armor": 0.0, 
+		"breakthrough": 8.0,
+		"soft_attack": 10.0,
+		"hard_attack": 1.0, 
+		"defense": 11.0,
+		"organization": 40.0,
+		"strength": 4500,
+		"max_speed": 4.0, 
+		"reconnaissance": 0.0, 
+		"max_entrenchment": 1.0,
+		"hardness": 0.0, 
+		"combat_width": 0.75,
+		"maneuver": 2.0,
+		"air_defense": 0.5,
+		"air_attack": 0.0,
+
+		"build_goods" : {
+			"small_arms" : 450,
+			"luxury_clothes" : 450,
+			"ammunition" : 450
+		},
+		"maintenance" : {
+			"fabric": 0.75,
+			"ammunition" : 3.5,
+			"canned_food" : 3.5
+		}
+	},
+
+    "lightinfantrybattalion_1": {
+		"model_path": "Models/pdx_infantry2.obj",
+		"brigade_tag": "lightinfantrybattalion_1",
+		"spriteTextureID": 1,
+
+		"suppression": 1.0, 
+		"supply_use": 0.07,
+		"supply_capacity": 1.0,
+		"fuel_use": 0.0, 
+		"fuel_capacity": 0.0,
+		"weight": 1.0,
+		"piercing": 0.0, 
+		"armor": 0.0, 
+		"breakthrough": 0.8,
+		"soft_attack": 1.0,
+		"hard_attack": 0.1, 
+		"defense": 1.1,
+		"organization": 40.0,
+		"strength": 600,
+		"max_speed": 5.0, 
+		"reconnaissance": 1.0, 
+		"max_entrenchment": 1.0,
+		"hardness": 0.0, 
+		"combat_width": 0.1,
+		"maneuver": 2.0,
+		"air_defense": 0.5,
+		"air_attack": 0.0,
+
+		"build_goods" : {
+			"small_arms" : 60,
+			"luxury_clothes" : 60,
+			"ammunition" : 60
+		},
+		"maintenance" : {
+			"fabric": 0.1,
+			"ammunition" : 0.6,
+			"canned_food" : 0.6
+		}
+	}
+}

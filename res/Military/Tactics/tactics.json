@@ -1,0 +1,11 @@
+{
+    "attack": {
+        "path": "Military/Tactics/attack.json"
+    },
+	"defend": {
+        "path": "Military/Tactics/defend.json"
+    },
+    "ambush": {
+        "path": "Military/Tactics/ambush.json"
+    }
+}

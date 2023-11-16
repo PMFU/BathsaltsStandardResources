@@ -1,0 +1,17 @@
+{
+    "data": {
+        "defines": "defines.json",
+        "provinces": "Map/definitionsout.json",
+        "thing": "thingggg",
+
+        "size_x": 5616,
+        "size_y": 2160
+    },
+    "other": {
+        
+    },
+    "textures": {
+        "normalmaptexture": "res/Map/world_normal.png",
+        "provincetexture": "res/Map/provinces.bmp"
+    }
+}

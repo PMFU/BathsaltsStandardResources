@@ -1,0 +1,20 @@
+{
+    "diplo": {
+        "filler4": "empty"
+    },
+    "economy": {
+        "filler1": "empty"
+    },
+    "gfx": {
+        "filler6": "empty"
+    },
+    "military": {
+        "filler2": "empty"
+    },
+    "pops": {
+        "filler3": "empty"
+    },
+    "random_shit": {
+        "filler5": "empty"
+    }
+}

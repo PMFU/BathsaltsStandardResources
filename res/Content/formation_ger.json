@@ -1,0 +1,48 @@
+{
+	"form_NGF": {
+		"ai_will_take": {
+			"factor": 1,
+			"modifier": []
+		},
+		"effects": [
+			{
+				"prestige": 15
+			},
+			{
+				"run_scripted_effect": "form_north_german_federation"
+			},
+			{
+				"set_flag" : "NGF_formed",
+				"value" : 1
+			}
+		],
+		"key_name_desc": "locale_key_form_NGF_desc",
+		"key_name_title": "locale_key_form_NGF_name",
+		"key_name_tooltip": "locale_key_form_NGF_tooltip",
+		"requires": [
+			{
+				"all_culture_in_sphere": "north_german",
+				"war": false
+			}
+		],
+		"type": "decision",
+		"visible": [
+			{
+				"is_great_power": true,
+				"NOT": [
+					{
+						"exists": [
+							{
+								"tag": "NGF"
+							},
+							{
+								"tag": "GER"
+							}
+						]
+					}
+				],
+				"primary_culture": "north_german"
+			}
+		]
+	}
+}

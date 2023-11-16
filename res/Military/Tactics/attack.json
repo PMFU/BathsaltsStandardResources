@@ -1,0 +1,22 @@
+{
+	"attack": {
+		"factor": 10,
+		"factor_modifiers": [
+			{
+				"factor" : 2,
+				"min_attack" : 2
+			},
+			{
+				"factor" : 2,
+				"min_attack" : 3
+			}
+		],
+		"user": "attacker",
+		"texture_name": "Icons/null.png",
+
+		"modifiers": {
+			"soft_attack": 1.02,
+			"breakthrough": 1.05
+		}
+	}
+}

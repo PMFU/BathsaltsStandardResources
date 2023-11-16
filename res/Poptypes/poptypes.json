@@ -1,0 +1,336 @@
+{
+	"aristocrat": {
+		"ID": 11,
+		"everyday_needs": {
+			"coal": 1.0,
+			"coffee": 5.0,
+			"luxury_clothes": 3.0,
+			"luxury_furniture": 3.0,
+			"paper": 10.0,
+			"tobacco": 10.0,
+			"wine": 10.0
+		},
+		"life_needs": {
+			"cattle": 0.75,
+			"fish": 1.0,
+			"fruit": 1.0,
+			"grain": 2.5,
+			"wool": 1.0
+		},
+		"luxury_needs": {
+			"airplane": 5.0,
+			"ammunition": 1.0,
+			"automobile": 10.0,
+			"clipper": 2.0,
+			"fuel": 10.0,
+			"opium": 10.0,
+			"radio": 10.0,
+			"small_arms": 1.0,
+			"steamer": 2.0,
+			"telephone": 10.0
+		},
+		"strata": "rich"
+	},
+	"artisan": {
+		"ID": 5,
+		"everyday_needs": {
+			"coal": 1.0,
+			"furniture": 4.0,
+			"glass": 1.0,
+			"beverage": 5.0,
+			"paper": 5.0,
+			"clothes": 5.0,
+			"tea": 5.0,
+			"tobacco": 3.0
+		},
+		"life_needs": {
+			"cattle": 0.75,
+			"fish": 1.0,
+			"fruit": 1.0,
+			"grain": 2.5,
+			"wool": 1.0
+		},
+		"luxury_needs": {
+			"airplane": 0.4,
+			"automobile": 1.0,
+			"coffee": 2.0,
+			"fuel": 0.2,
+			"luxury_clothes": 1.0,
+			"luxury_furniture": 1.0,
+			"opium": 1.0,
+			"radio": 1.0,
+			"telephone": 1.25,
+			"wine": 10.0
+		},
+		"strata": "middle"
+	},
+	"bureaucrat": {
+		"ID": 9,
+		"everyday_needs": {
+			"coal": 1.0,
+			"furniture": 4.0,
+			"glass": 1.0,
+			"beverage": 5.0,
+			"paper": 5.0,
+			"clothes": 5.0,
+			"tea": 5.0,
+			"tobacco": 3.0
+		},
+		"life_needs": {
+			"cattle": 0.75,
+			"fish": 1.0,
+			"fruit": 1.0,
+			"grain": 2.5,
+			"wool": 1.0
+		},
+		"luxury_needs": {
+			"airplane": 0.4,
+			"automobile": 1.0,
+			"coffee": 2.0,
+			"fuel": 0.2,
+			"luxury_clothes": 1.0,
+			"luxury_furniture": 1.0,
+			"opium": 1.0,
+			"radio": 1.0,
+			"telephone": 1.25,
+			"wine": 10.0
+		},
+		"strata": "middle"
+	},
+	"capitalist": {
+		"ID": 10,
+		"everyday_needs": {
+			"coal": 20.0,
+			"coffee": 20.0,
+			"luxury_clothes": 20.0,
+			"luxury_furniture": 20.0,
+			"paper": 20.0,
+			"tobacco": 20.0,
+			"wine": 20.0
+		},
+		"life_needs": {
+			"cattle": 0.75,
+			"fish": 1.0,
+			"fruit": 1.0,
+			"grain": 2.5,
+			"wool": 1.0
+		},
+		"luxury_needs": {
+			"airplane": 5.0,
+			"ammunition": 1.0,
+			"automobile": 20.0,
+			"clipper": 2.0,
+			"fuel": 30.0,
+			"oil": 10.0,
+			"opium": 20.0,
+			"radio": 20.0,
+			"rubber": 10.0,
+			"small_arms": 1.0,
+			"steamer": 2.0,
+			"telephone": 20.0
+		},
+		"strata": "rich"
+	},
+	"clerk": {
+		"ID": 8,
+		"everyday_needs": {
+			"coal": 1.0,
+			"furniture": 4.0,
+			"glass": 1.0,
+			"beverage": 5.0,
+			"paper": 5.0,
+			"clothes": 5.0,
+			"tea": 5.0,
+			"tobacco": 3.0
+		},
+		"life_needs": {
+			"cattle": 0.75,
+			"fish": 1.0,
+			"fruit": 1.0,
+			"grain": 2.5,
+			"wool": 1.0
+		},
+		"luxury_needs": {
+			"airplane": 0.4,
+			"automobile": 1.0,
+			"coffee": 2.0,
+			"fuel": 0.2,
+			"luxury_clothes": 1.0,
+			"luxury_furniture": 1.0,
+			"opium": 1.0,
+			"radio": 1.0,
+			"telephone": 1.25,
+			"wine": 10.0
+		},
+		"strata": "middle"
+	},
+	"craftsman": {
+		"ID": 4,
+		"everyday_needs": {
+			"coal": 1.0,
+			"furniture": 3.0,
+			"beverage": 3.0,
+			"clothes": 3.0,
+			"tea": 4.0
+		},
+		"life_needs": {
+			"cattle": 0.75,
+			"fish": 1.0,
+			"fruit": 1.0,
+			"grain": 2.5,
+			"wool": 1.0
+		},
+		"luxury_needs": {
+			"automobile": 0.5,
+			"coffee": 0.45,
+			"fuel": 0.1,
+			"furniture": 3.0,
+			"beverage": 1.5,
+			"paper": 1.0,
+			"radio": 1.0,
+			"clothes": 3.0,
+			"telephone": 1.0,
+			"tobacco": 0.95
+		},
+		"strata": "poor"
+	},
+	
+	"intellectual": {
+		"ID": 7,
+		"everyday_needs": {
+			"coal": 1.0,
+			"furniture": 4.0,
+			"glass": 1.0,
+			"beverage": 5.0,
+			"paper": 5.0,
+			"clothes": 5.0,
+			"tea": 5.0,
+			"tobacco": 3.0
+		},
+		"life_needs": {
+			"cattle": 0.75,
+			"fish": 1.0,
+			"fruit": 1.0,
+			"grain": 2.5,
+			"wool": 1.0
+		},
+		"luxury_needs": {
+			"airplane": 0.4,
+			"automobile": 1.0,
+			"coffee": 2.0,
+			"fuel": 0.2,
+			"luxury_clothes": 1.0,
+			"luxury_furniture": 1.0,
+			"opium": 1.0,
+			"radio": 1.0,
+			"telephone": 1.25,
+			"wine": 10.0
+		},
+		"strata": "middle"
+	},
+	"laborer": {
+		"ID": 2,
+		"everyday_needs": {
+			"coal": 1.0,
+			"explosives": 0.25,
+			"furniture": 1.1,
+			"beverage": 3.0,
+			"clothes": 1.2,
+			"tea": 4.0
+		},
+		"life_needs": {
+			"cattle": 0.75,
+			"fish": 1.0,
+			"fruit": 1.0,
+			"grain": 2.5,
+			"wool": 1.0
+		},
+		"luxury_needs": {
+			"automobile": 0.5,
+			"coffee": 0.45,
+			"fuel": 0.1,
+			"furniture": 3.0,
+			"beverage": 1.5,
+			"paper": 1.0,
+			"radio": 1.0,
+			"clothes": 3.0,
+			"telephone": 1.0,
+			"tobacco": 0.95
+		},
+		"strata": "poor"
+	},
+	"officer": {
+		"ID": 6,
+		"everyday_needs": {
+			"coal": 1.0,
+			"furniture": 4.0,
+			"glass": 1.0,
+			"beverage": 5.0,
+			"paper": 5.0,
+			"clothes": 5.0,
+			"tea": 3.0,
+			"tobacco": 3.0
+		},
+		"life_needs": {
+			"cattle": 0.75,
+			"fish": 1.0,
+			"fruit": 1.0,
+			"grain": 2.5,
+			"wool": 1.0
+		},
+		"luxury_needs": {
+			"airplane": 0.4,
+			"automobile": 1.0,
+			"coffee": 2.0,
+			"fuel": 0.2,
+			"luxury_clothes": 1.0,
+			"luxury_furniture": 1.0,
+			"opium": 1.0,
+			"radio": 1.0,
+			"telephone": 1.25,
+			"wine": 10.0
+		},
+		"strata": "middle"
+	},
+	"slave": {
+		"ID": 1,
+		"everyday_needs": {
+			"coal": 1.0
+		},
+		"life_needs": {},
+		"luxury_needs": {
+			"opium": 1.0
+		},
+		"strata": "poor"
+	},
+	"soldier": {
+		"ID": 3,
+		"everyday_needs": {
+			"coal": 1.0,
+			"furniture": 1.0,
+			"beverage": 2.0,
+			"clothes": 1.0,
+			"tea": 4.0
+		},
+		"life_needs": {
+			"cattle": 0.75,
+			"fish": 1.0,
+			"fruit": 1.0,
+			"grain": 2.5,
+			"wool": 1.0
+		},
+		"luxury_needs": {
+			"automobile": 0.5,
+			"coffee": 0.45,
+			"fuel": 0.1,
+			"furniture": 3.0,
+			"beverage": 1.5,
+			"paper": 1.0,
+			"radio": 1.0,
+			"clothes": 3.0,
+			"telephone": 1.0,
+			"tobacco": 0.95
+		},
+		"strata": "poor"
+	}
+}

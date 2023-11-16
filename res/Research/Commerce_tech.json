@@ -1,0 +1,338 @@
+{
+    "CTopic1": {
+        "CTopic1_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic1_tech_1",
+            "order": 0,
+            "topic": "CTopic1"
+        },
+        "CTopic1_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic1_tech_2",
+            "order": 1,
+            "topic": "CTopic1"
+        },
+        "CTopic1_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic1_tech_3",
+            "order": 2,
+            "topic": "CTopic1"
+        },
+        "CTopic1_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic1_tech_4",
+            "order": 3,
+            "topic": "CTopic1"
+        },
+        "CTopic1_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic1_tech_5",
+            "order": 4,
+            "topic": "CTopic1"
+        },
+        "CTopic1_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic1_tech_6",
+            "order": 5,
+            "topic": "CTopic1"
+        }
+    },
+    "CTopic2": {
+        "CTopic2_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic2_tech_1",
+            "order": 0,
+            "topic": "CTopic2"
+        },
+        "CTopic2_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic2_tech_2",
+            "order": 1,
+            "topic": "CTopic2"
+        },
+        "CTopic2_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic2_tech_3",
+            "order": 2,
+            "topic": "CTopic2"
+        },
+        "CTopic2_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic2_tech_4",
+            "order": 3,
+            "topic": "CTopic2"
+        },
+        "CTopic2_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic2_tech_5",
+            "order": 4,
+            "topic": "CTopic2"
+        },
+        "CTopic2_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic2_tech_6",
+            "order": 5,
+            "topic": "CTopic2"
+        }
+    },
+    "CTopic3": {
+        "CTopic3_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic3_tech_1",
+            "order": 0,
+            "topic": "CTopic3"
+        },
+        "CTopic3_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic3_tech_2",
+            "order": 1,
+            "topic": "CTopic3"
+        },
+        "CTopic3_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic3_tech_3",
+            "order": 2,
+            "topic": "CTopic3"
+        },
+        "CTopic3_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic3_tech_4",
+            "order": 3,
+            "topic": "CTopic3"
+        },
+        "CTopic3_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic3_tech_5",
+            "order": 4,
+            "topic": "CTopic3"
+        },
+        "CTopic3_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic3_tech_6",
+            "order": 5,
+            "topic": "CTopic3"
+        }
+    },
+    "CTopic4": {
+        "CTopic4_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic4_tech_1",
+            "order": 0,
+            "topic": "CTopic4"
+        },
+        "CTopic4_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic4_tech_2",
+            "order": 1,
+            "topic": "CTopic4"
+        },
+        "CTopic4_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic4_tech_3",
+            "order": 2,
+            "topic": "CTopic4"
+        },
+        "CTopic4_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic4_tech_4",
+            "order": 3,
+            "topic": "CTopic4"
+        },
+        "CTopic4_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic4_tech_5",
+            "order": 4,
+            "topic": "CTopic4"
+        },
+        "CTopic4_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic4_tech_6",
+            "order": 5,
+            "topic": "CTopic4"
+        }
+    },
+    "CTopic5": {
+        "CTopic5_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic5_tech_1",
+            "order": 0,
+            "topic": "CTopic5"
+        },
+        "CTopic5_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic5_tech_2",
+            "order": 1,
+            "topic": "CTopic5"
+        },
+        "CTopic5_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic5_tech_3",
+            "order": 2,
+            "topic": "CTopic5"
+        },
+        "CTopic5_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic5_tech_4",
+            "order": 3,
+            "topic": "CTopic5"
+        },
+        "CTopic5_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic5_tech_5",
+            "order": 4,
+            "topic": "CTopic5"
+        },
+        "CTopic5_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic5_tech_6",
+            "order": 5,
+            "topic": "CTopic5"
+        }
+    },
+    "CTopic6": {
+        "CTopic6_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic6_tech_1",
+            "order": 0,
+            "topic": "CTopic6"
+        },
+        "CTopic6_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic6_tech_2",
+            "order": 1,
+            "topic": "CTopic6"
+        },
+        "CTopic6_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic6_tech_3",
+            "order": 2,
+            "topic": "CTopic6"
+        },
+        "CTopic6_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic6_tech_4",
+            "order": 3,
+            "topic": "CTopic6"
+        },
+        "CTopic6_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic6_tech_5",
+            "order": 4,
+            "topic": "CTopic6"
+        },
+        "CTopic6_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CTopic6_tech_6",
+            "order": 5,
+            "topic": "CTopic6"
+        }
+    }
+}

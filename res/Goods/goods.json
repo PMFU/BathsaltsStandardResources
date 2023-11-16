@@ -1,0 +1,970 @@
+{
+    "goods": {
+        "airplane": {
+            "ID": 38,
+            "building_type": "factory",
+            "color": [
+                221,
+                213,
+                182
+            ],
+            "cost": 110.0,
+            "good_category": "military_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "ammunition": {
+            "ID": 39,
+            "building_type": "factory",
+            "color": [
+                208,
+                202,
+                127
+            ],
+            "cost": 17.5,
+            "good_category": "military_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "artillery": {
+            "ID": 40,
+            "building_type": "factory",
+            "color": [
+                145,
+                130,
+                86
+            ],
+            "cost": 60.0,
+            "good_category": "military_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "automobile": {
+            "ID": 34,
+            "building_type": "factory",
+            "color": [
+                61,
+                67,
+                64
+            ],
+            "cost": 70.0,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "beverage": {
+            "ID": 24,
+            "building_type": "factory",
+            "color": [
+                76,
+                5,
+                0
+            ],
+            "cost": 6.4,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "canned_food": {
+            "ID": 42,
+            "building_type": "factory",
+            "color": [
+                255,
+                39,
+                12
+            ],
+            "cost": 16.0,
+            "good_category": "military_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "cement": {
+            "ID": 20,
+            "building_type": "factory",
+            "color": [
+                185,
+                187,
+                164
+            ],
+            "cost": 16.0,
+            "good_category": "industrial_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "clipper": {
+            "ID": 35,
+            "building_type": "factory",
+            "color": [
+                21,
+                65,
+                30
+            ],
+            "cost": 42.0,
+            "good_category": "industrial_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": true,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "clothes": {
+            "ID": 27,
+            "building_type": "factory",
+            "color": [
+                217,
+                17,
+                19
+            ],
+            "cost": 5.8,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "coal": {
+            "ID": 4,
+            "building_type": "rgo",
+            "color": [
+                11,
+                29,
+                77
+            ],
+            "cost": 2.3,
+            "good_category": "raw_material_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "coffee": {
+            "ID": 12,
+            "building_type": "factory",
+            "color": [
+                27,
+                19,
+                7
+            ],
+            "cost": 2.1,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "cotton": {
+            "ID": 6,
+            "building_type": "rgo",
+            "color": [
+                255,
+                255,
+                255
+            ],
+            "cost": 2.0,
+            "good_category": "raw_material_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "dye": {
+            "ID": 3,
+            "building_type": "rgo",
+            "color": [
+                69,
+                0,
+                182
+            ],
+            "cost": 12.0,
+            "good_category": "raw_material_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "electrical_part": {
+            "ID": 22,
+            "building_type": "factory",
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "cost": 16.0,
+            "good_category": "industrial_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "explosive": {
+            "ID": 41,
+            "building_type": "factory",
+            "color": [
+                192,
+                68,
+                20
+            ],
+            "cost": 20.0,
+            "good_category": "industrial_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "fabric": {
+            "ID": 26,
+            "building_type": "factory",
+            "color": [
+                186,
+                50,
+                40
+            ],
+            "cost": 1.8,
+            "good_category": "industrial_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "fertilizer": {
+            "ID": 19,
+            "building_type": "factory",
+            "color": [
+                133,
+                101,
+                35
+            ],
+            "cost": 10.0,
+            "good_category": "industrial_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "fruit": {
+            "ID": 2,
+            "building_type": "factory",
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "cost": 1.8,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "fuel": {
+            "ID": 37,
+            "building_type": "factory",
+            "color": [
+                145,
+                110,
+                89
+            ],
+            "cost": 25.0,
+            "good_category": "industrial_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "furniture": {
+            "ID": 29,
+            "building_type": "factory",
+            "color": [
+                173,
+                129,
+                40
+            ],
+            "cost": 4.9,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "glass": {
+            "ID": 23,
+            "building_type": "factory",
+            "color": [
+                201,
+                200,
+                199
+            ],
+            "cost": 2.9,
+            "good_category": "industrial_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "grain": {
+            "ID": 1,
+            "building_type": "factory",
+            "color": [
+                219,
+                157,
+                36
+            ],
+            "cost": 2.2,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "iron": {
+            "ID": 5,
+            "building_type": "rgo",
+            "color": [
+                111,
+                111,
+                111
+            ],
+            "cost": 3.5,
+            "good_category": "raw_material_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "livestock": {
+            "ID": 7,
+            "building_type": "factory",
+            "color": [
+                128,
+                98,
+                73
+            ],
+            "cost": 1.5,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "lumber": {
+            "ID": 21,
+            "building_type": "factory",
+            "color": [
+                180,
+                94,
+                26
+            ],
+            "cost": 1.0,
+            "good_category": "industrial_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "luxury_clothes": {
+            "ID": 30,
+            "building_type": "factory",
+            "color": [
+                234,
+                227,
+                40
+            ],
+            "cost": 65.0,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "luxury_furniture": {
+            "ID": 31,
+            "building_type": "factory",
+            "color": [
+                255,
+                140,
+                184
+            ],
+            "cost": 59.0,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "machine_parts": {
+            "ID": 18,
+            "building_type": "factory",
+            "color": [
+                177,
+                198,
+                196
+            ],
+            "cost": 36.5,
+            "good_category": "industrial_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "oil": {
+            "ID": 9,
+            "building_type": "rgo",
+            "color": [
+                0,
+                0,
+                0
+            ],
+            "cost": 12.0,
+            "good_category": "raw_material_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "paper": {
+            "ID": 28,
+            "building_type": "factory",
+            "color": [
+                216,
+                185,
+                77
+            ],
+            "cost": 3.4,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "precious_metal": {
+            "ID": 45,
+            "building_type": "rgo",
+            "color": [
+                253,
+                199,
+                110
+            ],
+            "cost": 8.0,
+            "good_category": "raw_material_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": true,
+                "overseas_penalty": false,
+                "tradable": false,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "opium": {
+            "ID": 46,
+            "building_type": "rgo",
+            "color": [
+                0,
+                0,
+                0
+            ],
+            "cost": 12.0,
+            "good_category": "raw_material_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "radio": {
+            "ID": 32,
+            "building_type": "factory",
+            "color": [
+                129,
+                63,
+                6
+            ],
+            "cost": 16.0,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "rubber": {
+            "ID": 11,
+            "building_type": "rgo",
+            "color": [
+                123,
+                110,
+                86
+            ],
+            "cost": 7.0,
+            "good_category": "raw_material_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "silk": {
+            "ID": 14,
+            "building_type": "rgo",
+            "color": [
+                125,
+                158,
+                43
+            ],
+            "cost": 10.0,
+            "good_category": "raw_material_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "small_arms": {
+            "ID": 44,
+            "building_type": "factory",
+            "color": [
+                189,
+                118,
+                22
+            ],
+            "cost": 37.0,
+            "good_category": "military_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "steamer": {
+            "ID": 36,
+            "building_type": "factory",
+            "color": [
+                76,
+                18,
+                0
+            ],
+            "cost": 65.0,
+            "good_category": "industrial_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": true,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "steel": {
+            "ID": 17,
+            "building_type": "factory",
+            "color": [
+                95,
+                128,
+                147
+            ],
+            "cost": 4.7,
+            "good_category": "industrial_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "sulfur": {
+            "ID": 8,
+            "building_type": "rgo",
+            "color": [
+                181,
+                228,
+                102
+            ],
+            "cost": 6.0,
+            "good_category": "raw_material_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "tank": {
+            "ID": 43,
+            "building_type": "factory",
+            "color": [
+                55,
+                41,
+                9
+            ],
+            "cost": 98.0,
+            "good_category": "military_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "tea": {
+            "ID": 13,
+            "building_type": "factory",
+            "color": [
+                201,
+                135,
+                15
+            ],
+            "cost": 2.6,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "telephone": {
+            "ID": 33,
+            "building_type": "factory",
+            "color": [
+                123,
+                112,
+                54
+            ],
+            "cost": 16.0,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "timber": {
+            "ID": 10,
+            "building_type": "rgo",
+            "color": [
+                146,
+                72,
+                17
+            ],
+            "cost": 0.9,
+            "good_category": "raw_material_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "tobacco": {
+            "ID": 15,
+            "building_type": "factory",
+            "color": [
+                114,
+                162,
+                47
+            ],
+            "cost": 3.2,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "tropical_wood": {
+            "ID": 16,
+            "building_type": "rgo",
+            "color": [
+                213,
+                177,
+                118
+            ],
+            "cost": 5.4,
+            "good_category": "raw_material_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        },
+        "wine": {
+            "ID": 25,
+            "building_type": "factory",
+            "color": [
+                123,
+                0,
+                54
+            ],
+            "cost": 9.7,
+            "good_category": "consumer_goods",
+            "properties": {
+                "available_from_start": true,
+                "money": false,
+                "overseas_penalty": false,
+                "tradable": true,
+                "unused1": false,
+                "unused2": false,
+                "unused3": false,
+                "unused4": false
+            }
+        }
+    }
+}

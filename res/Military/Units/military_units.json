@@ -1,0 +1,41 @@
+{
+    "infantry_1": {
+        "path": "Military/Units/infantry.json"
+    },
+    "artillery_1": {
+        "path": "Military/Units/artillery.json"
+    },
+    "dragoon_1": {
+        "path": "Military/Units/dragoon.json"
+    },
+    "irregular_1": {
+        "path": "Military/Units/irregular.json"
+    },
+    "hussar_1": {
+        "path": "Military/Units/hussar.json"
+    },
+    "cuirassier_1": {
+        "path": "Military/Units/cuirassier.json"
+    },
+    "afv_prototype": {
+        "path": "Military/Units/afv_prototype.json"
+    },
+    "afv_infantry": {
+        "path": "Military/Units/afv_infantry.json"
+    },
+    "lightinfantrybattalion_1": {
+        "path": "Military/Units/light_infantry.json"
+    },
+    "lightinfantrybrigade_1": {
+        "path": "Military/Units/light_infantry.json"
+    },
+    "reconcavbattalion_1": {
+        "path": "Military/Units/recon.json"
+    },
+    "engineerbattalion_1": {
+        "path": "Military/Units/engineer.json"
+    },
+	"invalid_test": {
+        "path": "Military/Units/invalid.json"
+    }
+}

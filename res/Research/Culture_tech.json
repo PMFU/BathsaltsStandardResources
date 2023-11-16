@@ -1,0 +1,338 @@
+{
+    "CtTopic1": {
+        "CtTopic1_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic1_tech_1",
+            "order": 0,
+            "topic": "CtTopic1"
+        },
+        "CtTopic1_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic1_tech_2",
+            "order": 1,
+            "topic": "CtTopic1"
+        },
+        "CtTopic1_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic1_tech_3",
+            "order": 2,
+            "topic": "CtTopic1"
+        },
+        "CtTopic1_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic1_tech_4",
+            "order": 3,
+            "topic": "CtTopic1"
+        },
+        "CtTopic1_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic1_tech_5",
+            "order": 4,
+            "topic": "CtTopic1"
+        },
+        "CtTopic1_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic1_tech_6",
+            "order": 5,
+            "topic": "CtTopic1"
+        }
+    },
+    "CtTopic2": {
+        "CtTopic2_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic2_tech_1",
+            "order": 0,
+            "topic": "CtTopic2"
+        },
+        "CtTopic2_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic2_tech_2",
+            "order": 1,
+            "topic": "CtTopic2"
+        },
+        "CtTopic2_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic2_tech_3",
+            "order": 2,
+            "topic": "CtTopic2"
+        },
+        "CtTopic2_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic2_tech_4",
+            "order": 3,
+            "topic": "CtTopic2"
+        },
+        "CtTopic2_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic2_tech_5",
+            "order": 4,
+            "topic": "CtTopic2"
+        },
+        "CtTopic2_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic2_tech_6",
+            "order": 5,
+            "topic": "CtTopic2"
+        }
+    },
+    "CtTopic3": {
+        "CtTopic3_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic3_tech_1",
+            "order": 0,
+            "topic": "CtTopic3"
+        },
+        "CtTopic3_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic3_tech_2",
+            "order": 1,
+            "topic": "CtTopic3"
+        },
+        "CtTopic3_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic3_tech_3",
+            "order": 2,
+            "topic": "CtTopic3"
+        },
+        "CtTopic3_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic3_tech_4",
+            "order": 3,
+            "topic": "CtTopic3"
+        },
+        "CtTopic3_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic3_tech_5",
+            "order": 4,
+            "topic": "CtTopic3"
+        },
+        "CtTopic3_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic3_tech_6",
+            "order": 5,
+            "topic": "CtTopic3"
+        }
+    },
+    "CtTopic4": {
+        "CtTopic4_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic4_tech_1",
+            "order": 0,
+            "topic": "CtTopic4"
+        },
+        "CtTopic4_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic4_tech_2",
+            "order": 1,
+            "topic": "CtTopic4"
+        },
+        "CtTopic4_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic4_tech_3",
+            "order": 2,
+            "topic": "CtTopic4"
+        },
+        "CtTopic4_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic4_tech_4",
+            "order": 3,
+            "topic": "CtTopic4"
+        },
+        "CtTopic4_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic4_tech_5",
+            "order": 4,
+            "topic": "CtTopic4"
+        },
+        "CtTopic4_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic4_tech_6",
+            "order": 5,
+            "topic": "CtTopic4"
+        }
+    },
+    "CtTopic5": {
+        "CtTopic5_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic5_tech_1",
+            "order": 0,
+            "topic": "CtTopic5"
+        },
+        "CtTopic5_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic5_tech_2",
+            "order": 1,
+            "topic": "CtTopic5"
+        },
+        "CtTopic5_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic5_tech_3",
+            "order": 2,
+            "topic": "CtTopic5"
+        },
+        "CtTopic5_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic5_tech_4",
+            "order": 3,
+            "topic": "CtTopic5"
+        },
+        "CtTopic5_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic5_tech_5",
+            "order": 4,
+            "topic": "CtTopic5"
+        },
+        "CtTopic5_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic5_tech_6",
+            "order": 5,
+            "topic": "CtTopic5"
+        }
+    },
+    "CtTopic6": {
+        "CtTopic6_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic6_tech_1",
+            "order": 0,
+            "topic": "CtTopic6"
+        },
+        "CtTopic6_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic6_tech_2",
+            "order": 1,
+            "topic": "CtTopic6"
+        },
+        "CtTopic6_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic6_tech_3",
+            "order": 2,
+            "topic": "CtTopic6"
+        },
+        "CtTopic6_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic6_tech_4",
+            "order": 3,
+            "topic": "CtTopic6"
+        },
+        "CtTopic6_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic6_tech_5",
+            "order": 4,
+            "topic": "CtTopic6"
+        },
+        "CtTopic6_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "CtTopic6_tech_6",
+            "order": 5,
+            "topic": "CtTopic6"
+        }
+    }
+}

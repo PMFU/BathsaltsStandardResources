@@ -1,0 +1,48 @@
+{
+    "categories": [
+        {
+            "name": "Military",
+            "topics": [
+                "MTopic1",
+                "MTopic2",
+                "MTopic3",
+                "MTopic4",
+                "MTopic5",
+                "MTopic6"
+            ]
+        },
+        {
+            "name": "Commerce",
+            "topics": [
+                "CTopic1",
+                "CTopic2",
+                "CTopic3",
+                "CTopic4",
+                "CTopic5",
+                "CTopic6"
+            ]
+        },
+        {
+            "name": "Culture",
+            "topics": [
+                "CtTopic1",
+                "CtTopic2",
+                "CtTopic3",
+                "CtTopic4",
+                "CtTopic5",
+                "CtTopic6"
+            ]
+        },
+        {
+            "name": "Industry",
+            "topics": [
+                "ITopic1",
+                "ITopic2",
+                "ITopic3",
+                "ITopic4",
+                "ITopic5",
+                "ITopic6"
+            ]
+        }
+    ]
+}

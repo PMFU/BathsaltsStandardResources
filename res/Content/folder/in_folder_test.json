@@ -1,0 +1,28 @@
+{
+	"in_folder":
+	{
+		"key_name_title": "locale_key_decision_folder_name",
+		"key_name_desc": "locale_key_decision_folder_desc",
+		"type": "decision",
+
+		"effects" : [
+			{ "research_point_gain" : 1.5 }
+		],
+
+		"requires": [
+			{
+				"war": false
+			}
+		],
+
+		"visible": [
+			{
+				"NOT": [
+					{
+						"tag" : "NET"
+					}
+				]
+			}
+		]
+	}
+}

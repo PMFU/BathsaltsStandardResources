@@ -1,0 +1,86 @@
+{
+	"test_decision_1":
+	{
+		"key_name_title": "locale_key_decision_name",
+		"key_name_desc": "locale_key_decision_desc",
+		"key_name_tooltip": "locale_key_decision_tooltip",
+		"type": "decision",
+
+		"requires": [
+			{
+				"tag": "FRA",
+				"owns_state" : 91,
+				"owns_province" : 425
+			}
+		],
+		"visible": [
+			{ "tag" : "FRA" }
+		],
+
+		"ai_will_take": {
+			"factor" : 1,
+			"modifier" : [
+				{
+					"factor" : 0,
+					"NOT" : {
+						"relation" : {
+							"tag" : "PRU",
+							"amount" : 50
+						}
+					}
+				}
+			]
+		},
+
+		"effects" : [
+			{"pop_growth" : 1.0001},
+			{"research_point_gain" : 1.5},
+			{"factory_throughput_efficiency": 1.1},
+			{"militany" : -1.0}
+		]
+	},
+	"intracasy_nonsense":
+	{
+		"key_name_title": "locale_key_decision_name",
+		"key_name_desc": "locale_key_decision_desc",
+		"key_name_tooltip": "locale_key_decision_tooltip",
+		"type": "decision",
+
+		"requires": [
+			{
+				"tag": "FRA",
+				"owns_state" : 91,
+				"owns_province" : 425
+			}
+		],
+		"visible": [
+			{ 
+				"OR" : 
+				[
+					{
+						"NOT" : [
+							{
+								"prestige" : 10
+
+							}
+						]
+					},
+					{
+						"AND" : {
+							"OR" : [
+								{
+									"prestige" : 15
+								}
+							],
+							"tag" : "NET"
+						},
+						"tag" : "NET"
+					}
+				],
+				"prestige" : 5
+			}
+		],
+
+		"effects" : []
+	}
+}

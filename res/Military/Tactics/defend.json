@@ -1,0 +1,22 @@
+{
+	"defend": {
+		"factor": 10,
+		"factor_modifiers": [
+			{
+				"factor" : 2,
+				"min_defense" : 2
+			},
+			{
+				"factor" : 2,
+				"min_defense" : 3
+			}
+		],
+		"user": "defender",
+		"texture_name": "Icons/null.png",
+
+		"modifiers": {
+			"soft_attack": 1.02,
+			"defense": 1.05
+		}
+	}
+}

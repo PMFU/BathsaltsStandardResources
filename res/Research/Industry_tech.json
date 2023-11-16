@@ -1,0 +1,338 @@
+{
+    "ITopic1": {
+        "ITopic1_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic1_tech_1",
+            "order": 0,
+            "topic": "ITopic1"
+        },
+        "ITopic1_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic1_tech_2",
+            "order": 1,
+            "topic": "ITopic1"
+        },
+        "ITopic1_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic1_tech_3",
+            "order": 2,
+            "topic": "ITopic1"
+        },
+        "ITopic1_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic1_tech_4",
+            "order": 3,
+            "topic": "ITopic1"
+        },
+        "ITopic1_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic1_tech_5",
+            "order": 4,
+            "topic": "ITopic1"
+        },
+        "ITopic1_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic1_tech_6",
+            "order": 5,
+            "topic": "ITopic1"
+        }
+    },
+    "ITopic2": {
+        "ITopic2_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic2_tech_1",
+            "order": 0,
+            "topic": "ITopic2"
+        },
+        "ITopic2_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic2_tech_2",
+            "order": 1,
+            "topic": "ITopic2"
+        },
+        "ITopic2_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic2_tech_3",
+            "order": 2,
+            "topic": "ITopic2"
+        },
+        "ITopic2_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic2_tech_4",
+            "order": 3,
+            "topic": "ITopic2"
+        },
+        "ITopic2_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic2_tech_5",
+            "order": 4,
+            "topic": "ITopic2"
+        },
+        "ITopic2_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic2_tech_6",
+            "order": 5,
+            "topic": "ITopic2"
+        }
+    },
+    "ITopic3": {
+        "ITopic3_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic3_tech_1",
+            "order": 0,
+            "topic": "ITopic3"
+        },
+        "ITopic3_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic3_tech_2",
+            "order": 1,
+            "topic": "ITopic3"
+        },
+        "ITopic3_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic3_tech_3",
+            "order": 2,
+            "topic": "ITopic3"
+        },
+        "ITopic3_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic3_tech_4",
+            "order": 3,
+            "topic": "ITopic3"
+        },
+        "ITopic3_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic3_tech_5",
+            "order": 4,
+            "topic": "ITopic3"
+        },
+        "ITopic3_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic3_tech_6",
+            "order": 5,
+            "topic": "ITopic3"
+        }
+    },
+    "ITopic4": {
+        "ITopic4_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic4_tech_1",
+            "order": 0,
+            "topic": "ITopic4"
+        },
+        "ITopic4_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic4_tech_2",
+            "order": 1,
+            "topic": "ITopic4"
+        },
+        "ITopic4_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic4_tech_3",
+            "order": 2,
+            "topic": "ITopic4"
+        },
+        "ITopic4_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic4_tech_4",
+            "order": 3,
+            "topic": "ITopic4"
+        },
+        "ITopic4_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic4_tech_5",
+            "order": 4,
+            "topic": "ITopic4"
+        },
+        "ITopic4_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic4_tech_6",
+            "order": 5,
+            "topic": "ITopic4"
+        }
+    },
+    "ITopic5": {
+        "ITopic5_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic5_tech_1",
+            "order": 0,
+            "topic": "ITopic5"
+        },
+        "ITopic5_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic5_tech_2",
+            "order": 1,
+            "topic": "ITopic5"
+        },
+        "ITopic5_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic5_tech_3",
+            "order": 2,
+            "topic": "ITopic5"
+        },
+        "ITopic5_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic5_tech_4",
+            "order": 3,
+            "topic": "ITopic5"
+        },
+        "ITopic5_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic5_tech_5",
+            "order": 4,
+            "topic": "ITopic5"
+        },
+        "ITopic5_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic5_tech_6",
+            "order": 5,
+            "topic": "ITopic5"
+        }
+    },
+    "ITopic6": {
+        "ITopic6_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic6_tech_1",
+            "order": 0,
+            "topic": "ITopic6"
+        },
+        "ITopic6_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic6_tech_2",
+            "order": 1,
+            "topic": "ITopic6"
+        },
+        "ITopic6_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic6_tech_3",
+            "order": 2,
+            "topic": "ITopic6"
+        },
+        "ITopic6_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic6_tech_4",
+            "order": 3,
+            "topic": "ITopic6"
+        },
+        "ITopic6_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic6_tech_5",
+            "order": 4,
+            "topic": "ITopic6"
+        },
+        "ITopic6_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "ITopic6_tech_6",
+            "order": 5,
+            "topic": "ITopic6"
+        }
+    }
+}

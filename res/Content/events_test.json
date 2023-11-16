@@ -1,0 +1,36 @@
+{
+	"test_event_1":
+	{
+		"key_name_title": "locale_key_event_name",
+		"key_name_desc": "locale_key_event_desc",
+		"type": "event",
+
+		"trigger": {
+			"example_flag" : 1,
+			"date_greater_than" : "01.01.1837",
+			"date_less_than" : "01.01.1840",
+			"error_on purpose" : "couesfhsud"
+		},
+		"mean_time_to_happen": 30,
+
+		"options" : [
+			{
+				"key_name_option" : "locale_key_event_option_1",
+				"key_name_tooltip" : "optional_locale_event_option_1",
+				"effects" : [
+					{
+						"set_flag" : "new_flag",
+						"value" : 1
+					},
+					{ "research_point_gain" : 0.9 }
+				]
+			},
+			{
+				"key_name_option" : "locale_key_event_option_2",
+				"effects" : [
+					{ "research_point_gain" : 1.1 }
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,338 @@
+{
+    "MTopic1": {
+        "MTopic1_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic1_tech_1",
+            "order": 0,
+            "topic": "MTopic1"
+        },
+        "MTopic1_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic1_tech_2",
+            "order": 1,
+            "topic": "MTopic1"
+        },
+        "MTopic1_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic1_tech_3",
+            "order": 2,
+            "topic": "MTopic1"
+        },
+        "MTopic1_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic1_tech_4",
+            "order": 3,
+            "topic": "MTopic1"
+        },
+        "MTopic1_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic1_tech_5",
+            "order": 4,
+            "topic": "MTopic1"
+        },
+        "MTopic1_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic1_tech_6",
+            "order": 5,
+            "topic": "MTopic1"
+        }
+    },
+    "MTopic2": {
+        "MTopic2_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic2_tech_1",
+            "order": 0,
+            "topic": "MTopic2"
+        },
+        "MTopic2_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic2_tech_2",
+            "order": 1,
+            "topic": "MTopic2"
+        },
+        "MTopic2_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic2_tech_3",
+            "order": 2,
+            "topic": "MTopic2"
+        },
+        "MTopic2_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic2_tech_4",
+            "order": 3,
+            "topic": "MTopic2"
+        },
+        "MTopic2_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic2_tech_5",
+            "order": 4,
+            "topic": "MTopic2"
+        },
+        "MTopic2_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic2_tech_6",
+            "order": 5,
+            "topic": "MTopic2"
+        }
+    },
+    "MTopic3": {
+        "MTopic3_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic3_tech_1",
+            "order": 0,
+            "topic": "MTopic3"
+        },
+        "MTopic3_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic3_tech_2",
+            "order": 1,
+            "topic": "MTopic3"
+        },
+        "MTopic3_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic3_tech_3",
+            "order": 2,
+            "topic": "MTopic3"
+        },
+        "MTopic3_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic3_tech_4",
+            "order": 3,
+            "topic": "MTopic3"
+        },
+        "MTopic3_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic3_tech_5",
+            "order": 4,
+            "topic": "MTopic3"
+        },
+        "MTopic3_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic3_tech_6",
+            "order": 5,
+            "topic": "MTopic3"
+        }
+    },
+    "MTopic4": {
+        "MTopic4_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic4_tech_1",
+            "order": 0,
+            "topic": "MTopic4"
+        },
+        "MTopic4_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic4_tech_2",
+            "order": 1,
+            "topic": "MTopic4"
+        },
+        "MTopic4_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic4_tech_3",
+            "order": 2,
+            "topic": "MTopic4"
+        },
+        "MTopic4_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic4_tech_4",
+            "order": 3,
+            "topic": "MTopic4"
+        },
+        "MTopic4_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic4_tech_5",
+            "order": 4,
+            "topic": "MTopic4"
+        },
+        "MTopic4_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic4_tech_6",
+            "order": 5,
+            "topic": "MTopic4"
+        }
+    },
+    "MTopic5": {
+        "MTopic5_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic5_tech_1",
+            "order": 0,
+            "topic": "MTopic5"
+        },
+        "MTopic5_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic5_tech_2",
+            "order": 1,
+            "topic": "MTopic5"
+        },
+        "MTopic5_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic5_tech_3",
+            "order": 2,
+            "topic": "MTopic5"
+        },
+        "MTopic5_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic5_tech_4",
+            "order": 3,
+            "topic": "MTopic5"
+        },
+        "MTopic5_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic5_tech_5",
+            "order": 4,
+            "topic": "MTopic5"
+        },
+        "MTopic5_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic5_tech_6",
+            "order": 5,
+            "topic": "MTopic5"
+        }
+    },
+    "MTopic6": {
+        "MTopic6_tech_1": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic6_tech_1",
+            "order": 0,
+            "topic": "MTopic6"
+        },
+        "MTopic6_tech_2": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic6_tech_2",
+            "order": 1,
+            "topic": "MTopic6"
+        },
+        "MTopic6_tech_3": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic6_tech_3",
+            "order": 2,
+            "topic": "MTopic6"
+        },
+        "MTopic6_tech_4": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic6_tech_4",
+            "order": 3,
+            "topic": "MTopic6"
+        },
+        "MTopic6_tech_5": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic6_tech_5",
+            "order": 4,
+            "topic": "MTopic6"
+        },
+        "MTopic6_tech_6": {
+            "cost": 1,
+            "date": "NA",
+            "effect": "NA",
+            "desc_key": "DESCRIPTION_TODO",
+            "name": "MTopic6_tech_6",
+            "order": 5,
+            "topic": "MTopic6"
+        }
+    }
+}
