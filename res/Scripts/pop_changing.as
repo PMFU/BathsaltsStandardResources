@@ -1,5 +1,5 @@
 #include "base.as"
-
+/*
 uint getPopCountConverting(Pop@ p)
 {
 	return 0;
@@ -33,7 +33,7 @@ uint getPopCountMigrating(Pop@ p)
 	#If pop group is in a location not controlled by the owner, then -100% chance to migrate to a state. DO NOT DELETE.
 
 	(Did not include colonial migration insofar)
-	*/
+	*//*
 
 	return 0;
 }
@@ -42,3 +42,42 @@ uint getPopCountAssimilating(Pop@ p)
 {
 	return 0;
 }
+
+
+void on_pop_move(Pop@ moving_pop)
+{
+
+}
+
+float getMigrationWeightFromTerrain(uint8 terrainID)
+{
+	return 1.0f;
+}
+
+// const static auto POPULATION_DENSITY_FACTOR = 0;
+
+void getProvinceMigrationPriorityList(const Country@ from_nation, array<province_id> &out province_targets, array<float> &out province_weights)
+{
+
+
+	int MAX_PROV = 1;
+	for(int i = 0; i < MAX_PROV; i++)
+	{
+		const Province@ province = getProvince(i);
+
+		float province_weight = 0.0f;
+
+
+		//Base the weight on:
+
+		province_weight += getMigrationWeightFromTerrain(province.getTerrainType());
+		float(province.getPopCount()) / float(province.getProvinceSize());
+		province.getUnemploymentPercentage();
+		/*	Terrain
+		 *	Population
+		 *	Unemployment
+		 *	
+		*//*
+	}
+}
+*/

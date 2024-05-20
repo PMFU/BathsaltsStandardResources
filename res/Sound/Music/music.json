@@ -1,0 +1,26 @@
+{
+    "UK01": {
+        "filename": "forgodandqueen",
+        "tag": {
+            "ENG": 1.0
+        },
+        "year": {
+            "1836": 1.0
+        },
+        "condition": {
+            "at_war": 1.0
+        }
+    },
+    "REB01": {
+        "filename": "defaultmusic",
+        "tag": {
+            "REB": 1.0
+        },
+        "year": {
+            "1836": 1.0
+        },
+        "condition": {
+            "at_war": 1.0
+        }
+    }
+}

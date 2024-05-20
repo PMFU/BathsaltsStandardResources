@@ -1,0 +1,1439 @@
+{
+    "ideologies": {
+        "conservative": {
+            "ideologyname": "conservative",
+            "ideologydesc": "conservativedesc"
+        },
+        "liberal": {
+            "ideologyname": "liberal",
+            "ideologydesc": "liberaldesc"
+        },
+        "socialist": {
+            "ideologyname": "socialist",
+            "ideologydesc": "socialistdesc"
+        },
+        "reactionary": {
+            "ideologyname": "reactionary",
+            "ideologydesc": "reactionarydesc"
+        },
+        "communist": {
+            "ideologyname": "communist",
+            "ideologydesc": "communistdesc"
+        },
+        "fascist": {
+            "ideologyname": "fascist",
+            "ideologydesc": "fascistdesc"
+        }
+    },
+    "issues": {
+        "conscription": {
+            "issuename": "conscription",
+            "issuedesc": "conscription_desc"
+        },
+        "reservists": {
+            "issuename": "reservists",
+            "issuedesc": "reservists_desc"
+        },
+        "upper_tax": {
+            "issuename": "upper_tax",
+            "issuedesc": "upper_tax_desc"
+        },
+        "middle_tax": {
+            "issuename": "middle_tax",
+            "issuedesc": "middle_tax_desc"
+        },
+        "lower_tax": {
+            "issuename": "lower_tax",
+            "issuedesc": "lower_tax_desc"
+        },
+        "upper_voting": {
+            "issuename": "upper_voting",
+            "issuedesc": "upper_voting_desc"
+        },
+        "middle_voting": {
+            "issuename": "middle_voting",
+            "issuedesc": "middle_voting_desc"
+        },
+        "lower_voting": {
+            "issuename": "lower_voting",
+            "issuedesc": "lower_voting_desc"
+        },
+        "meetings_allowed": {
+            "issuename": "meetings_allowed",
+            "issuedesc": "meetings_allowed_desc"
+        },
+        "political_representation": {
+            "issuename": "political_representation",
+            "issuedesc": "political_representation_desc"
+        },
+        "opposition_parties_allowed": {
+            "issuename": "opposition_parties_allowed",
+            "issuedesc": "opposition_parties_allowed_desc"
+        },
+        "opposition_party_suppression": {
+            "issuename": "opposition_party_suppression",
+            "issuedesc": "opposition_party_suppression_desc"
+        },
+        "free_press": {
+            "issuename": "free_press",
+            "issuedesc": "free_press_desc"
+        },
+        "citizenship_extension": {
+            "issuename": "citizenship_extension",
+            "issuedesc": "citizenship_extension_desc"
+        },
+        "education": {
+            "issuename": "education",
+            "issuedesc": "education_desc"
+        },
+        "slavery": {
+            "issuename": "slavery",
+            "issuedesc": "slavery_desc"
+        }
+    },
+    "laws": {
+        "volunteer_army": {
+            "lawcategory": 0,
+            "lawgroup": "conscription",
+            "stage": 1,
+            "issues": [
+                {
+                    "issuetype": "conscription",
+                    "impact": -0.5
+                }
+            ],
+            "modifiers": {
+                "conscription_size": 0.0
+            }
+        },
+        "one_year_conscription": {
+            "lawcategory": 0,
+            "lawgroup": "conscription",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "conscription",
+                    "impact": 0.1
+                }
+            ],
+            "modifiers": {
+                "conscription_size": 1.0
+            }
+        },
+        "two_year_conscription": {
+            "lawcategory": 0,
+            "lawgroup": "conscription",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "conscription",
+                    "impact": 0.2
+                }
+            ],
+            "modifiers": {
+                "conscription_size": 2.0
+            }
+        },
+        "four_year_conscription": {
+            "lawcategory": 0,
+            "lawgroup": "conscription",
+            "stage": 4,
+            "issues": [
+                {
+                    "issuetype": "conscription",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "conscription_size": 4.0
+            }
+        },
+        "eight_year_conscription": {
+            "lawcategory": 0,
+            "lawgroup": "conscription",
+            "stage": 5,
+            "issues": [
+                {
+                    "issuetype": "conscription",
+                    "impact": 0.8
+                }
+            ],
+            "modifiers": {
+                "conscription_size": 5.0
+            }
+        },
+        "volunteer_reservists": {
+            "lawcategory": 0,
+            "lawgroup": "reserves",
+            "stage": 1,
+            "issues": [
+                {
+                    "issuetype": "reservists",
+                    "impact": -0.5
+                }
+            ],
+            "modifiers": {
+                "reserves_size": 1.0
+            }
+        },
+        "two_year_reservists": {
+            "lawcategory": 0,
+            "lawgroup": "reserves",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "reservists",
+                    "impact": 0.1
+                }
+            ],
+            "modifiers": {
+                "reserves_size": 2.0
+            }
+        },
+        "four_year_reservists": {
+            "lawcategory": 0,
+            "lawgroup": "reserves",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "reservists",
+                    "impact": 0.3
+                }
+            ],
+            "modifiers": {
+                "reserves_size": 4.0
+            }
+        },
+        "eight_year_reservists": {
+            "lawcategory": 0,
+            "lawgroup": "reserves",
+            "stage": 4,
+            "issues": [
+                {
+                    "issuetype": "reservists",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "reserves_size": 6.0
+            }
+        },
+        "twelve_year_reservists": {
+            "lawcategory": 0,
+            "lawgroup": "reserves",
+            "stage": 5,
+            "issues": [
+                {
+                    "issuetype": "reservists",
+                    "impact": 0.8
+                }
+            ],
+            "modifiers": {
+                "reserves_size": 8.0
+            }
+        },
+        "no_income_tax": {
+            "lawcategory": 0,
+            "lawgroup": "income_tax",
+            "stage": 1,
+            "issues": [
+
+            ],
+            "modifiers": {
+
+            }
+        },
+        "income_tax_1": {
+            "lawcategory": 0,
+            "lawgroup": "income_tax",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.2
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.3
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.3
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 1.0,
+                "upper_tax_rate": 4.0,
+                "middle_tax_rate": 5.0,
+                "lower_tax_rate": 5.0
+            }
+        },
+        "income_tax_2": {
+            "lawcategory": 0,
+            "lawgroup": "income_tax",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.35
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.5
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 1.3,
+                "upper_tax_rate": 8.0,
+                "middle_tax_rate": 10.0,
+                "lower_tax_rate": 10.0
+            }
+        },
+        "income_tax_3": {
+            "lawcategory": 0,
+            "lawgroup": "income_tax",
+            "stage": 4,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.5
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.7
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.7
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 1.7,
+                "upper_tax_rate": 12.0,
+                "middle_tax_rate": 15.0,
+                "lower_tax_rate": 15.0
+            }
+        },
+        "income_tax_4": {
+            "lawcategory": 0,
+            "lawgroup": "income_tax",
+            "stage": 5,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 1.0
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 1.0
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 1.0
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 2.0,
+                "upper_tax_rate": 16.0,
+                "middle_tax_rate": 20.0,
+                "lower_tax_rate": 20.0
+            }
+        },
+        "no_estate_tax": {
+            "lawcategory": 0,
+            "lawgroup": "estate_tax",
+            "stage": 1,
+            "issues": [
+
+            ],
+            "modifiers": {
+
+            }
+        },        
+        "estate_tax_1": {
+            "lawcategory": 0,
+            "lawgroup": "estate_tax",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.2
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.1
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.0
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 0.1,
+                "upper_tax_rate": 2.0,
+                "middle_tax_rate": 1.0,
+                "lower_tax_rate": 0.0
+            }
+        },
+        "estate_tax_2": {
+            "lawcategory": 0,
+            "lawgroup": "estate_tax",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.4
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.2
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.0
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 0.1,
+                "upper_tax_rate": 4.0,
+                "middle_tax_rate": 2.0,
+                "lower_tax_rate": 0.0
+            }
+        },
+        "estate_tax_3": {
+            "lawcategory": 0,
+            "lawgroup": "estate_tax",
+            "stage": 4,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.6
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.3
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.0
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 0.1,
+                "upper_tax_rate": 6.0,
+                "middle_tax_rate": 3.0,
+                "lower_tax_rate": 0.0
+            }
+        },
+        "estate_tax_4": {
+            "lawcategory": 0,
+            "lawgroup": "estate_tax",
+            "stage": 5,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.8
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.4
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.0
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 0.1,
+                "upper_tax_rate": 8.0,
+                "middle_tax_rate": 4.0,
+                "lower_tax_rate": 0.0
+            }
+        },
+        "no_poll_tax": {
+            "lawcategory": 0,
+            "lawgroup": "poll_tax",
+            "stage": 1,
+            "issues": [
+
+            ],
+            "modifiers": {
+
+            }
+        },
+        "poll_tax_1": {
+            "lawcategory": 0,
+            "lawgroup": "poll_tax",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.15
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.2
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.3
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 0.1,
+                "upper_tax_rate": 1.5,
+                "middle_tax_rate": 2.0,
+                "lower_tax_rate": 3.0
+            }
+        },
+        "poll_tax_2": {
+            "lawcategory": 0,
+            "lawgroup": "poll_tax",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.2
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.3
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.45
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 0.1,
+                "upper_tax_rate": 2.0,
+                "middle_tax_rate": 3.0,
+                "lower_tax_rate": 4.5
+            }
+        },
+        "poll_tax_3": {
+            "lawcategory": 0,
+            "lawgroup": "poll_tax",
+            "stage": 4,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.25
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.4
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.6
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 0.1,
+                "upper_tax_rate": 2.5,
+                "middle_tax_rate": 4.0,
+                "lower_tax_rate": 6.0
+            }
+        },
+        "poll_tax_4": {
+            "lawcategory": 0,
+            "lawgroup": "poll_tax",
+            "stage": 5,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.3
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.5
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.75
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 0.1,
+                "upper_tax_rate": 3.0,
+                "middle_tax_rate": 5.0,
+                "lower_tax_rate": 7.5
+            }
+        },
+        "no_excise_tax": {
+            "lawcategory": 0,
+            "lawgroup": "excise_tax",
+            "stage": 1,
+            "issues": [
+
+            ],
+            "modifiers": {
+
+            }
+        },
+        "excise_tax_1": {
+            "lawcategory": 0,
+            "lawgroup": "excise_tax",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.05
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.1
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.2
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 0.1,
+                "upper_tax_rate": 1.0,
+                "middle_tax_rate": 2.0,
+                "lower_tax_rate": 3.0
+            }
+        },
+        "excise_tax_2": {
+            "lawcategory": 0,
+            "lawgroup": "excise_tax",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.1
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.3
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.4
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 0.1,
+                "upper_tax_rate": 1.5,
+                "middle_tax_rate": 3.0,
+                "lower_tax_rate": 4.5
+            }
+        },
+        "excise_tax_3": {
+            "lawcategory": 0,
+            "lawgroup": "excise_tax",
+            "stage": 4,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.2
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.4
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 0.1,
+                "upper_tax_rate": 2.0,
+                "middle_tax_rate": 4.0,
+                "lower_tax_rate": 6.0
+            }
+        },
+        "excise_tax_4": {
+            "lawcategory": 0,
+            "lawgroup": "excise_tax",
+            "stage": 5,
+            "issues": [
+                {
+                    "issuetype": "upper_tax",
+                    "impact": 0.3
+                },
+                {
+                    "issuetype": "middle_tax",
+                    "impact": 0.5
+                },
+                {
+                    "issuetype": "lower_tax",
+                    "impact": 0.7
+                }
+            ],
+            "modifiers": {
+                "administrator_requirement": 0.1,
+                "upper_tax_rate": 2.5,
+                "middle_tax_rate": 5.0,
+                "lower_tax_rate": 7.5
+            }
+        },
+        "no_voting": {
+            "lawcategory": 1,
+            "lawgroup": "voter_franchise",
+            "stage": 1,
+            "issues": [
+                {
+                    "issuetype": "upper_voting",
+                    "impact": 0.5
+                },
+                {
+                    "issuetype": "middle_voting",
+                    "impact": 0.5
+                },
+                {
+                    "issuetype": "lower_voting",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "upper_vote": false,
+                "middle_vote": false,
+                "lower_vote": false
+            }
+        },
+        "landed_voting": {
+            "lawcategory": 1,
+            "lawgroup": "voter_franchise",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "upper_voting",
+                    "impact": -0.5
+                },
+                {
+                    "issuetype": "middle_voting",
+                    "impact": 0.5
+                },
+                {
+                    "issuetype": "lower_voting",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "upper_vote": true,
+                "upper_vote_weight": 1.0,
+                "middle_vote": false,
+                "lower_vote": false
+            }
+        },
+        "weighted_wealth_voting": {
+            "lawcategory": 1,
+            "lawgroup": "voter_franchise",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "upper_voting",
+                    "impact": -0.5
+                },
+                {
+                    "issuetype": "middle_voting",
+                    "impact": 0.2
+                },
+                {
+                    "issuetype": "lower_voting",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "upper_vote": true,
+                "upper_vote_weight": 2.0,
+                "middle_vote": true,
+                "middle_vote_weight": 1.0,
+                "lower_vote": false
+            }
+        },
+        "wealth_voting": {
+            "lawcategory": 1,
+            "lawgroup": "voter_franchise",
+            "stage": 4,
+            "issues": [
+                {
+                    "issuetype": "upper_voting",
+                    "impact": -0.5
+                },
+                {
+                    "issuetype": "middle_voting",
+                    "impact": -0.5
+                },
+                {
+                    "issuetype": "lower_voting",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "upper_vote": true,
+                "upper_vote_weight": 1.0,
+                "middle_vote": true,
+                "middle_vote_weight": 1.0,
+                "lower_vote": false
+            }
+        },
+        "weighted_universal_voting": {
+            "lawcategory": 1,
+            "lawgroup": "voter_franchise",
+            "stage": 5,
+            "issues": [
+                {
+                    "issuetype": "upper_voting",
+                    "impact": -0.5
+                },
+                {
+                    "issuetype": "middle_voting",
+                    "impact": -0.5
+                },
+                {
+                    "issuetype": "lower_voting",
+                    "impact": 0.2
+                }
+            ],
+            "modifiers": {
+                "upper_vote": true,
+                "upper_vote_weight": 2.0,
+                "middle_vote": true,
+                "middle_vote_weight": 2.0,
+                "lower_vote": true,
+                "lower_vote_weight": 1.0
+            }
+        },
+        "universal_voting": {
+            "lawcategory": 1,
+            "lawgroup": "voter_franchise",
+            "stage": 6,
+            "issues": [
+                {
+                    "issuetype": "upper_voting",
+                    "impact": -0.5
+                },
+                {
+                    "issuetype": "middle_voting",
+                    "impact": -0.5
+                },
+                {
+                    "issuetype": "lower_voting",
+                    "impact": -0.5
+                }
+            ],
+            "modifiers": {
+                "upper_vote": true,
+                "upper_vote_weight": 1.0,
+                "middle_vote": true,
+                "middle_vote_weight": 1.0,
+                "lower_vote": true,
+                "lower_vote_weight": 1.0
+            }
+        },
+        "no_meetings": {
+            "lawcategory": 1,
+            "lawgroup": "meetings",
+            "stage": 1,
+            "issues": [
+                {
+                    "issuetype": "meetings_allowed",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "political_awareness": 0.0
+            }
+        },
+        "meetings_allowed": {
+            "lawcategory": 1,
+            "lawgroup": "meetings",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "meetings_allowed",
+                    "impact": -0.5
+                }
+            ],
+            "modifiers": {
+                "political_awareness": 0.25
+            }
+        },
+        "opposition_parties_outlawed": {
+            "lawcategory": 1,
+            "lawgroup": "opposition_parties",
+            "stage": 1,
+            "issues": [
+                {
+                    "issuetype": "opposition_parties_allowed",
+                    "impact": 0.5
+                },
+                {
+                    "issuetype": "opposition_party_suppression",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "political_parties_allowed": false,
+		        "political_party_suppression": 1.0
+            }
+        },
+        "opposition_parties_harassed": {
+            "lawcategory": 1,
+            "lawgroup": "opposition_parties",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "opposition_parties_allowed",
+                    "impact": -0.5
+                },
+                {
+                    "issuetype": "opposition_party_suppression",
+                    "impact": 0.3
+                }
+            ],
+            "modifiers": {
+                "political_parties_allowed": true,
+		        "political_party_suppression": 0.50
+            }
+        },
+        "opposition_parties_gerrymandering": {
+            "lawcategory": 1,
+            "lawgroup": "opposition_parties",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "opposition_parties_allowed",
+                    "impact": -0.5
+                },
+                {
+                    "issuetype": "opposition_party_suppression",
+                    "impact": 0.1
+                }
+            ],
+            "modifiers": {
+                "political_parties_allowed": true,
+		        "political_party_suppression": 0.33
+            }
+        },
+        "opposition_parties_unrestricted": {
+            "lawcategory": 1,
+            "lawgroup": "opposition_parties",
+            "stage": 4,
+            "issues": [
+                {
+                    "issuetype": "opposition_parties_allowed",
+                    "impact": -0.5
+                },
+                {
+                    "issuetype": "opposition_party_suppression",
+                    "impact": -0.1
+                }
+            ],
+            "modifiers": {
+                "political_parties_allowed": true,
+		        "political_party_suppression": 0.1
+            }
+        },
+        "opposition_parties_secret_ballot": {
+            "lawcategory": 1,
+            "lawgroup": "opposition_parties",
+            "stage": 5,
+            "issues": [
+                {
+                    "issuetype": "opposition_parties_allowed",
+                    "impact": -0.5
+                },
+                {
+                    "issuetype": "opposition_party_suppression",
+                    "impact": -0.5
+                }
+            ],
+            "modifiers": {
+                "political_parties_allowed": true,
+		        "political_party_suppression": 0.0
+            }
+        },
+        "no_upper_house": {
+            "lawcategory": 1,
+            "lawgroup": "upper_house_structure",
+            "stage": 1,
+            "issues": [
+                {
+                    "issuetype": "political_representation",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "no_upper_house": true,
+                "appointed_upper_house": false,
+                "two_per_state_upper_house": false,
+                "proportional_upper_house": false
+            }
+        },
+        "appointed_upper_house": {
+            "lawcategory": 1,
+            "lawgroup": "upper_house_structure",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "political_representation",
+                    "impact": 0.2
+                }
+            ],
+            "modifiers": {
+                "no_upper_house": false,
+                "appointed_upper_house": true,
+                "two_per_state_upper_house": false,
+                "proportional_upper_house": false
+            }
+        },
+        "two_per_state_upper_house": {
+            "lawcategory": 1,
+            "lawgroup": "upper_house_structure",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "political_representation",
+                    "impact": -0.1
+                }
+            ],
+            "modifiers": {
+                "no_upper_house": false,
+                "appointed_upper_house": false,
+                "two_per_state_upper_house": true,
+                "proportional_upper_house": false
+            }
+        },
+        "proportional_upper_house": {
+            "lawcategory": 1,
+            "lawgroup": "upper_house_structure",
+            "stage": 4,
+            "issues": [
+                {
+                    "issuetype": "political_representation",
+                    "impact": -0.2
+                }
+            ],
+            "modifiers": {
+                "no_upper_house": false,
+                "appointed_upper_house": false,
+                "two_per_state_upper_house": false,
+                "proportional_upper_house": true
+            }
+        },
+        "first_past_the_post": {
+            "lawcategory": 1,
+            "lawgroup": "party_apportionment",
+            "stage": 1,
+            "issues": [
+                {
+                    "issuetype": "political_representation",
+                    "impact": 0.2
+                }
+            ],
+            "modifiers": {
+                "first_past_the_post": true,
+                "jefferson_method": false,
+                "sainte_lague_method": false
+            }
+        },
+        "jefferson_method": {
+            "lawcategory": 1,
+            "lawgroup": "party_apportionment",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "political_representation",
+                    "impact": 0.0
+                }
+            ],
+            "modifiers": {
+                "first_past_the_post": false,
+                "jefferson_method": true,
+                "sainte_lague_method": false
+            }
+        },
+        "sainte_lague_method": {
+            "lawcategory": 1,
+            "lawgroup": "party_apportionment",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "political_representation",
+                    "impact": -0.2
+                }
+            ],
+            "modifiers": {
+                "first_past_the_post": false,
+                "jefferson_method": false,
+                "sainte_lague_method": true
+            }
+        },
+        "state_press": {
+            "lawcategory": 1,
+            "lawgroup": "press_freedom",
+            "stage": 1,
+            "issues": [
+                {
+                    "issuetype": "free_press",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "political_awareness": 0.0
+            }
+        },
+        "censored_press": {
+            "lawcategory": 1,
+            "lawgroup": "press_freedom",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "free_press",
+                    "impact": 0.1
+                }
+            ],
+            "modifiers": {
+                "political_awareness": 0.25
+            }
+        },
+        "free_press": {
+            "lawcategory": 1,
+            "lawgroup": "press_freedom",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "free_press",
+                    "impact": -0.5
+                }
+            ],
+            "modifiers": {
+                "political_awareness": 0.50
+            }
+        },
+        "citizenship_residency": {
+            "lawcategory": 1,
+            "lawgroup": "citizenship",
+            "stage": 1,
+            "issues": [
+                {
+                    "issuetype": "citizenship_extension",
+                    "impact": 0.3
+                }
+            ],
+            "modifiers": {
+                "unaccepted_vote": 0.0
+            }
+        },
+        "citizenship_limited": {
+            "lawcategory": 1,
+            "lawgroup": "citizenship",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "citizenship_extension",
+                    "impact": 0.1
+                }
+            ],
+            "modifiers": {
+                "unaccepted_vote": 0.5
+            }
+        },
+        "citizenship_full": {
+            "lawcategory": 1,
+            "lawgroup": "citizenship",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "citizenship_extension",
+                    "impact": -0.3
+                }
+            ],
+            "modifiers": {
+                "unaccepted_vote": 1.0
+            }
+        },
+        "no_state_education": {
+            "lawcategory": 2,
+            "lawgroup": "education",
+            "stage": 1,
+            "issues": [
+                {
+                    "issuetype": "education",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "education_power": 1.0,
+                "clergy_requirement": 0.0,
+                "education_cost": 0.0,
+                "state_builds_schools": false,
+                "schools_requirement": 0.0,
+                "administrator_requirement": 0.0
+            }
+        },
+        "religious_education": {
+            "lawcategory": 2,
+            "lawgroup": "education",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "education",
+                    "impact": 0.3
+                }
+            ],
+            "modifiers": {
+                "education_power": 3.0,
+                "clergy_requirement": 0.3,
+                "education_cost": 0.2,
+                "state_builds_schools": true,
+                "schools_requirement": 0.2,
+                "administrator_requirement": 0.1
+            }
+        },
+        "state_poor_schools": {
+            "lawcategory": 2,
+            "lawgroup": "education",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "education",
+                    "impact": 0.3
+                }
+            ],
+            "modifiers": {
+                "education_power": 5.0,
+                "clergy_requirement": 1.0,
+                "education_cost": 0.5,
+                "state_builds_schools": true,
+                "schools_requirement": 0.4,
+                "administrator_requirement": 0.2
+            }
+        },
+        "basic_compulsory_education": {
+            "lawcategory": 2,
+            "lawgroup": "education",
+            "stage": 4,
+            "issues": [
+                {
+                    "issuetype": "education",
+                    "impact": 0.2
+                }
+            ],
+            "modifiers": {
+                "education_power": 8.0,
+                "clergy_requirement": 2.0,
+                "education_cost": 1.0,
+                "state_builds_schools": true,
+                "schools_requirement": 0.8,
+                "administrator_requirement": 0.4
+            }
+        },
+        "modern_compulsory_education": {
+            "lawcategory": 2,
+            "lawgroup": "education",
+            "stage": 5,
+            "issues": [
+                {
+                    "issuetype": "education",
+                    "impact": -0.5
+                }
+            ],
+            "modifiers": {
+                "education_power": 12.0,
+                "clergy_requirement": 3.0,
+                "education_cost": 1.5,
+                "state_builds_schools": true,
+                "schools_requirement": 1.2,
+                "administrator_requirement": 0.6
+            }
+        },
+        "slavery_allowed": {
+            "lawcategory": 3,
+            "lawgroup": "slavery",
+            "stage": 1,
+            "issues": [
+                {
+                    "issuetype": "slavery",
+                    "impact": 0.5
+                }
+            ],
+            "modifiers": {
+                "slavery_allowed": true
+            }
+        },
+        "freedom_of_womb": {
+            "lawcategory": 3,
+            "lawgroup": "slavery",
+            "stage": 2,
+            "issues": [
+                {
+                    "issuetype": "slavery",
+                    "impact": 0.2
+                }
+            ],
+            "modifiers": {
+                "slavery_allowed": true,
+                "freedom_of_womb": true
+            }
+        },
+        "slavery_outlawed": {
+            "lawcategory": 3,
+            "lawgroup": "slavery",
+            "stage": 3,
+            "issues": [
+                {
+                    "issuetype": "slavery",
+                    "impact": -0.5
+                }
+            ],
+            "modifiers": {
+                "slavery_allowed": false
+            }
+        }
+    },
+    "political_parties": {
+        "generic_reactionary": {
+            "party_name": "generic_reactionary",
+            "party_desc": "generic_reactionary_desc",
+            "party_ideology": "reactionary",
+            "party_tag": "REB",
+            "party_color": [
+				20,
+				50,
+				250
+			],
+            "party_issues": {
+                "conscription": 0.9,
+                "reservists": 0.9,
+                "upper_tax": 0.6,
+                "middle_tax": 0.7,
+                "lower_tax": 0.8,
+                "upper_voting": 0.8,
+                "middle_voting": 0.2,
+                "lower_voting": 0.0,
+                "meetings_allowed": 0.2,
+                "political_representation": 0.1,
+                "opposition_parties_allowed": 0.2,
+                "opposition_party_suppression": 0.9,
+                "free_press": 0.3,
+                "citizenship_extension": 0.0,
+                "education": 0.2,
+                "slavery": 0.9
+            }
+        },
+        "generic_conservative": {
+            "party_name": "generic_conservative",
+            "party_desc": "generic_conservative_desc",
+            "party_ideology": "conservative",
+            "party_tag": "REB",
+            "party_color": [
+				20,
+				50,
+				210
+			],
+            "party_issues": {
+                "conscription": 0.8,
+                "reservists": 0.7,
+                "upper_tax": 0.5,
+                "middle_tax": 0.6,
+                "lower_tax": 0.7,
+                "upper_voting": 0.8,
+                "middle_voting": 0.5,
+                "lower_voting": 0.3,
+                "meetings_allowed": 0.4,
+                "political_representation": 0.3,
+                "opposition_parties_allowed": 0.4,
+                "opposition_party_suppression": 0.7,
+                "free_press": 0.3,
+                "citizenship_extension": 0.2,
+                "education": 0.3,
+                "slavery": 0.8
+            }
+        },
+        "generic_liberal": {
+            "party_name": "generic_liberal",
+            "party_desc": "generic_liberal_desc",
+            "party_ideology": "liberal",
+            "party_tag": "REB",
+            "party_color": [
+				40,
+				90,
+				110
+			],
+            "party_issues": {
+                "conscription": 0.5,
+                "reservists": 0.4,
+                "upper_tax": 0.5,
+                "middle_tax": 0.5,
+                "lower_tax": 0.5,
+                "upper_voting": 0.8,
+                "middle_voting": 0.8,
+                "lower_voting": 0.8,
+                "meetings_allowed": 0.9,
+                "political_representation": 0.6,
+                "opposition_parties_allowed": 0.8,
+                "opposition_party_suppression": 0.3,
+                "free_press": 0.8,
+                "citizenship_extension": 0.4,
+                "education": 0.6,
+                "slavery": 0.3
+            }
+        },
+        "generic_socialist": {
+            "party_name": "generic_socialist",
+            "party_desc": "generic_socialist_desc",
+            "party_ideology": "socialist",
+            "party_tag": "REB",
+            "party_color": [
+				40,
+				190,
+				50
+			],
+            "party_issues": {
+                "conscription": 0.7,
+                "reservists": 0.6,
+                "upper_tax": 0.7,
+                "middle_tax": 0.6,
+                "lower_tax": 0.5,
+                "upper_voting": 0.8,
+                "middle_voting": 0.8,
+                "lower_voting": 0.8,
+                "meetings_allowed": 0.9,
+                "political_representation": 0.8,
+                "opposition_parties_allowed": 0.8,
+                "opposition_party_suppression": 0.3,
+                "free_press": 0.8,
+                "citizenship_extension": 0.6,
+                "education": 0.9,
+                "slavery": 0.1
+            }
+        }
+    },
+    "cultural_values": {
+        "default_group": {
+            "cultures": [
+                "default"
+            ],
+            "values": {
+                "conscription": 0.1,
+                "reservists": 0.1,
+                "upper_tax": 0.7,
+                "middle_tax": 0.4,
+                "lower_tax": 0.1,
+                "upper_voting": 0.8,
+                "middle_voting": 0.3,
+                "lower_voting": 0.1,
+                "meetings_allowed": 0.3,
+                "political_representation": 0.3,
+                "opposition_parties_allowed": 0.6,
+                "opposition_party_suppression": 0.5,
+                "free_press": 0.3,
+                "citizenship_extension": 0.2,
+                "education": 0.6,
+                "slavery": 0.1
+            }
+        }
+    }
+}

@@ -1,0 +1,1922 @@
+[
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic1_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic1_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic1_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic1_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic1_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic1_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic2_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic2_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic2_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic2_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic2_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic2_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic3_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic3_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic3_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic3_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic3_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic3_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic4_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic4_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic4_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic4_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic4_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic4_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic5_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic5_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic5_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic5_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic5_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic5_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic6_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic6_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic6_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic6_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic6_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "MTopic6_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic2_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic2_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic2_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic2_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic2_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic2_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic3_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic3_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic3_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic3_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic3_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic3_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic4_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic4_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic4_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic4_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic4_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic4_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic5_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic5_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic5_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic5_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic5_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic5_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic6_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["ITopic6_tech_1"],
+        "rp_cost": 1,
+        "tech_name": "ITopic6_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic6_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic6_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic6_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "ITopic6_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Private Banks",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Stock Exchange",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Business Banks",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Investment Banks",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Bank Inspection Board",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Mutual Funds",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "No Standard",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Ad-Hoc Money Bill Printing",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Private Bank Money Bill Printing",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Central Bank Money Bill Printing",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Modern Central Bank System",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Market Determined Exchange Rates",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Early Classical Theory and Critique",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Late Classical Theory",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Collectivist Theory",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "The Austrian Theory",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Neoclassical Theory",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Keynesian Economics",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Freedom Of Trade",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Market Structure",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Business Regulations",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Market Regulations",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Economic Responsibility",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Government Interventionism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Guild-Based Production",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Organized Factories",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Scientific Management",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Time-Saving Measures",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Management Strategy",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Organizational Development",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CTopic6_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CTopic6_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CTopic6_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CTopic6_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CTopic6_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CTopic6_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Classicism and Early Romanticism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Romanticism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Realism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Impressionism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Expressionism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Mass Culture & The Avant-Garde",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Late Enlightenment Philosophy",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Idealism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Empiricism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Analytic Philosophy",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Phenomenology and Hermeneutics",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Anti Rationalism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Malthusian Thought",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Positivism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Functionalism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Biologism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Social Science",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Social Alienation",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "The Rights of Man",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Ideological Thought",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "State and Government",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Nationalism and Imperialism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Revolution and Counterrevolution",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Mass Politics",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Introspectionism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Associationism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Phenomenalism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Experimental Psychology",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Psychoanalysis",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "Behaviorism",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic6_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic6_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic6_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic6_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic6_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic6_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "Allow Factory",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 4000,
+        "tech_name": "Water-Wheel Power",
+        "unlock_date": {
+            "day": 1,
+            "year": 300
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Water-Wheel Power"],
+        "rp_cost": 8000,
+        "tech_name": "Practical Steam Engine",
+        "unlock_date": {
+            "day": 1,
+            "year": 1789
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Practical Steam Engine"],
+        "rp_cost": 11200,
+        "tech_name": "High and Low Pressure Steam Engines",
+        "unlock_date": {
+            "day": 1,
+            "year": 1850
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["High and Low Pressure Steam Engines"],
+        "rp_cost": 14500,
+        "tech_name": "Steam Turbine",
+        "unlock_date": {
+            "day": 1,
+            "year": 1870
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Steam Turbine"],
+        "rp_cost": 18000,
+        "tech_name": "Combustion Engine",
+        "unlock_date": {
+            "day": 1,
+            "year": 1880
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Combustion Engine"],
+        "rp_cost": 21000,
+        "tech_name": "Electrical Power Generation",
+        "unlock_date": {
+            "day": 1,
+            "year": 1885
+        }
+    },
+    {
+        "desc_key": "Unlocks Paper",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 4000,
+        "tech_name": "Publishing Industry",
+        "unlock_date": {
+            "day": 1,
+            "year": 1640
+        }
+    },
+    {
+        "desc_key": "Unlocked Machine Parts, and sewing production",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Publishing Industry"],
+        "rp_cost": 8000,
+        "tech_name": "Mechanical Production",
+        "unlock_date": {
+            "day": 1,
+            "year": 1785
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Mechanical Production"],
+        "rp_cost": 11000,
+        "tech_name": "Interchangeable Parts",
+        "unlock_date": {
+            "day": 1,
+            "year": 1818
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Interchangeable Parts"],
+        "rp_cost": 1,
+        "tech_name": "Semi-Automatization",
+        "unlock_date": {
+            "day": 14000,
+            "year": 1850
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Semi-Automatization"],
+        "rp_cost": 1,
+        "tech_name": "Assembly Line",
+        "unlock_date": {
+            "day": 18000,
+            "year": 1880
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Assembly Line"],
+        "rp_cost": 1,
+        "tech_name": "Shift Work",
+        "unlock_date": {
+            "day": 21500,
+            "year": 1900
+        }
+    },
+    {
+        "desc_key": "Enables Steel, Ammo, Gun Factories",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 4000,
+        "tech_name": "Mechanized Mining",
+        "unlock_date": {
+            "day": 1,
+            "year": 1740
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Mechanized Mining"],
+        "rp_cost": 8000,
+        "tech_name": "Clean Coal",
+        "unlock_date": {
+            "day": 1,
+            "year": 1818
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Clean Coal"],
+        "rp_cost": 1,
+        "tech_name": "Cheap Iron",
+        "unlock_date": {
+            "day": 8000,
+            "year": 1836
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Cheap Iron"],
+        "rp_cost": 14000,
+        "tech_name": "Cheap Steel",
+        "unlock_date": {
+            "day": 1,
+            "year": 1850
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Cheap Steel"],
+        "rp_cost": 18000,
+        "tech_name": "Advanced Metallurgy",
+        "unlock_date": {
+            "day": 1,
+            "year": 1870
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Advanced Metallurgy", "Electrical Power Generation"],
+        "rp_cost": 24000,
+        "tech_name": "Electric Furnace",
+        "unlock_date": {
+            "day": 1,
+            "year": 1890
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 4000,
+        "tech_name": "Experimental Railroad",
+        "unlock_date": {
+            "day": 1,
+            "year": 1800
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Experimental Railroad"],
+        "rp_cost": 8000,
+        "tech_name": "Early Railroad",
+        "unlock_date": {
+            "day": 1,
+            "year": 1800
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Early Railroad"],
+        "rp_cost": 10800,
+        "tech_name": "Iron Railroad",
+        "unlock_date": {
+            "day": 1,
+            "year": 1850
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Iron Railroad"],
+        "rp_cost": 14800,
+        "tech_name": "Steel Railroad",
+        "unlock_date": {
+            "day": 1,
+            "year": 1870
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Steel Railroad"],
+        "rp_cost": 18000,
+        "tech_name": "Integral Rail System",
+        "unlock_date": {
+            "day": 1,
+            "year": 1898
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Integral Rail System"],
+        "rp_cost": 21600,
+        "tech_name": "Limited-Access Roads",
+        "unlock_date": {
+            "day": 1,
+            "year": 1914
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 4000,
+        "tech_name": "Basic Chemistry",
+        "unlock_date": {
+            "day": 1,
+            "year": 1780
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Basic Chemistry"],
+        "rp_cost": 7000,
+        "tech_name": "Medicine",
+        "unlock_date": {
+            "day": 1,
+            "year": 1830
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 10000,
+        "tech_name": "Inorganic Chemistry",
+        "unlock_date": {
+            "day": 1,
+            "year": 1850
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Inorganic Chemistry"],
+        "rp_cost": 14000,
+        "tech_name": "Organic Chemistry",
+        "unlock_date": {
+            "day": 1,
+            "year": 1870
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Organic Chemistry"],
+        "rp_cost": 18000,
+        "tech_name": "Electricity",
+        "unlock_date": {
+            "day": 1,
+            "year": 1880
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": ["Electricity"],
+        "rp_cost": 21000,
+        "tech_name": "Synthetic Polymers",
+        "unlock_date": {
+            "day": 1,
+            "year": 1919
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic6_tech_1",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic6_tech_2",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic6_tech_3",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic6_tech_4",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic6_tech_5",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    },
+    {
+        "desc_key": "DESCRIPTION_TODO",
+        "effect": "temp_effect (PLEASE REPLACE)",
+        "required_techs": [],
+        "rp_cost": 1,
+        "tech_name": "CtTopic6_tech_6",
+        "unlock_date": {
+            "day": 1,
+            "year": 1
+        }
+    }
+]

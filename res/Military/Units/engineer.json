@@ -1,7 +1,7 @@
 {
-    "engineerbattalion_1": {
+    "engineer_battalion_1": {
         "model_path": "Models/pdx_infantry2.obj",
-        "brigade_tag": "engineerbattalion_1",
+        "brigade_tag": "engineer_battalion_1",
         "spriteTextureID": 1,
 
         "suppression": 1.0, 
@@ -17,7 +17,7 @@
         "hard_attack": 0.4, 
         "defense": 2.1,
         "organization": 40.0,
-        "strength": 600,
+        "strength": 200,
         "max_speed": 4.0, 
         "reconnaissance": 0.0, 
         "max_entrenchment": 3.0,
@@ -26,18 +26,19 @@
         "maneuver": 1.0,
         "air_defense": 0.5,
         "air_attack": 0.0,
-
+        "terrain_modifiers": {
+			"forest": {
+				"attack": 0.3,
+				"defense": 0.5,
+				"movement": -0.2
+			}
+		},
+        "upgrades_from":[],
         "build_goods" : {
             "small_arms" : 60,
             "luxury_clothes" : 60,
             "ammunition" : 60,
             "explosives" : 60
-        },
-        "maintenance" : {
-            "fabric": 0.1,
-            "ammunition" : 0.6,
-            "canned_food" : 0.6,
-            "explosives" : 0.6
         }
     }
 }

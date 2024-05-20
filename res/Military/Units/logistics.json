@@ -1,0 +1,43 @@
+{
+	"horse_logistics_battalion_1": {
+		"model_path": "Models/pdx_infantry2.obj",
+		"brigade_tag": "horse_logistics_battalion_1",
+		"spriteTextureID": 1,
+
+		"suppression": 1.0, 
+		"supply_use": 0.05,
+		"supply_capacity": 50.0,
+		"fuel_use": 0.0, 
+		"fuel_capacity": 0.0,
+		"weight": 0.5,
+		"piercing": 0.0, 
+		"armor": 0.0, 
+		"breakthrough": 2.0,
+		"soft_attack": 1.0,
+		"hard_attack": 0.5, 
+		"defense": 2.0,
+		"organization": 50.0,
+		"strength": 200,
+		"max_speed": 6.0, 
+		"reconnaissance": 0.0, 
+		"max_entrenchment": 1.0,
+		"hardness": 0.0, 
+		"combat_width": 0.0,
+		"maneuver": 2.0,
+		"air_defense": 0.5,
+		"air_attack": 0.0,
+		"terrain_modifiers": {
+			"forest": {
+				"attack": 0.0,
+				"defense": 0.0,
+				"movement": -0.1
+			}
+		},
+		"upgrades_from":[],
+		"build_goods" : {
+			"small_arms" : 50,
+			"luxury_clothes" : 200,
+			"ammunition" : 50
+		}
+	}
+}

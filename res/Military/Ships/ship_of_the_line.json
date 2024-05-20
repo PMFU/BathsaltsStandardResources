@@ -1,0 +1,21 @@
+{
+    "ship_of_the_line_hull":
+    {
+        "displacement" : 2000,
+        "speed" : 10,
+        "hull" : 40,
+        "manpower": 800,
+        "slots":["primary_armament", "primary_armament", "primary_armament", "primary_armament",
+                "secondary_armament", "secondary_armament", "secondary_armament", 
+                "hull_augment"],
+        "build_goods":{
+            "steel":20,
+            "lumber":400,
+            "machine_parts":10
+        },
+        "maintenance":{
+            "lumber":10,
+            "machine_parts":0.1
+        }
+    }
+}

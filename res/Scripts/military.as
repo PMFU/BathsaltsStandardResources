@@ -1,5 +1,6 @@
 //Include the basics things
 #include "base.as"
+// #include "casus_belis.as"
 
 /*
  *	In this file, implement all the scriptable military
@@ -8,8 +9,6 @@
 
 //@TODO: Add some basic shit to these example classes, and write the doBattleTick() function
 
-//Also temporary
-class Modifiers {}
 //Also temporary
 class CountryInfo {}
 
@@ -50,7 +49,7 @@ int getCombatWidth(uint provinceid)
 {
 	Province@ province = getProvince(provinceid);
 
-	uint8 t_id = province.getTerrain();
+	uint8 t_id = province.getTerrainType();
 	return 540;
 }
 
@@ -60,7 +59,7 @@ float getFilledAttackerWidth(Battle@ &in battle)
 	float filled_width = 0;
 	for (uint i = 0; i < battle.get_attacker_line_size(); i++) 
 	{
-		filled_width += battle.get_attacker_line(i).getMaxStats().combat_width;
+		filled_width += battle.get_attacker_line(i).getTemplateStats().getStat(StatsTypes::combat_width);
 	}
 	return filled_width;
 }
@@ -71,7 +70,7 @@ float getFilledDefenderWidth(Battle@ &in battle)
 	float filled_width = 0;
 	for (uint i = 0; i < battle.get_defender_line_size(); i++) 
 	{
-		filled_width += battle.get_defender_line(i).getMaxStats().combat_width;
+		filled_width += battle.get_defender_line(i).getTemplateStats().getStat(StatsTypes::combat_width);
 	}
 	return filled_width;
 }
@@ -83,8 +82,8 @@ void doDeployment(Battle@ battle)
 	for (uint i = 0; i < battle.get_defender_reserves_size(); i++) 
 	{
 		float deployment_chance = 0;
-		if ((getCombatWidth(battle.getProvince()) - getFilledDefenderWidth(battle)) < battle.get_defender_reserves(i).getMaxStats().combat_width) {
-			deployment_chance = (battle.get_defender_reserves(i).getCurrentStats().maneuver * defines.MANEUVER_DEPLOYMENT_CHANCE_FACTOR) + defines.BASE_DEPLOYMENT_CHANCE
+		if ((getCombatWidth(battle.getProvince()) - getFilledDefenderWidth(battle)) < battle.get_defender_reserves(i).getTemplateStats().getStat(StatsTypes::combat_width)) {
+			deployment_chance = (battle.get_defender_reserves(i).getCurrentStats().getStat(StatsTypes::maneuver) * defines.MANEUVER_DEPLOYMENT_CHANCE_FACTOR) + defines.BASE_DEPLOYMENT_CHANCE
 									  + (battle.get_defender_reserves(i).getDivisionCommander().maneuver * defines.DIV_COMMANDER_MANEUVER_DEPLOYMENT_CHANCE_FACTOR);
 
 			if (deployment_chance > (randomNumber(d, 1, 100))/100.0f) 
@@ -98,9 +97,9 @@ void doDeployment(Battle@ battle)
 	for (uint i = 0; i < battle.get_attacker_reserves_size(); i++) 
 	{
 		float deployment_chance = 0;
-		if ((getCombatWidth(battle.getProvince()) - getFilledAttackerWidth(battle)) < battle.get_attacker_reserves(i).getMaxStats().combat_width) {
-			deployment_chance = (battle.get_attacker_reserves(i).getCurrentStats().maneuver * defines.MANEUVER_DEPLOYMENT_CHANCE_FACTOR) + defines.BASE_DEPLOYMENT_CHANCE
-									  + (battle.get_attacker_reserves(i).getDivisionCommander().maneuver * defines.DIV_COMMANDER_MANEUVER_DEPLOYMENT_CHANCE_FACTOR);
+		if ((getCombatWidth(battle.getProvince()) - getFilledAttackerWidth(battle)) < battle.get_attacker_reserves(i).getTemplateStats().getStat(StatsTypes::combat_width)) {
+			deployment_chance = (battle.get_attacker_reserves(i).getCurrentStats().getStat(StatsTypes::maneuver) * defines.MANEUVER_DEPLOYMENT_CHANCE_FACTOR) + defines.BASE_DEPLOYMENT_CHANCE
+								+ (battle.get_attacker_reserves(i).getDivisionCommander().maneuver * defines.DIV_COMMANDER_MANEUVER_DEPLOYMENT_CHANCE_FACTOR);
 
 			if (deployment_chance > (randomNumber(d, 1, 100))/100.0f ) 
 			{
@@ -120,7 +119,7 @@ void startBattle(Battle@ battle)
 	int highest_manuever_division = 0;
 	for (uint i = 0; i < battle.get_attacker_reserves_size(); i++) 
 	{
-		if(battle.get_attacker_reserves(i).getCurrentStats().maneuver < battle.get_attacker_reserves(highest_manuever_division).getCurrentStats().maneuver) 
+		if(battle.get_attacker_reserves(i).getCurrentStats().getStat(StatsTypes::maneuver) < battle.get_attacker_reserves(highest_manuever_division).getCurrentStats().getStat(StatsTypes::maneuver))
 		{
 			highest_manuever_division = i;
 		}
@@ -130,7 +129,7 @@ void startBattle(Battle@ battle)
 	highest_manuever_division = 0;
 	for (uint i = 0; i < battle.get_defender_reserves_size(); i++) 
 	{
-		if(battle.get_defender_reserves(i).getCurrentStats().maneuver < battle.get_defender_reserves(highest_manuever_division).getCurrentStats().maneuver) 
+		if(battle.get_defender_reserves(i).getCurrentStats().getStat(StatsTypes::maneuver) < battle.get_defender_reserves(highest_manuever_division).getCurrentStats().getStat(StatsTypes::maneuver))
 		{
 			highest_manuever_division = i;
 		}
@@ -188,11 +187,11 @@ void doDamageTick(Battle@ battle)
 	//calculate both side's hits before applying any damage
 	for(uint i = 0; i < battle.get_attacker_line_size(); i++)
 	{
-		float soft_attacks = battle.get_attacker_line(i).getCurrentStats().soft_attack;
-		float hard_attacks = battle.get_attacker_line(i).getCurrentStats().hard_attack;
+		float soft_attacks = battle.get_attacker_line(i).getCurrentStats().getStat(StatsTypes::soft_attack);
+		float hard_attacks = battle.get_attacker_line(i).getCurrentStats().getStat(StatsTypes::hard_attack);
 
 		//get engagement width
-		float engagement_width = battle.get_attacker_line(i).getCurrentStats().combat_width * defines.ENGAGEMENT_WIDTH_FACTOR;
+		float engagement_width = battle.get_attacker_line(i).getCurrentStats().getStat(StatsTypes::combat_width) * defines.ENGAGEMENT_WIDTH_FACTOR;
 
 		//get targets
 		array<int> attacker_targets();
@@ -201,7 +200,7 @@ void doDamageTick(Battle@ battle)
 		{
 			int random_target = randomNumber(date, 0, battle.get_defender_line_size()-1);
 			attacker_targets.insertLast(random_target);
-			total_target_width = total_target_width + battle.get_defender_line(random_target).getCurrentStats().combat_width;
+			total_target_width = total_target_width + battle.get_defender_line(random_target).getCurrentStats().getStat(StatsTypes::combat_width);
 			if(totalpossibletargets == attacker_targets.length())
 			{
 				break;
@@ -213,9 +212,9 @@ void doDamageTick(Battle@ battle)
 		int lowest_org_division = 0;
 		for(uint j = 0; j < attacker_targets.length(); j++) 
 		{
-			if(battle.get_attacker_line(i).getCurrentStats().piercing >= battle.get_defender_line(attacker_targets[j]).getCurrentStats().armor) 
+			if(battle.get_attacker_line(i).getCurrentStats().getStat(StatsTypes::piercing) >= battle.get_defender_line(attacker_targets[j]).getCurrentStats().getStat(StatsTypes::armor))
 			{
-				if(battle.get_defender_line(attacker_targets[j]).getCurrentStats().organization > battle.get_defender_line(attacker_targets[lowest_org_division]).getCurrentStats().organization) 
+				if(battle.get_defender_line(attacker_targets[j]).getCurrentStats().getStat(StatsTypes::organization) > battle.get_defender_line(attacker_targets[lowest_org_division]).getCurrentStats().getStat(StatsTypes::organization))
 				{
 					lowest_org_division = j;
 				}
@@ -227,21 +226,21 @@ void doDamageTick(Battle@ battle)
 		float coordinated_share = 0;
 		if(battle.get_attacker_line(i).getDivisionCommander() !is null) 
 		{
-			coordinated_share = defines.BASE_COORDINATED_SHARE + ((battle.get_attacker_line(i).getCurrentStats().maneuver + battle.get_attacker_line(i).getDivisionCommander().maneuver)
+			coordinated_share = defines.BASE_COORDINATED_SHARE + ((battle.get_attacker_line(i).getCurrentStats().getStat(StatsTypes::maneuver) + battle.get_attacker_line(i).getDivisionCommander().maneuver)
 								 * defines.MANEUVER_COORDINATED_SHARE_FACTOR);
 		}
 		else 
 		{
-			coordinated_share = defines.BASE_COORDINATED_SHARE + ((battle.get_attacker_line(i).getCurrentStats().maneuver)
+			coordinated_share = defines.BASE_COORDINATED_SHARE + ((battle.get_attacker_line(i).getCurrentStats().getStat(StatsTypes::maneuver))
 								 * defines.MANEUVER_COORDINATED_SHARE_FACTOR);
 		}
 		//apply uncoordinated hits
 		for(uint j = 0; j < attacker_targets.length(); j++) 
 		{
-			float uncoordinated_hits = (((soft_attacks*(1-coordinated_share))*(1-battle.get_defender_line(attacker_targets[j]).getCurrentStats().hardness))
-								    + ((hard_attacks*(1-coordinated_share))*(battle.get_defender_line(attacker_targets[j]).getCurrentStats().hardness))) 
+			float uncoordinated_hits = (((soft_attacks*(1-coordinated_share))*(1-battle.get_defender_line(attacker_targets[j]).getCurrentStats().getStat(StatsTypes::hardness)))
+								    + ((hard_attacks*(1-coordinated_share))*(battle.get_defender_line(attacker_targets[j]).getCurrentStats().getStat(StatsTypes::hardness)))) 
 									/ attacker_targets.length();
-			if(battle.get_attacker_line(i).getCurrentStats().piercing >= battle.get_defender_line(attacker_targets[j]).getCurrentStats().armor) 
+			if(battle.get_attacker_line(i).getCurrentStats().getStat(StatsTypes::piercing) >= battle.get_defender_line(attacker_targets[j]).getCurrentStats().getStat(StatsTypes::armor))
 			{
 				defender_hits[attacker_targets[j]] = defender_hits[attacker_targets[j]] + uncoordinated_hits; 
 			}
@@ -251,10 +250,10 @@ void doDamageTick(Battle@ battle)
 			}
 		}
 		//calculate coordinated hits
-		float coordinated_hits = ((soft_attacks*coordinated_share)*(1-battle.get_defender_line(primary_target).getCurrentStats().hardness))
-								+ ((hard_attacks*coordinated_share)*(battle.get_defender_line(primary_target).getCurrentStats().hardness));
+		float coordinated_hits = ((soft_attacks*coordinated_share)*(1-battle.get_defender_line(primary_target).getCurrentStats().getStat(StatsTypes::hardness)))
+								+ ((hard_attacks*coordinated_share)*(battle.get_defender_line(primary_target).getCurrentStats().getStat(StatsTypes::hardness)));
 		//apply coordinated hits
-		if(battle.get_attacker_line(i).getCurrentStats().piercing > battle.get_defender_line(primary_target).getCurrentStats().armor)
+		if(battle.get_attacker_line(i).getCurrentStats().getStat(StatsTypes::piercing) > battle.get_defender_line(primary_target).getCurrentStats().getStat(StatsTypes::armor))
 		{
 			defender_hits[primary_target] = defender_hits[primary_target] + coordinated_hits;
 		}
@@ -266,11 +265,11 @@ void doDamageTick(Battle@ battle)
 
 	for(uint i = 0; i < battle.get_defender_line_size(); i++)
 	{
-		float soft_attacks = battle.get_defender_line(i).getCurrentStats().soft_attack;
-		float hard_attacks = battle.get_defender_line(i).getCurrentStats().hard_attack;
+		float soft_attacks = battle.get_defender_line(i).getCurrentStats().getStat(StatsTypes::soft_attack);
+		float hard_attacks = battle.get_defender_line(i).getCurrentStats().getStat(StatsTypes::hard_attack);
 
 		//get engagement width
-		float engagement_width = battle.get_defender_line(i).getCurrentStats().combat_width * defines.ENGAGEMENT_WIDTH_FACTOR;
+		float engagement_width = battle.get_defender_line(i).getCurrentStats().getStat(StatsTypes::combat_width) * defines.ENGAGEMENT_WIDTH_FACTOR;
 
 		//get targets
 		array<int> defender_targets();
@@ -280,7 +279,7 @@ void doDamageTick(Battle@ battle)
 			//TODO RANDOM
 			int random_target = randomNumber(date, 0, battle.get_attacker_line_size()-1);
 			defender_targets.insertLast(random_target);
-			total_target_width = total_target_width + battle.get_attacker_line(random_target).getCurrentStats().combat_width;
+			total_target_width = total_target_width + battle.get_attacker_line(random_target).getCurrentStats().getStat(StatsTypes::combat_width);
 			if(totalpossibletargets == defender_targets.length())
 			{
 				break;
@@ -292,9 +291,9 @@ void doDamageTick(Battle@ battle)
 		int lowest_org_division = 0;
 		for(uint j = 0; j < defender_targets.length(); j++) 
 		{
-			if(battle.get_defender_line(i).getCurrentStats().piercing > battle.get_attacker_line(defender_targets[j]).getCurrentStats().armor) 
+			if(battle.get_defender_line(i).getCurrentStats().getStat(StatsTypes::piercing) > battle.get_attacker_line(defender_targets[j]).getCurrentStats().getStat(StatsTypes::armor))
 			{
-				if(battle.get_attacker_line(defender_targets[j]).getCurrentStats().organization > battle.get_attacker_line(defender_targets[lowest_org_division]).getCurrentStats().organization) 
+				if(battle.get_attacker_line(defender_targets[j]).getCurrentStats().getStat(StatsTypes::organization) > battle.get_attacker_line(defender_targets[lowest_org_division]).getCurrentStats().getStat(StatsTypes::organization))
 				{
 					lowest_org_division = j;
 				}
@@ -306,21 +305,21 @@ void doDamageTick(Battle@ battle)
 		float coordinated_share = 0;
 		if(battle.get_attacker_line(i).getDivisionCommander() !is null)
 		{
-			coordinated_share = defines.BASE_COORDINATED_SHARE + ((battle.get_defender_line(i).getCurrentStats().maneuver + battle.get_defender_line(i).getDivisionCommander().maneuver)
+			coordinated_share = defines.BASE_COORDINATED_SHARE + ((battle.get_defender_line(i).getCurrentStats().getStat(StatsTypes::maneuver) + battle.get_defender_line(i).getDivisionCommander().maneuver)
 								 * defines.MANEUVER_COORDINATED_SHARE_FACTOR);
 		}
 		else
 		{
-			coordinated_share = defines.BASE_COORDINATED_SHARE + ((battle.get_defender_line(i).getCurrentStats().maneuver)
+			coordinated_share = defines.BASE_COORDINATED_SHARE + ((battle.get_defender_line(i).getCurrentStats().getStat(StatsTypes::maneuver))
 								 * defines.MANEUVER_COORDINATED_SHARE_FACTOR);
 		}
 		//apply uncoordinated hits
 		for(uint j = 0; j < defender_targets.length(); j++) 
 		{
-			float uncoordinated_hits = (((soft_attacks*(1-coordinated_share))*(1-battle.get_attacker_line(defender_targets[j]).getCurrentStats().hardness))
-								    + ((hard_attacks*(1-coordinated_share))*(battle.get_attacker_line(defender_targets[j]).getCurrentStats().hardness))) 
+			float uncoordinated_hits = (((soft_attacks*(1-coordinated_share))*(1-battle.get_attacker_line(defender_targets[j]).getCurrentStats().getStat(StatsTypes::hardness)))
+								    + ((hard_attacks*(1-coordinated_share))*(battle.get_attacker_line(defender_targets[j]).getCurrentStats().getStat(StatsTypes::hardness)))) 
 									/ defender_targets.length();
-			if(battle.get_defender_line(i).getCurrentStats().piercing > battle.get_attacker_line(defender_targets[j]).getCurrentStats().armor) 
+			if(battle.get_defender_line(i).getCurrentStats().getStat(StatsTypes::piercing) > battle.get_attacker_line(defender_targets[j]).getCurrentStats().getStat(StatsTypes::armor))
 			{
 				attacker_hits[defender_targets[j]] = attacker_hits[defender_targets[j]] + uncoordinated_hits; 
 			}
@@ -330,10 +329,10 @@ void doDamageTick(Battle@ battle)
 			}
 		}
 		//calculate coordinated hits
-		float coordinated_hits = ((soft_attacks*coordinated_share)*(1-battle.get_attacker_line(primary_target).getCurrentStats().hardness))
-								+ ((hard_attacks*coordinated_share)*(battle.get_attacker_line(primary_target).getCurrentStats().hardness));
+		float coordinated_hits = ((soft_attacks*coordinated_share)*(1-battle.get_attacker_line(primary_target).getCurrentStats().getStat(StatsTypes::hardness)))
+								+ ((hard_attacks*coordinated_share)*(battle.get_attacker_line(primary_target).getCurrentStats().getStat(StatsTypes::hardness)));
 		//apply coordinated hits
-		if(battle.get_defender_line(i).getCurrentStats().piercing > battle.get_attacker_line(primary_target).getCurrentStats().armor)
+		if(battle.get_defender_line(i).getCurrentStats().getStat(StatsTypes::piercing) > battle.get_attacker_line(primary_target).getCurrentStats().getStat(StatsTypes::armor))
 		{
 			attacker_hits[primary_target] = attacker_hits[primary_target] + coordinated_hits;
 		}
@@ -359,7 +358,7 @@ void doDamageTick(Battle@ battle)
 		
 		//apply combat factors
 		float shots = defender_hits[i]*attacker_attack_factor;
-		float defense = battle.get_defender_line(i).getCurrentStats().defense*defender_defense_factor;
+		float defense = battle.get_defender_line(i).getCurrentStats().getStat(StatsTypes::defense)*defender_defense_factor;
 
 		//factor in defense
 		float undefended_shots = shots - defense;
@@ -375,7 +374,7 @@ void doDamageTick(Battle@ battle)
 		float org_damage = damage * defines.ORG_DAMAGE_HITS_RATIO;	
 
 		//apply final damage
-		battle.get_defender_line(i).distributeDamage(casualties);
+		battle.get_defender_line(i).setStrength(battle.get_defender_line(i).getStrength() - casualties);
 		if (battle.get_defender_line(i).getOrg() - org_damage > 0.0f) 
 		{
 			battle.get_defender_line(i).setOrg(battle.get_defender_line(i).getOrg() - org_damage);
@@ -392,7 +391,7 @@ void doDamageTick(Battle@ battle)
 		
 		//apply combat factors
 		float shots = attacker_hits[i]*defender_attack_factor;
-		float defense = battle.get_attacker_line(i).getCurrentStats().breakthrough*attacker_breakthrough_factor;
+		float defense = battle.get_attacker_line(i).getCurrentStats().getStat(StatsTypes::breakthrough)*attacker_breakthrough_factor;
 
 		//factor in defense
 		float undefended_shots = shots - defense;
@@ -407,7 +406,7 @@ void doDamageTick(Battle@ battle)
 		uint casualties = (damage * defines.STRENGTH_DAMAGE_HITS_RATIO);
 		float org_damage = damage * defines.ORG_DAMAGE_HITS_RATIO;	
 		//apply final damage
-		battle.get_attacker_line(i).distributeDamage(casualties);
+		battle.get_attacker_line(i).setStrength(battle.get_attacker_line(i).getStrength() - casualties);
 		if(battle.get_attacker_line(i).getOrg() - org_damage > 0.0f) 
 		{
 			battle.get_attacker_line(i).setOrg(battle.get_attacker_line(i).getOrg() - org_damage);

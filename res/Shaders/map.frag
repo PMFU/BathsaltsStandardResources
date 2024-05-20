@@ -3,6 +3,7 @@
 #extension GL_ARB_separate_shader_objects : enable
 #extension GL_EXT_nonuniform_qualifier : require
 
+const int mapTextureBindingSlot = 6;
 const int textureBindingSlot = 7;
 
 struct vertexOutputData
@@ -41,7 +42,8 @@ layout ( set = 0, binding = 2 ) readonly buffer ObjectInstanceData
 struct ProvinceRenderInfo
 {
 	ivec4 IDs; //Province ID, State ID, Country ID, [0 if land, 1 if naval, other vals are UNDEFINED]
-	vec4 color; //Color of the province to use
+	vec3 color; //Color of the province to use
+	int numPixels;
 
 	//For Location Data / Quad Info
 	vec2 upperLeft;
@@ -49,26 +51,23 @@ struct ProvinceRenderInfo
 	vec2 extent;
 
 	//Other Info
-	int terrainTexId;
-	int goodTexid;
-	int numPixels;
-	int filler;
-
-	vec2 other;
-	// vec3 cultureColor;
-	//Any other things
+	int terrain_tex_id;
+	int overlay_tex_id;
 };
 
 layout ( set = 0, binding = 1, std430 ) readonly buffer MapRenderInfo
 {
-	int province_count;
 	int selected_province;
+	int map_width;
+	int map_height;
 
 	float camera_height;
-	float other;
 
 	ProvinceRenderInfo provinces[];
 } mapData;
+
+//Map indexing
+layout ( set = 0, binding = mapTextureBindingSlot ) uniform isampler2D provIDMapBinding[];
 
 //Textures
 layout ( set = 0, binding = textureBindingSlot ) uniform sampler2D textures[];
@@ -79,70 +78,112 @@ layout ( push_constant ) uniform constants
 	vec4 textureid;	//x is provid index, y is normal map, z is ..., a is ....
 } PushConstants;
 
-layout ( set = 0, binding = textureBindingSlot ) uniform isampler2D provIDMapBinding[];
-#define provIDMap provIDMapBinding[int(PushConstants.textureid.x)]
+#define provIDMap provIDMapBinding[0]
 #define world_normal_map textures[int(PushConstants.textureid.y)]
 
-vec4 getFinalProvinceColor()
+
+vec2 getCurMapCoords(vec2 coords)
 {
-	int provID = texture(provIDMap, outVertShader.textureCoordinates).x;
-	provID = (provID <= mapData.province_count) ? provID : 0;
-
-	vec3 color = mapData.provinces[provID].color.xyz;
-
-	/*const vec2 texelsize = vec2(1.0 / 5616, 1.0 / 2160);
-	const int prevColor = provID;
-	for(int i = -1; i <= 1; i++)
-	{
-		for(int j = -1; j <= 1; j++)
-		{
-			provID = texture(provIDMap, outVertShader.textureCoordinates + vec2(i, j) * texelsize).x;
-			color = mapData.provinceColor[provID.x].xyz;
-		}
-	}*/
-
-	int selectedProv = mapData.selected_province;//mapData.info.z;
-	if(provID == selectedProv)
-	{
-		const float light_factor = 1.4f;
-		color = color * light_factor;
-	}
-	
-	return vec4(color, 1.0);
+	return coords * vec2(mapData.map_width, mapData.map_height);
 }
 
-vec4 getFinalProvinceColorWithLines()
+vec3 getAssignedProvinceColor(int prov_id)
 {
-	ivec4 provID = texture(provIDMap, outVertShader.textureCoordinates);
-	vec3 color = mapData.provinces[provID.x].color.xyz;
-	int prevColor = provID.x;
+	return mapData.provinces[prov_id].color.xyz;
+}
 
-	const vec2 texelsize = vec2(1.0 / 5616, 1.0 / 2160);
-	for(int i = -1; i <= 1; i++)
+int getProvID_DstFromCur(vec2 dist_away)
+{
+	const vec2 texelsize = vec2(1.0 / mapData.map_width, 1.0 / mapData.map_height);
+	int provID = texture(provIDMap, outVertShader.textureCoordinates + dist_away * texelsize).x;
+
+
+	return provID;
+}
+
+vec2 getUVForProvinceTexture(int prov_id, vec2 cur_uv)
+{
+	vec2 UL = mapData.provinces[prov_id].upperLeft;
+	vec2 center = mapData.provinces[prov_id].center;
+	vec2 size = mapData.provinces[prov_id].extent;
+
+	//Linearly interpolate between these
+	vec2 map_space = getCurMapCoords(cur_uv);
+	vec2 output_NDC = (map_space - UL) / size;
+
+	return output_NDC;
+}
+
+const vec3 GREYIFY = vec3( 0.212671, 0.715160, 0.072169 );
+const vec3 WHITE = vec3(1, 1, 1);
+
+vec3 applyFOWColor( vec3 c, float FOW ) 
+{
+	float grey = dot( c.rgb, GREYIFY );
+	return mix( vec3(grey) * 0.4, c.rgb, FOW > 0.8 ? 1.0 : 0.3 );
+}
+
+
+vec4 getColorAt(vec2 uv, int borders, int show_terrain, int show_good)
+{
+	const vec2 cur_map_coord = getCurMapCoords(uv);
+	const vec4 land_prov_border_color = vec4(0.5, 0.5, 0.5, 0.7);
+	const int provID = texture(provIDMap, uv).x;
+
+	vec3 prov_color = getAssignedProvinceColor(provID);
+
+	if(borders == 1)
 	{
-		for(int j = -1; j <= 1; j++)
+		const float fine_grain_border_AA = 0.25f;
+		vec3 neighbors = prov_color; int count = 1;
+		
+		int right = getProvID_DstFromCur(fine_grain_border_AA * vec2(1, 0));
+		int left = getProvID_DstFromCur(fine_grain_border_AA * vec2(-1, 0));
+		int up = getProvID_DstFromCur(fine_grain_border_AA * vec2(0, -1));
+		int down = getProvID_DstFromCur(fine_grain_border_AA * vec2(0, 1));
+
+		if(provID != left || provID != right || provID != up || provID != down)
 		{
-			if(! ((i == -1 || i == 1) && (j == -1 || j == 1)))
-			{	//When NOT the corners
-				provID = texture(provIDMap, outVertShader.textureCoordinates + vec2(i, j) * texelsize);
-				color = mapData.provinces[provID.x].color.xyz;
-				if(provID.x != prevColor)
-				{
-					return vec4(0.5, 0.5, 0.5, 1.0) * vec4(color, 1.0);
-				}			
-			}
+			neighbors += getAssignedProvinceColor(right); count = count + 1;
+			neighbors += getAssignedProvinceColor(left); count = count + 1;
+			neighbors += getAssignedProvinceColor(up); count = count + 1;
+			neighbors += getAssignedProvinceColor(down); count = count + 1;
+
+			prov_color = vec4(land_prov_border_color * vec4(neighbors, 0.5) / float(count)).xyz;
 		}
 	}
-	
-	ivec4 selectedProv = ivec4(mapData.selected_province, 0, 0, 0);
-	ivec4 id = ivec4(prevColor, 0, 0, 0);
-	if(id == selectedProv)
+
+	// Land province
+	if(mapData.provinces[provID].IDs.w == 0)
 	{
-		const float light_factor = 1.4f;
-		color = color * light_factor;
+		const vec2 prov_uv = getUVForProvinceTexture(provID, uv);
+		if(show_terrain == 1 && mapData.provinces[provID].terrain_tex_id != 0)	//TERRAIN
+		{
+			vec3 texture_color = texture(textures[mapData.provinces[provID].terrain_tex_id], prov_uv).xyz;
+			
+			//Make the texture grey
+			float greyness = dot(texture_color.rgb, GREYIFY);
+			texture_color.rgb = vec3(greyness);
+			texture_color.rgb *= WHITE;
+
+			const float LERP_AMOUNT_FOR_PROV_TEXTURE = 0.5;
+
+			prov_color = mix(texture_color.rgb, prov_color.rgb, LERP_AMOUNT_FOR_PROV_TEXTURE);
+			// prov_color *= texture_color * 1.5f;
+		}
+
+		if(show_good == 1 && mapData.provinces[provID].overlay_tex_id != 0)	// OVERLAY ICON
+		{
+			vec3 texture_color = texture(textures[mapData.provinces[provID].overlay_tex_id], prov_uv).xyz;
+			prov_color *= texture_color;
+		}
+	}
+	else if(mapData.provinces[provID].IDs.w == 1)	//sea tile
+	{
+
 	}
 
-	return vec4(color, 1.0);
+	return vec4(prov_color, 1);
 }
 
 vec4 finalLightingResult()
@@ -154,7 +195,7 @@ vec4 finalLightingResult()
 	const vec3 lightsrc = vec3(0.0, 20.0, 0.0);	//pos
 
 	vec3 lightDir = normalize(lightsrc - outVertShader.fragPos);
-	
+
 	//Normal Map
 	vec3 normal = vec3(0, 1.0, 0);//normalize(texture(world_normal_map, outVertShader.textureCoordinates).xzy);
 	//vec3 normal2 = 2 * normalize(outVertShader.normal);
@@ -167,20 +208,28 @@ vec4 finalLightingResult()
 	return result;
 }
 
+
+
 void main()
 {
 	vec4 provColor;
 	if(mapData.camera_height >= 3.5)
 	{
-		provColor = getFinalProvinceColor();
+		provColor = getColorAt(outVertShader.textureCoordinates, 0, 0, 0); // provColor = getFinalProvinceColor();
 	}
 	else
 	{
-		provColor = getFinalProvinceColorWithLines();
+		provColor = getColorAt(outVertShader.textureCoordinates, 1, 1, 0); //getFinalProvinceColorWithLines();
 	}
-	
+
+	// provColor = getColorAt(outVertShader.textureCoordinates, 1, 1, 0);
+
+	const float BORDER_DIST = 3.5f;
+	const float TERRAIN_DIST = 3.0f;
+
+
 	vec4 result = finalLightingResult();
 	//const vec4 result = texture(world_normal_map, outVertShader.textureCoordinates);
-	
+
 	FragColor = provColor * result;
-} 
+}

@@ -1,0 +1,2723 @@
+{
+    "Alaska": {
+        "Name": "Alaska",
+		"ID": 1,
+        "provinces": [1, 2, 3, 4, 5, 2599, 2630, 2631]
+    },
+	"Yukon Territory": {
+		"Name": "Yukon Territory",
+		"ID": 2,
+		"provinces": [6, 7, 8]
+	},
+	"Northwest Territories": {
+		"Name": "Northwest Territories",
+		"ID": 3,
+		"provinces": [9, 10, 11, 12, 2596, 2598]
+	},
+	"British Columbia": {
+		"Name": "British Columbia",
+		"ID": 4,
+		"provinces": [13, 14, 15, 16, 17, 18, 19, 20, 21, 2629]
+	},
+	"Alberta": {
+		"Name": "Alberta",
+		"ID": 5,
+		"provinces": [22, 23, 24, 25, 26, 27, 28, 29, 2597]
+	},
+	"Saskatchewan": {
+		"Name": "Saskatchewan",
+		"ID": 6,
+		"provinces": [30, 31, 32, 33, 34, 35]
+	},
+	"Manitoba": {
+		"Name": "Manitoba",
+		"ID": 7,
+		"provinces": [36, 37, 38, 39, 40, 41, 42]
+	},
+	"Nunavut": {
+		"Name": "Nunavut",
+		"ID": 8,
+		"provinces": [43, 44, 45, 2595]
+	},
+	"Ontario": {
+		"Name": "Ontario",
+		"ID": 9,
+		"provinces": [46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 2594, 2628]
+	},
+	"Quebec": {
+		"Name": "Quebec",
+		"ID": 10,
+		"provinces": [58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 2592, 2593, 2626, 2627]
+	},
+	"New Brunswick": {
+		"Name": "New Brunswick",
+		"ID": 11,
+		"provinces": [68, 69, 70, 71, 72, 73]
+	},
+	"Newfoundland": {
+		"Name": "Newfoundland",
+		"ID": 12,
+		"provinces": [74, 75, 76, 2625]
+	},
+	"Saint Pierre and Miquelon": {
+		"Name": "Saint Pierre and Miquelon",
+		"ID": 13,
+		"provinces": [77]
+	},
+	"Washington": {
+		"Name": "Washington",
+		"ID": 14,
+		"provinces": [78, 79, 80]
+	},
+	"Oregon": {
+		"Name": "Oregon",
+		"ID": 15,
+		"provinces": [81, 82, 83]
+	},
+	"California": {
+		"Name": "California",
+		"ID": 16,
+		"provinces": [84, 85, 86, 87, 88, 89, 90]
+	},
+	"Nevada-Utah": {
+		"Name": "Nevada-Utah",
+		"ID": 17,
+		"provinces": [91, 92, 93, 94, 95, 96, 97, 98, 99]
+	},
+	"Arizona": {
+		"Name": "Arizona",
+		"ID": 18,
+		"provinces": [100, 101, 102]
+	},
+	"New Mexico": {
+		"Name": "New Mexico",
+		"ID": 19,
+		"provinces": [103, 104, 105]
+	},
+	"Colorado": {
+		"Name": "Colorado",
+		"ID": 20,
+		"provinces": [106, 107, 108, 109]
+	},
+	"Wyoming": {
+		"Name": "Wyoming",
+		"ID": 21,
+		"provinces": [110, 111, 112]
+	},
+	"Montana": {
+		"Name": "Montana",
+		"ID": 22,
+		"provinces": [113, 114, 115, 116]
+	},
+	"North Dakota": {
+		"Name": "North Dakota",
+		"ID": 23,
+		"provinces": [117, 118, 119]
+	},
+	"South Dakota": {
+		"Name": "South Dakota",
+		"ID": 24,
+		"provinces": [120, 121, 122]
+	},
+	"Nebraska": {
+		"Name": "Nebraska",
+		"ID": 25,
+		"provinces": [123, 124, 125]
+	},
+	"Kansas": {
+		"Name": "Kansas",
+		"ID": 26,
+		"provinces": [126, 127, 128]
+	},
+	"Oklahoma": {
+		"Name": "Oklahoma",
+		"ID": 27,
+		"provinces": [129, 130, 131]
+	},
+	"Texas": {
+		"Name": "Texas",
+		"ID": 28,
+		"provinces": [132, 133, 134, 135, 136, 137, 138]
+	},
+	"Louisiana": {
+		"Name": "Louisiana",
+		"ID": 29,
+		"provinces": [139, 140, 141, 142]
+	},
+	"Arkansas": {
+		"Name": "Arkansas",
+		"ID": 30,
+		"provinces": [143, 144, 145]
+	},
+	"Missouri": {
+		"Name": "Missouri",
+		"ID": 31,
+		"provinces": [146, 147, 148, 149, 150]
+	},
+	"Iowa": {
+		"Name": "Iowa",
+		"ID": 32,
+		"provinces": [151, 152, 153, 154]
+	},
+	"Minnesota": {
+		"Name": "Minnesota",
+		"ID": 33,
+		"provinces": [155, 156, 157, 158]
+	},
+	"Wisconsin": {
+		"Name": "Wisconsin",
+		"ID": 34,
+		"provinces": [159, 160, 161, 162]
+	},
+	"Illinois": {
+		"Name": "Illinois",
+		"ID": 35,
+		"provinces": [163, 164, 165, 166, 167, 168]
+	},
+	"Indiana": {
+		"Name": "Indiana",
+		"ID": 36,
+		"provinces": [169, 170, 171, 172]
+	},
+	"Michigan": {
+		"Name": "Michigan",
+		"ID": 37,
+		"provinces": [173, 174, 175, 176, 177]
+	},
+	"Ohio": {
+		"Name": "Ohio",
+		"ID": 38,
+		"provinces": [178, 179, 180, 181, 182, 183]
+	},
+	"Kentucky": {
+		"Name": "Kentucky",
+		"ID": 39,
+		"provinces": [184, 185, 186, 187]
+	},
+	"Tennessee": {
+		"Name": "Tennessee",
+		"ID": 40,
+		"provinces": [188, 189, 190, 191]
+	},
+	"Mississippi": {
+		"Name": "Mississippi",
+		"ID": 41,
+		"provinces": [192, 193, 194]
+	},
+	"Alabama": {
+		"Name": "Alabama",
+		"ID": 42,
+		"provinces": [195, 196, 197]
+	},
+	"Florida": {
+		"Name": "Florida",
+		"ID": 43,
+		"provinces": [198, 199, 200]
+	},
+	"Georgia US": {
+		"Name": "Georgia US",
+		"ID": 44,
+		"provinces": [201, 202, 204, 205, 206, 2555]
+	},
+		"Caribbean Islands": {
+		"Name": "Caribbean Islands",
+		"ID": 45,
+		"provinces": [203, 2217, 2218, 2219, 2220]
+	},
+	"North Carolina": {
+		"Name": "North Carolina",
+		"ID": 46,
+		"provinces": [207, 208, 209, 210, 2556]
+	},
+	"Virginia": {
+		"Name": "Virginia",
+		"ID": 47,
+		"provinces": [211, 212, 213, 214, 215, 216]
+	},
+	"West Virginia": {
+		"Name": "West Virginia",
+		"ID": 48,
+		"provinces": [217, 218]
+	},
+	"Maryland": {
+		"Name": "Maryland",
+		"ID": 49,
+		"provinces": [219, 221, 222]
+	},
+	"District of Columbia": {
+		"Name": "District of Columbia",
+		"ID": 50,
+		"provinces": [220]
+	},
+	"Pennsylvania": {
+		"Name": "Pennsylvania",
+		"ID": 51,
+		"provinces": [223, 224, 225, 226, 227, 228]
+	},
+	"New Jersey": {
+		"Name": "New Jersey",
+		"ID": 52,
+		"provinces": [229, 230, 231]
+	},
+	"New York": {
+		"Name": "New York",
+		"ID": 53,
+		"provinces": [232, 233, 234, 235, 236, 237, 238, 239, 240]
+	},
+	"Massachussets": {
+		"Name": "Massachussets",
+		"ID": 54,
+		"provinces": [241, 242, 243, 244, 245]
+	},
+	"new England": {
+		"Name": "New England",
+		"ID": 55,
+		"provinces": [246, 247, 248, 249, 250]
+	},
+	"Iceland & Greenland": {
+		"Name": "Iceland & Greenland",
+		"ID": 56,
+		"provinces": [251, 252, 253, 2591, 2636, 2632]
+	},
+	"Ulster": {
+		"Name": "Ulster",
+		"ID": 57,
+		"provinces": [254, 255, 256, 257]
+	},
+	"Leinster-Connacht": {
+		"Name": "Leinster-Connacht",
+		"ID": 58,
+		"provinces": [258, 259, 263, 264, 265]
+	},
+	"Munster": {
+		"Name": "Munster",
+		"ID": 59,
+		"provinces": [260, 261, 262]
+	},
+	"Highlands": {
+		"Name": "Highlands",
+		"ID": 60,
+		"provinces": [266, 267, 268, 269, 270, 271, 272]
+	},
+	"Wales": {
+		"Name": "Wales",
+		"ID": 61,
+		"provinces": [273, 274, 275, 276]
+	},
+	"North West England": {
+		"Name": "North West England",
+		"ID": 62,
+		"provinces": [277, 278, 279, 280, 281, 282, 283, 285, 304]
+	},
+	"Midlands": {
+		"Name": "Midlands",
+		"ID": 63,
+		"provinces": [284, 286, 287, 288, 289, 290]
+	},
+	"Eastern Counties": {
+		"Name": "Eastern Counties",
+		"ID": 64,
+		"provinces": [291, 292, 293, 295]
+	},
+	"South East England": {
+		"Name": "South East England",
+		"ID": 65,
+		"provinces": [294, 300, 301, 302, 303]
+	},
+	"South West England": {
+		"Name": "South West England",
+		"ID": 66,
+		"provinces": [296, 297, 298, 299, 419]
+	},
+	"Nordnorge": {
+		"Name": "Nordnorge",
+		"ID": 67,
+		"provinces": [305, 306, 307, 308, 3246]
+	},
+	"Vestlandet": {
+		"Name": "Vestlandet",
+		"ID": 68,
+		"provinces": [309, 310, 311, 312, 313, 314, 315, 316]
+	},
+	"Norrland": {
+		"Name": "Norrland",
+		"ID": 69,
+		"provinces": [317, 318, 319, 320, 321]
+	},
+	"Svealand": {
+		"Name": "Svealand",
+		"ID": 70,
+		"provinces": [322, 323, 324, 325, 326, 327, 328]
+	},
+	"Gotaland": {
+		"Name": "Gotaland",
+		"ID": 71,
+		"provinces": [329, 330, 331, 332, 333, 334, 335]
+	},
+	"Northern Finland": {
+		"Name": "Northern Finland",
+		"ID": 72,
+		"provinces": [336, 337, 338, 341, 342, 982]
+	},
+	"Southern Finland": {
+		"Name": "Southern Finland",
+		"ID": 73,
+		"provinces": [339, 340, 343, 344, 345, 346, 347, 348]
+	},
+	"Estonia": {
+		"Name": "Estonia",
+		"ID": 74,
+		"provinces": [349, 350, 351, 352, 353]
+	},
+	"Latvia": {
+		"Name": "Latvia",
+		"ID": 75,
+		"provinces": [354, 355, 356, 357, 358, 359]
+	},
+	"Lietuva": {
+		"Name": "Lietuva",
+		"ID": 76,
+		"provinces": [360, 361, 362, 363, 364, 365]
+	},
+	"Jylland": {
+		"Name": "Jylland",
+		"ID": 77,
+		"provinces": [366, 367, 368, 2557]
+	},
+	"Schleswig-Holstein": {
+		"Name": "Schleswig-Holstein",
+		"ID": 78,
+		"provinces": [369, 370, 371, 529, 530]
+	},
+	"Sjaelland": {
+		"Name": "Sjaelland",
+		"ID": 79,
+		"provinces": [372, 373, 374]
+	},
+	"Holland": {
+		"Name": "Holland",
+		"ID": 80,
+		"provinces": [375, 376, 377, 378]
+	},
+	"Gelderland": {
+		"Name": "Gelderland",
+		"ID": 81,
+		"provinces": [379, 380, 381, 382]
+	},
+	"Friesland": {
+		"Name": "Friesland",
+		"ID": 82,
+		"provinces": [383, 384, 385, 386]
+	},
+	"Vlaanderen": {
+		"Name": "Vlaanderen",
+		"ID": 83,
+		"provinces": [387, 388, 389, 390, 391]
+	},
+	"Wallonie": {
+		"Name": "Wallonie",
+		"ID": 84,
+		"provinces": [392, 393, 394, 395, 396, 397, 398]
+	},
+	"Picardie": {
+		"Name": "Picardie",
+		"ID": 85,
+		"provinces": [399, 400, 401, 402, 2570]
+	},
+	"Champagne": {
+		"Name": "Champagne",
+		"ID": 86,
+		"provinces": [403, 404, 405, 406, 408]
+	},
+	"Franche-Comte": {
+		"Name": "Franche-Comte",
+		"ID": 87,
+		"provinces": [407, 411, 413, 414]
+	},
+	"Alsace-Lorraine": {
+		"Name": "Alsace-Lorraine",
+		"ID": 88,
+		"provinces": [409, 410, 412]
+	},
+	"Normandie": {
+		"Name": "Normandie",
+		"ID": 89,
+		"provinces": [415, 416, 417, 418]
+	},
+	"Bretagne": {
+		"Name": "Bretagne",
+		"ID": 90,
+		"provinces": [420, 421, 422, 423, 424]
+	},
+	"Ile de France": {
+		"Name": "Ile de France",
+		"ID": 91,
+		"provinces": [425, 426, 427]
+	},
+	"Bourgogne": {
+		"Name": "Bourgogne",
+		"ID": 92,
+		"provinces": [428, 429, 430, 431, 432, 433]
+	},
+	"Loire": {
+		"Name": "Loire",
+		"ID": 93,
+		"provinces": [434, 435, 437]
+	},
+	"Region Centre": {
+		"Name": "Region Centre",
+		"ID": 94,
+		"provinces": [436, 438, 439, 440, 441]
+	},
+	"Poitou": {
+		"Name": "Poitou",
+		"ID": 95,
+		"provinces": [442, 443, 444]
+	},
+	"Limousin": {
+		"Name": "Limousin",
+		"ID": 96,
+		"provinces": [445, 446, 447]
+	},
+	"Auvergne": {
+		"Name": "Auvergne",
+		"ID": 97,
+		"provinces": [448, 449, 450]
+	},
+	"Rhone": {
+		"Name": "Rhone",
+		"ID": 98,
+		"provinces": [451, 452, 453, 454]
+	},
+	"Le Midi": {
+		"Name": "Ke Midi",
+		"ID": 99,
+		"provinces": [455, 456, 457]
+	},
+	"Aquitaine": {
+		"Name": "Aquitaine",
+		"ID": 100,
+		"provinces": [458, 459, 460]
+	},
+	"Languedoc": {
+		"Name": "Languedoc",
+		"ID": 101,
+		"provinces": [461, 462, 463, 464]
+	},
+	"Savoie": {
+		"Name": "Savoie",
+		"ID": 102,
+		"provinces": [465, 466]
+	},
+	"Provence": {
+		"Name": "Provence",
+		"ID": 103,
+		"provinces": [467, 468, 469, 470, 471, 472, 473]
+	},
+	"Galicia": {
+		"Name": "Galicia",
+		"ID": 104,
+		"provinces": [474, 475, 476, 478]
+	},
+	"Leon-Castilla": {
+		"Name": "Leon-Castilla",
+		"ID": 105,
+		"provinces": [477, 479, 480, 481, 482, 483]
+	},
+	"Extremadura": {
+		"Name": "Extremadura",
+		"ID": 106,
+		"provinces": [484, 485, 486]
+	},
+	"Castila la Nueva": {
+		"Name": "Castilla la Nueva",
+		"ID": 107,
+		"provinces": [487, 488, 489, 490, 491]
+	},
+	"Vasconia-Aragon": {
+		"Name": "Vasconia-Aragon",
+		"ID": 108,
+		"provinces": [492, 493, 494, 495, 496, 497]
+	},
+	"Catalonia": {
+		"Name": "Catalonia",
+		"ID": 109,
+		"provinces": [498, 499, 500, 501, 502]
+	},
+	"Valencia": {
+		"Name": "Valencia",
+		"ID": 110,
+		"provinces": [503, 504, 505, 506, 507, 508]
+	},
+	"Andalucia": {
+		"Name": "Andalucia",
+		"ID": 111,
+		"provinces": [509, 510, 511, 512]
+	},
+	"Granada": {
+		"Name": "Granada",
+		"ID": 112,
+		"provinces": [513, 514, 515, 516]
+	},
+	"Gibraltar": {
+		"Name": "Gibraltar",
+		"ID": 113,
+		"provinces": [517]
+	},
+	"Douro": {
+		"Name": "Douro",
+		"ID": 114,
+		"provinces": [518, 519, 520]
+	},
+	"Estremadura": {
+		"Name": "Estremadura",
+		"ID": 115,
+		"provinces": [521, 522, 523, 524]
+	},
+	"Alentejo": {
+		"Name": "Alentejo",
+		"ID": 116,
+		"provinces": [525, 526, 527]
+	},
+	"Osthannover": {
+		"Name": "Osthannover",
+		"ID": 117,
+		"provinces": [528, 531, 532, 533, 539]
+	},
+	"Hannover": {
+		"Name": "Hannover",
+		"ID": 118,
+		"provinces": [534, 535, 538, 540, 541, 542, 543]
+	},
+	"Hessen": {
+		"Name": "Hessen",
+		"ID": 119,
+		"provinces": [536, 537, 566, 568]
+	},
+	"Pommern": {
+		"Name": "Pommern",
+		"ID": 120,
+		"provinces": [544, 545, 546, 547, 548, 679, 680]
+	},
+	"Brandenburg": {
+		"Name": "Brandenburg",
+		"ID": 121,
+		"provinces": [549, 550, 551, 552, 681]
+	},
+	"Magdeburg": {
+		"Name": "Magdeburg",
+		"ID": 122,
+		"provinces": [553, 554, 555, 556, 557]
+	},
+	"Sachsen": {
+		"Name": "Sachsen",
+		"ID": 123,
+		"provinces": [558, 559, 560, 561, 562, 563, 687]
+	},
+	"Hesse-Nassau": {
+		"Name": "Hesse-Nassau",
+		"ID": 124,
+		"provinces": [564, 565, 567, 2560]
+	},
+	"Baden": {
+		"Name": "Baden",
+		"ID": 125,
+		"provinces": [569, 586, 587, 588]
+	},
+	"Rhineland": {
+		"Name": "Rhineland",
+		"ID": 126,
+		"provinces": [570, 571, 572, 573, 574]
+	},
+	"Nordrhein": {
+		"Name": "Nordrhein",
+		"ID": 127,
+		"provinces": [575, 576, 577, 578, 579, 2561]
+	},
+	"Westfalen": {
+		"Name": "Westfalen",
+		"ID": 128,
+		"provinces": [580, 581, 582, 583, 584, 585]
+	},
+	"Wurttemberg": {
+		"Name": "Wurttemberg",
+		"ID": 129,
+		"provinces": [589, 590, 591, 593, 594]
+	},
+	"Bayern": {
+		"Name": "Bayern",
+		"ID": 130,
+		"provinces": [592, 599, 600, 601, 602]
+	},
+	"Franken": {
+		"Name": "Franken",
+		"ID": 131,
+		"provinces": [595, 596, 597, 598]
+	},
+	"East Switzerland": {
+		"Name": "East Switzerland",
+		"ID": 132,
+		"provinces": [603, 606, 611, 2568]
+	},
+	"West Switzerland": {
+		"Name": "West Switzerland",
+		"ID": 133,
+		"provinces": [604, 605, 607, 608, 609]
+	},
+	"Micronesia": {
+		"Name": "Micronesia",
+		"ID": 134,
+		"provinces": [610, 2517, 2518, 2519, 2521, 2522, 2579]
+	},
+	"Tirol": {
+		"Name": "Tirol",
+		"ID": 135,
+		"provinces": [612, 613, 614, 615]
+	},
+	"K�rnten-Steiermark": {
+		"Name": "K�rnten-Steiermark",
+		"ID": 136,
+		"provinces": [616, 617, 618]
+	},
+	"�sterreich": {
+		"Name": "�sterreich",
+		"ID": 137,
+		"provinces": [619, 620, 621, 622, 624]
+	},
+	"Transdanubia": {
+		"Name": "Transdanubia",
+		"ID": 138,
+		"provinces": [623, 639, 640, 642, 643, 644, 641, 645, 646, 648, 649, 650]
+	},
+	"Bohemia": {
+		"Name": "Bohemia",
+		"ID": 139,
+		"provinces": [625, 626, 627, 628, 629, 630]
+	},
+	"Moravia": {
+		"Name": "Moravia",
+		"ID": 140,
+		"provinces": [631, 632, 688, 689]
+	},
+	"Slovakia": {
+		"Name": "Slovakia",
+		"ID": 141,
+		"provinces": [633, 634, 635, 636, 637, 638, 950]
+	},
+	"Alf�ld": {
+		"Name": "Alf�ld",
+		"ID": 142,
+		"provinces": [647, 651, 652, 653]
+	},
+	"Western Siebenb�rgen": {
+		"Name": "Western Siebenb�rgen",
+		"ID": 143,
+		"provinces": [654, 655, 656, 661]
+	},
+	"Eastern Siebenb�rgen": {
+		"Name": "Eastern Siebenb�rgen",
+		"ID": 144,
+		"provinces": [657, 659, 660, 2533]
+	},
+	"Hawaiian Islands": {
+		"Name": "Hawaiian Islands",
+		"ID": 145,
+		"provinces": [658, 2524, 2526, 2623]
+	},
+	"Moldavia": {
+		"Name": "Moldavia",
+		"ID": 146,
+		"provinces": [662, 663, 670, 671, 672, 673]
+	},
+	"Wallachia": {
+		"Name": "Wallachia",
+		"ID": 147,
+		"provinces": [664, 665, 666, 667, 668, 669]
+	},
+	"Dobrudja": {
+		"Name": "Dobrudja",
+		"ID": 148,
+		"provinces": [674, 675, 818]
+	},
+	"Budjak": {
+		"Name": "Budjak",
+		"ID": 149,
+		"provinces": [676, 677, 678]
+	},
+	"Schlesien": {
+		"Name": "Schlesien",
+		"ID": 150,
+		"provinces": [682, 683, 684, 685]
+	},
+	"Kiribati": {
+		"Name": "Kiribati",
+		"ID": 151,
+		"provinces": [686, 2527]
+	},
+	"Westpreu�en": {
+		"Name": "Westpreu�en",
+		"ID": 152,
+		"provinces": [690, 693, 694, 696]
+	},
+	"Ostpreu�en": {
+		"Name": "Ostpreu�en",
+		"ID": 153,
+		"provinces": [695, 697, 698]
+	},
+	"Posen": {
+		"Name": "Posen",
+		"ID": 154,
+		"provinces": [691, 692, 699, 700, 701]
+	},
+	"East Galicia": {
+		"Name": "East Galicia",
+		"ID": 155,
+		"provinces": [702, 951, 952, 953]
+	},
+	"West Galicia": {
+		"Name": "West Galicia",
+		"ID": 156,
+		"provinces": [703, 704, 705, 714, 2584]
+	},
+	"Mazowieckie": {
+		"Name": "Mazowieckie",
+		"ID": 157,
+		"provinces": [706, 707, 708, 709, 711, 715]
+	},
+	"Wielkopolskie": {
+		"Name": "Wielkopolskie",
+		"ID": 158,
+		"provinces": [710, 712, 713, 716, 717]
+	},
+	"Minsk": {
+		"Name": "Minsk",
+		"ID": 159,
+		"provinces": [718, 941, 942]
+	},
+	"Brest": {
+		"Name": "Brest",
+		"ID": 160,
+		"provinces": [719, 936, 937, 938, 939, 940]
+	},
+	"Piemonte": {
+		"Name": "Piemonte",
+		"ID": 161,
+		"provinces": [720, 721, 722, 723, 724, 725]
+	},
+	"Lombardia": {
+		"Name": "Lombardia",
+		"ID": 162,
+		"provinces": [726, 727, 728]
+	},
+	"Venezia": {
+		"Name": "Venezia",
+		"ID": 163,
+		"provinces": [729, 730, 731, 732, 733]
+	},
+	"South Tirol": {
+		"Name": "South Tirol",
+		"ID": 164,
+		"provinces": [734, 735]
+	},
+	"Istria": {
+		"Name": "Istria",
+		"ID": 165,
+		"provinces": [736, 737, 769, 770, 778]
+	},
+	"Emilia": {
+		"Name": "Emilia",
+		"ID": 166,
+		"provinces": [738, 739, 740, 746]
+	},
+	"Romagna": {
+		"Name": "Romagna",
+		"ID": 167,
+		"provinces": [741, 742, 743]
+	},
+	"Toscana": {
+		"Name": "Toscana",
+		"ID": 168,
+		"provinces": [744, 745, 747, 748]
+	},
+	"Lazio": {
+		"Name": "Lazio",
+		"ID": 169,
+		"provinces": [749, 750, 751, 752]
+	},
+	"Puglia": {
+		"Name": "Puglia",
+		"ID": 170,
+		"provinces": [753, 756, 757, 758]
+	},
+	"Campania": {
+		"Name": "Campania",
+		"ID": 171,
+		"provinces": [754, 755, 759, 760, 761, 2567]
+	},
+	"Sardegna": {
+		"Name": "Sardegna",
+		"ID": 172,
+		"provinces": [765, 766]
+	},
+	"Slovenia": {
+		"Name": "Slovenia",
+		"ID": 173,
+		"provinces": [767, 768]
+	},
+	"Sicily": {
+		"Name": "Sicily",
+		"ID": 174,
+		"provinces": [762, 763, 764, 854]
+	},
+	"Croatia": {
+		"Name": "Croatia",
+		"ID": 175,
+		"provinces": [771, 772, 773, 774, 775, 776, 777, 779, 793]
+	},
+	"Dalmatia": {
+		"Name": "Dalmatia",
+		"ID": 176,
+		"provinces": [780, 781, 782, 2582]
+	},
+	"Northern Serbia": {
+		"Name": "Northern Serbia",
+		"ID": 177,
+		"provinces": [794, 795, 796, 797]
+	},
+	"Zambia": {
+		"Name": "Zambia",
+		"ID": 178,
+		"provinces": [790, 2012, 2013, 2014, 2015]
+	},
+	"Southern Serbia": {
+		"Name": "Southern Serbia",
+		"ID": 180,
+		"provinces": [798, 799, 802, 803, 804]
+	},
+	"Montenegro": {
+		"Name": "Montenegro",
+		"ID": 181,
+		"provinces": [800, 2569, 2577, 2583]
+	},
+	"New Caledonia": {
+		"Name": "New Caledonia",
+		"ID": 182,
+		"provinces": [801, 1097, 2542, 2551, 2553]
+	},
+	"East Macedonia": {
+		"Name": "East Macedonia",
+		"ID": 183,
+		"provinces": [805, 822, 823, 829, 830]
+	},
+	"North Macedonia": {
+		"Name": "North Macedonia",
+		"ID": 184,
+		"provinces": [806, 807]
+	},
+	"Rumelia": {
+		"Name": "Rumelia",
+		"ID": 185,
+		"provinces": [808, 809, 815, 816, 817]
+	},
+	"Bulgaria": {
+		"Name": "Bulgaria",
+		"ID": 186,
+		"provinces": [810, 811, 812, 813, 814]
+	},
+	"West Macedonia": {
+		"Name": "West Macedonia",
+		"ID": 187,
+		"provinces": [819, 820, 821]
+	},
+	"Thessaly": {
+		"Name": "Thessaly",
+		"ID": 188,
+		"provinces": [824, 825, 831, 832, 833]
+	},
+	"Thrace": {
+		"Name": "Thrace",
+		"ID": 189,
+		"provinces": [828, 858, 859, 860, 861]
+	},
+	"Attica": {
+		"Name": "Attica",
+		"ID": 190,
+		"provinces": [834, 835, 836, 837, 838]
+	},
+	"Peloponnese": {
+		"Name": "Peloponnese",
+		"ID": 191,
+		"provinces": [826, 827, 839, 840, 841, 842]
+	},
+	"Aegean Islands": {
+		"Name": "Aegean Islands",
+		"ID": 192,
+		"provinces": [843, 844, 845, 846, 847, 848]
+	},
+	"Albania": {
+		"Name": "Albania",
+		"ID": 193,
+		"provinces": [849, 850, 851, 852, 853]
+	},
+	"TUR_788": {
+		"Name": "TUR_788",
+		"ID": 552,
+		"provinces": [788, 787, 789, 783, 786, 785, 784]
+	},
+	"Cyprus": {
+		"Name": "Cyprus",
+		"ID": 194,
+		"provinces": [855, 856, 857]
+	},
+	"Hudavendigar": {
+		"Name": "Hudavendigar",
+		"ID": 195,
+		"provinces": [862, 863, 866, 867, 868]
+	},
+	"Aydin": {
+		"Name": "Aydin",
+		"ID": 196,
+		"provinces": [864, 865, 869, 870, 871, 872]
+	},
+	"Konya": {
+		"Name": "Konya",
+		"ID": 197,
+		"provinces": [873, 874, 875, 895]
+	},
+	"Ankara and Adana": {
+		"Name": "Ankara and Adana",
+		"ID": 198,
+		"provinces": [876, 877, 878, 894, 896, 898]
+	},
+	"Trabzon": {
+		"Name": "Trabzon",
+		"ID": 199,
+		"provinces": [879, 882, 884, 887, 888]
+	},
+	"Kastamonu": {
+		"Name": "Kastamonu",
+		"ID": 200,
+		"provinces": [880, 881, 883]
+	},
+	"Kars": {
+		"Name": "Kars",
+		"ID": 201,
+		"provinces": [885, 886, 1096]
+	},
+	"Diyarbakir-Van": {
+		"Name": "Diyarbakir-Van",
+		"ID": 202,
+		"provinces": [889, 890, 891, 892, 893, 899]
+	},
+	"Aleppo": {
+		"Name": "Aleppo",
+		"ID": 203,
+		"provinces": [897, 900, 901, 904, 905]
+	},
+	"Syria": {
+		"Name": "Syria",
+		"ID": 204,
+		"provinces": [902, 903, 906, 907]
+	},
+	"Transjordan": {
+		"Name": "Transjordan",
+		"ID": 205,
+		"provinces": [908, 909, 910, 911, 922]
+	},
+	"Lebanon": {
+		"Name": "Lebanon",
+		"ID": 206,
+		"provinces": [912, 913, 914, 915]
+	},
+	"Palestine": {
+		"Name": "Palestine",
+		"ID": 207,
+		"provinces": [916, 917, 918, 919, 920, 921]
+	},
+	"Mosul": {
+		"Name": "Mosul",
+		"ID": 208,
+		"provinces": [923, 924, 925, 928]
+	},
+	"Baghdad": {
+		"Name": "Baghdad",
+		"ID": 209,
+		"provinces": [926, 927, 929, 931, 934]
+	},
+	"Basra": {
+		"Name": "Basra",
+		"ID": 210,
+		"provinces": [930, 932, 933, 935]
+	},
+	"Smolensk": {
+		"Name": "Smolensk",
+		"ID": 211,
+		"provinces": [943, 999, 1000, 1007]
+	},
+	"Orsha": {
+		"Name": "Orsha",
+		"ID": 212,
+		"provinces": [944, 945, 946, 947, 948, 949]
+	},
+	"Kiev": {
+		"Name": "Kiev",
+		"ID": 213,
+		"provinces": [954, 958, 959, 960, 961, 962, 963]
+	},
+	"Rovne": {
+		"Name": "Rovne",
+		"ID": 214,
+		"provinces": [955, 956, 957]
+	},
+	"Crimea": {
+		"Name": "Crimea",
+		"ID": 215,
+		"provinces": [964, 966, 967]
+	},
+	"Cherson": {
+		"Name": "Cherson",
+		"ID": 216,
+		"provinces": [965, 968, 969, 970, 971]
+	},
+	"Luhansk": {
+		"Name": "Luhansk",
+		"ID": 217,
+		"provinces": [972, 973, 974, 975, 976, 978, 980]
+	},
+	"Kursk": {
+		"Name": "Kursk",
+		"ID": 218,
+		"provinces": [977, 1017, 1018, 1019]
+	},
+	"Rostov": {
+		"Name": "Rostov",
+		"ID": 219,
+		"provinces": [979, 1045, 1046, 1047]
+	},
+	"Arkhangelsk": {
+		"Name": "Arkhangelsk",
+		"ID": 220,
+		"provinces": [981, 2588]
+	},
+	"Karelia": {
+		"Name": "Karelia",
+		"ID": 221,
+		"provinces": [983, 984, 988, 995, 2587]
+	},
+	"Nenetsia": {
+		"Name": "Nenetsia",
+		"ID": 222,
+		"provinces": [985, 986, 2589, 2687, 2688, 2699]
+	},
+	"Galich": {
+		"Name": "Galich",
+		"ID": 223,
+		"provinces": [987, 990, 991, 1023, 1024]
+	},
+	"Tver": {
+		"Name": "Tver",
+		"ID": 224,
+		"provinces": [989, 992, 993, 998, 1001]
+	},
+	"Ingria": {
+		"Name": "Ingria",
+		"ID": 225,
+		"provinces": [994, 996, 997, 1006]
+	},
+	"Moscow": {
+		"Name": "Moscow",
+		"ID": 226,
+		"provinces": [1008, 1011, 1012, 1013, 1022]
+	},
+	"Bryansk": {
+		"Name": "Bryansk",
+		"ID": 227,
+		"provinces": [1009, 1010, 1014, 1015, 1016]
+	},
+	"Novgorod": {
+		"Name": "Novgorod",
+		"ID": 228,
+		"provinces": [1003, 1004, 1005, 2580]
+	},
+	"Manchuria": {
+		"Name": "Manchuria",
+		"ID": 229,
+		"provinces": [1002, 1479, 1480, 1481, 1533, 1552, 1553, 1554, 1555]
+	},
+	"Kazan": {
+		"Name": "Kazan",
+		"ID": 230,
+		"provinces": [1020, 1027, 1028, 1030, 1032, 1033]
+	},
+	"Tartaria": {
+		"Name": "Tartaria",
+		"ID": 231,
+		"provinces": [1021, 1025, 1037, 1038]
+	},
+	"Perm": {
+		"Name": "Perm",
+		"ID": 232,
+		"provinces": [1026, 1029, 1031, 2689, 2700]
+	},
+	"Samara": {
+		"Name": "Samara",
+		"ID": 233,
+		"provinces": [1034, 1035, 1042, 1043, 1044, 1060]
+	},
+	"Astrakhan": {
+		"Name": "Astrakhan",
+		"ID": 234,
+		"provinces": [1036, 1039, 1040, 1041]
+	},
+	"Ekaterinodar": {
+		"Name": "Ekaterinodar",
+		"ID": 235,
+		"provinces": [1048, 1049, 1050, 1051, 1056]
+	},
+	"North Caucasia": {
+		"Name": "North Caucasia",
+		"ID": 236,
+		"provinces": [1052, 1053, 1054, 1055, 1057]
+	},
+	"Ural": {
+		"Name": "Ural",
+		"ID": 237,
+		"provinces": [1058, 1059, 1061, 1062, 2685]
+	},
+	"Tomsk": {
+		"Name": "Tomsk",
+		"ID": 238,
+		"provinces": [1063, 1067, 1068, 1077, 1469, 2698]
+	},
+	"Ob": {
+		"Name": "Ob",
+		"ID": 239,
+		"provinces": [1065, 2613, 2614, 2659, 2682, 2684, 2690]
+	},
+	"Tobolsk": {
+		"Name": "Tobolsk",
+		"ID": 240,
+		"provinces": [1064, 1066, 2683, 2686]
+	},
+	"West Yakutsk": {
+		"Name": "West Yakutsk",
+		"ID": 241,
+		"provinces": [1069, 2650, 2651, 2671, 2695]
+	},
+	"Upper Yeniseysk": {
+		"Name": "Upper Yeniseysk",
+		"ID": 242,
+		"provinces": [1070, 2646, 2681, 2691, 2692]
+	},
+	"Yakutsk": {
+		"Name": "Yakutsk",
+		"ID": 243,
+		"provinces": [1071, 2649, 2652, 2667, 2672]
+	},
+	"Okhotsk": {
+		"Name": "Okhotsk",
+		"ID": 244,
+		"provinces": [1072, 2641, 2642, 2648, 2669]
+	},
+	"Kamchatka": {
+		"Name": "Kamchatka",
+		"ID": 245,
+		"provinces": [1073, 1074, 2616, 2633, 2663]
+	},
+	"Irkutsk": {
+		"Name": "Irkutsk",
+		"ID": 246,
+		"provinces": [1075, 1076, 1078, 2676, 2677]
+	},
+	"Trans-Baikal": {
+		"Name": "Trans-Baikal",
+		"ID": 247,
+		"provinces": [1079, 1080, 1081, 2644, 2645, 2696, 2697]
+	},
+	"Outer Manchuria": {
+		"Name": "Outer Manchuria",
+		"ID": 248,
+		"provinces": [1082, 1083, 1084, 1085, 2617]
+	},
+	"Sakhalin": {
+		"Name": "Sakhalin",
+		"ID": 249,
+		"provinces": [1086, 1087]
+	},
+	"Hokkaido": {
+		"Name": "Hokkaido",
+		"ID": 250,
+		"provinces": [1088, 1089, 1642, 1643, 1644]
+	},
+	"Georgia": {
+		"Name": "Georgia",
+		"ID": 251,
+		"provinces": [1090, 1091, 1092, 1093, 1094, 1095]
+	},
+	"Armenia": {
+		"Name": "Armenia",
+		"ID": 252,
+		"provinces": [1098, 1099, 1100, 1101]
+	},
+	"Azerbaijan": {
+		"Name": "Azerbaijan",
+		"ID": 253,
+		"provinces": [1102, 1103, 1104, 1105, 1106, 1107]
+	},
+	"Tabriz": {
+		"Name": "Tabriz",
+		"ID": 254,
+		"provinces": [1108, 1109, 1110, 1111, 1112, 1123]
+	},
+	"Gilal-Mazandaran": {
+		"Name": "Gilal-Mazandaran",
+		"ID": 255,
+		"provinces": [1113, 1114, 1115, 1116]
+	},
+	"Luristan": {
+		"Name": "Luristan",
+		"ID": 256,
+		"provinces": [1117, 1118, 1119, 1120, 1122]
+	},
+	"Irakajemi": {
+		"Name": "Irakajemi",
+		"ID": 257,
+		"provinces": [1121, 1124, 1125, 1126]
+	},
+	"Isfahan": {
+		"Name": "Isfahan",
+		"ID": 258,
+		"provinces": [1127, 1128, 1129, 1130]
+	},
+	"Khuzestan": {
+		"Name": "Khuzestan",
+		"ID": 259,
+		"provinces": [1131, 1132, 1133, 1136, 1138]
+	},
+	"Fars-Kerman": {
+		"Name": "Fars-Kerman",
+		"ID": 260,
+		"provinces": [1134, 1135, 1137, 1139, 1140, 1143]
+	},
+	"Laristan-Sistan": {
+		"Name": "Laristan-Sistan",
+		"ID": 261,
+		"provinces": [1141, 1142, 1144, 1145, 1146]
+	},
+	"Khorasan": {
+		"Name": "Khorasan",
+		"ID": 262,
+		"provinces": [1147, 1148, 1149, 1150]
+	},
+	"Hedjaz": {
+		"Name": "Hedjaz",
+		"ID": 263,
+		"provinces": [1151, 1152, 1153, 1154, 1155]
+	},
+	"Hail": {
+		"Name": "Hail",
+		"ID": 264,
+		"provinces": [1156, 1158, 1160, 1163]
+	},
+	"Nejd": {
+		"Name": "Nejd",
+		"ID": 265,
+		"provinces": [1157, 1159, 1161, 1164, 2586]
+	},
+	"Abu Dhabi": {
+		"Name": "Abu Dhabi",
+		"ID": 266,
+		"provinces": [1162, 1165, 1167, 1168]
+	},
+	"Oman": {
+		"Name": "Oman",
+		"ID": 267,
+		"provinces": [1166, 1169, 1170, 1171, 1172, 1174]
+	},
+	"Yemen": {
+		"Name": "Yemen",
+		"ID": 268,
+		"provinces": [1173, 1175, 1176, 1177, 1178, 1179, 1180, 1412]
+	},
+	"Akmolinsk": {
+		"Name": "Akmolinsk",
+		"ID": 269,
+		"provinces": [1181, 1184, 1193, 2612]
+	},
+	"Uralsk": {
+		"Name": "Uralsk",
+		"ID": 270,
+		"provinces": [1182, 1183, 1194, 2610, 2611, 2702]
+	},
+	"Semireche": {
+		"Name": "Semireche",
+		"ID": 281,
+		"provinces": [1185, 1186, 1187, 1188, 2606]
+	},
+	"Kirghizia": {
+		"Name": "Kirghizia",
+		"ID": 282,
+		"provinces": [1189, 1190, 1202, 1203]
+	},
+	"Uzbekia": {
+		"Name": "Uzbekia",
+		"ID": 283,
+		"provinces": [1191, 1192, 1195, 1197, 1198, 1199, 1200]
+	},
+	"Turkmenia": {
+		"Name": "Turkmenia",
+		"ID": 284,
+		"provinces": [1196, 1204, 1205, 1206]
+	},
+	"Tajikistan": {
+		"Name": "Tajikistan",
+		"ID": 285,
+		"provinces": [1201, 1207, 1208]
+	},
+	"Eastern Afghanistan": {
+		"Name": "Eastern Afghanistan",
+		"ID": 286,
+		"provinces": [1209, 1210, 1216, 1217]
+	},
+	"Western Afghanistan": {
+		"Name": "Western Afghanistan",
+		"ID": 287,
+		"provinces": [1211, 1212, 1213, 1214, 1215]
+	},
+	"Baluchistan": {
+		"Name": "Baluchistan",
+		"ID": 288,
+		"provinces": [1218, 1219, 1220, 1221, 1222, 1223]
+	},
+	"Kashmir": {
+		"Name": "Kashmir",
+		"ID": 289,
+		"provinces": [1224, 1225, 1226]
+	},
+	"Punjab": {
+		"Name": "Punjab",
+		"ID": 290,
+		"provinces": [1227, 1228, 1229, 1230, 1231, 1232, 1233, 1234, 1235]
+	},
+	"United Provinces": {
+		"Name": "United Provinces",
+		"ID": 291,
+		"provinces": [1236, 1237, 1238, 1239, 1240, 1241, 1242, 1243, 1244, 1245, 1246]
+	},
+	"Bihar": {
+		"Name": "Bihar",
+		"ID": 292,
+		"provinces": [1247, 1248, 1249, 1250]
+	},
+	"South Bengal": {
+		"Name": "South Bengal",
+		"ID": 293,
+		"provinces": [1251, 1256, 1257, 1320]
+	},
+	"North Bengal": {
+		"Name": "North Bengal",
+		"ID": 294,
+		"provinces": [1252, 1253, 1254, 1255]
+	},
+	"Assam": {
+		"Name": "Assam",
+		"ID": 295,
+		"provinces": [1258, 1259, 1260, 2566]
+	},
+	"Orissa": {
+		"Name": "Orissa",
+		"ID": 296,
+		"provinces": [1261, 1262, 1263]
+	},
+	"Rajputana": {
+		"Name": "Rajputana",
+		"ID": 297,
+		"provinces": [1264, 1265, 1266, 1267, 1268, 1269]
+	},
+	"Central India": {
+		"Name": "Central India",
+		"ID": 298,
+		"provinces": [1270, 1271, 1272, 1273, 1274, 1275, 1276]
+	},
+	"Nagpur": {
+		"Name": "Nagpur",
+		"ID": 299,
+		"provinces": [1277, 1278, 1279, 1280, 1281, 1282]
+	},
+	"Hyderabad": {
+		"Name": "Hyderabad",
+		"ID": 300,
+		"provinces": [1283, 1284, 1285, 1286, 1287]
+	},
+	"Sind": {
+		"Name": "Sind",
+		"ID": 301,
+		"provinces": [1288, 1289, 1290]
+	},
+	"Gujarat": {
+		"Name": "Gujarat",
+		"ID": 302,
+		"provinces": [1291, 1292, 1293, 1294, 1295, 1296]
+	},
+	"Bombay": {
+		"Name": "Bombay",
+		"ID": 303,
+		"provinces": [1297, 1298, 1299, 1300, 1301, 1302, 1303]
+	},
+	"Madras": {
+		"Name": "Madras",
+		"ID": 304,
+		"provinces": [1304, 1309, 1310, 1311, 1312]
+	},
+	"Circars": {
+		"Name": "Circars",
+		"ID": 305,
+		"provinces": [1305, 1306, 1307, 1308]
+	},
+	"Mysore": {
+		"Name": "Mysore",
+		"ID": 306,
+		"provinces": [1313, 1314, 1315, 1316]
+	},
+	"Travancore": {
+		"Name": "Travancore",
+		"ID": 307,
+		"provinces": [1317, 1318, 1319]
+	},
+	"Ceylon": {
+		"Name": "Ceylon",
+		"ID": 308,
+		"provinces": [1321, 1322, 1323, 1324, 1325, 2128]
+	},
+	"Himalayas": {
+		"Name": "Himalayas",
+		"ID": 309,
+		"provinces": [1326, 1327, 1328, 1329]
+	},
+	"Pegu": {
+		"Name": "Pegu",
+		"ID": 310,
+		"provinces": [1330, 1331, 1332, 1333, 1345]
+	},
+	"Shan States": {
+		"Name": "Shan States",
+		"ID": 311,
+		"provinces": [1334, 1335, 1336, 1337, 1338, 1340]
+	},
+	"Kachin": {
+		"Name": "Kachin",
+		"ID": 312,
+		"provinces": [1339, 1341, 1342]
+	},
+	"Tenasserim": {
+		"Name": "Tenasserim",
+		"ID": 313,
+		"provinces": [1343, 1344]
+	},
+	"Bangkok": {
+		"Name": "Bangkok",
+		"ID": 314,
+		"provinces": [1346, 1347, 1352, 1353, 1354, 1392]
+	},
+	"Chiang Mai": {
+		"Name": "Chiang Mai",
+		"ID": 315,
+		"provinces": [1348, 1349, 1355, 2572]
+	},
+	"Nakhon Ratchasima": {
+		"Name": "Nakhon Ratchasima",
+		"ID": 316,
+		"provinces": [1350, 1351, 1358, 1359, 1365]
+	},
+	"Laos": {
+		"Name": "Laos",
+		"ID": 317,
+		"provinces": [1356, 1357, 1360, 1361, 1362, 1363]
+	},
+	"Cambodia": {
+		"Name": "Cambodia",
+		"ID": 318,
+		"provinces": [1364, 1366, 1367, 1368]
+	},
+	"Tonkin": {
+		"Name": "Tonkin",
+		"ID": 319,
+		"provinces": [1369, 1370, 1371, 1372, 1373]
+	},
+	"Annam": {
+		"Name": "Annam",
+		"ID": 320,
+		"provinces": [1374, 1375, 1376, 1377]
+	},
+	"Cochin China": {
+		"Name": "Cochin China",
+		"ID": 321,
+		"provinces": [1378, 1379, 1380, 1381, 1382, 1383]
+	},
+	"Malaya": {
+		"Name": "Malaya",
+		"ID": 322,
+		"provinces": [1384, 1385, 1386, 1387, 1388, 1389, 1390, 1391, 2575, 2576]
+	},
+	"North Borneo": {
+		"Name": "North Borneo",
+		"ID": 323,
+		"provinces": [1393, 1394, 1395, 1396, 1397]
+	},
+	"Sumatra": {
+		"Name": "Sumatra",
+		"ID": 324,
+		"provinces": [1398, 1399, 1400, 1401, 1402, 1403, 1404, 1410, 1408, 1411]
+	},
+	"Aceh": {
+		"Name": "Aceh",
+		"ID": 325,
+		"provinces": [1405, 1406, 1407, 1409]
+	},
+	"Java": {
+		"Name": "Java",
+		"ID": 326,
+		"provinces": [1413, 1414, 1415, 1416, 1417, 1418, 1419, 1420, 1421]
+	},
+	"Borneo": {
+		"Name": "Borneo",
+		"ID": 327,
+		"provinces": [1422, 1423, 1424, 1425, 1426, 1427, 1428, 1429]
+	},
+	"Moluccas": {
+		"Name": "Moluccas",
+		"ID": 328,
+		"provinces": [1430, 1431, 1432, 1433, 1434, 1435, 1436, 1437, 1447, 1448, 1449, 1450, 1451]
+	},
+	"Sunda Islands": {
+		"Name": "Sunda Islands",
+		"ID": 329,
+		"provinces": [1438, 1439, 1440, 1441, 1442, 1443, 1444, 1445, 1446]
+	},
+	"Western New Guinea": {
+		"Name": "Western New Guinea",
+		"ID": 330,
+		"provinces": [1452, 1453, 1454, 1560]
+	},
+	"Luzon": {
+		"Name": "Luzon",
+		"ID": 331,
+		"provinces": [1455, 1456, 1457, 1458]
+	},
+	"Visayas": {
+		"Name": "Visayas",
+		"ID": 332,
+		"provinces": [1459, 1460, 1461, 2565]
+	},
+	"Mindanao": {
+		"Name": "Mindanao",
+		"ID": 333,
+		"provinces": [1462, 1463, 1464]
+	},
+	"Mongolia": {
+		"Name": "Mongolia",
+		"ID": 334,
+		"provinces": [1465, 1466, 1467, 1468, 2207, 2608, 2678, 2679]
+	},
+	"Southern Anhui": {
+		"Name": "Southern Anhui",
+		"ID": 335,
+		"provinces": [1470, 1471, 1473, 1474, 1475]
+	},
+	"Northern Anhui": {
+		"Name": "Northern Anhui",
+		"ID": 336,
+		"provinces": [1472, 1478, 1509, 1512]
+	},
+	"Jiangsu": {
+		"Name": "Jiangsu",
+		"ID": 337,
+		"provinces": [1476, 1477, 1536, 1542, 1543, 2221]
+	},
+	"Fujian": {
+		"Name": "Fujian",
+		"ID": 338,
+		"provinces": [1482, 1483, 1484, 1486, 1487]
+	},
+	"Formosa": {
+		"Name": "Formosa",
+		"ID": 339,
+		"provinces": [1485, 2562]
+	},
+	"Gansu": {
+		"Name": "Gansu",
+		"ID": 340,
+		"provinces": [1488, 1489, 1490, 1491, 1492]
+	},
+	"Guangdong": {
+		"Name": "Guangdong",
+		"ID": 341,
+		"provinces": [1493, 1495, 1499, 1501]
+	},
+	"Shaozhou": {
+		"Name": "Shaozhou",
+		"ID": 342,
+		"provinces": [1494, 1497, 1500]
+	},
+	"Hong Kong & Macao": {
+		"Name": "Hong Kong & Macao",
+		"ID": 343,
+		"provinces": [1496, 1498]
+	},
+	"Guangxi": {
+		"Name": "Guangxi",
+		"ID": 344,
+		"provinces": [1502, 1503, 1504, 1527, 1530]
+	},
+	"Yunnan": {
+		"Name": "Yunnan",
+		"ID": 345,
+		"provinces": [1505, 1506, 1507, 1601, 1602, 1603]
+	},
+	"Henan": {
+		"Name": "Henan",
+		"ID": 346,
+		"provinces": [1508, 1510, 1511, 1513, 1514, 1515]
+	},
+	"Eastern Hubei": {
+		"Name": "Eastern Hubei",
+		"ID": 347,
+		"provinces": [1516, 1517, 1518, 1522]
+	},
+	"Western Hubei": {
+		"Name": "Western Hubei",
+		"ID": 348,
+		"provinces": [1519, 1520, 1521, 1523]
+	},
+	"Hunan": {
+		"Name": "Hunan",
+		"ID": 349,
+		"provinces": [1524, 1525, 1526, 1528, 1529]
+	},
+	"Northern New Guinea": {
+		"Name": "Northern New Guinea",
+		"ID": 350,
+		"provinces": [1531, 2530, 2531, 2537, 2539]
+	},
+	"Inner Mongolia": {
+		"Name": "Inner Mongolia",
+		"ID": 351,
+		"provinces": [1532, 1534, 1535]
+	},
+	"Suzhou": {
+		"Name": "Suzhou",
+		"ID": 352,
+		"provinces": [1537, 1538, 1539, 1540, 1541, 1544]
+	},
+	"Jiangxi": {
+		"Name": "Jiangxi",
+		"ID": 353,
+		"provinces": [1545, 1546, 1547, 1548, 1549, 1550, 1551]
+	},
+	"Qinghai": {
+		"Name": "Qinghai",
+		"ID": 354,
+		"provinces": [1556, 1557, 1558]
+	},
+	"Ningxia": {
+		"Name": "Ningxia",
+		"ID": 355,
+		"provinces": [1559, 1561, 1562, 2062]
+	},
+	"Southern Zhili": {
+		"Name": "Southern Zhili",
+		"ID": 356,
+		"provinces": [1563, 1564, 1568, 1570, 1614]
+	},
+	"Shandong": {
+		"Name": "Shandong",
+		"ID": 357,
+		"provinces": [1565, 1566, 1567, 1569, 1571]
+	},
+	"Shanxi": {
+		"Name": "Shanxi",
+		"ID": 358,
+		"provinces": [1572, 1573, 1574, 1575, 1576]
+	},
+	"Chongqing": {
+		"Name": "Chongqing",
+		"ID": 359,
+		"provinces": [1577, 1579, 1581, 1583, 1584]
+	},
+	"Sichuan": {
+		"Name": "Sichuan",
+		"ID": 360,
+		"provinces": [1578, 1580, 1582, 1585, 1586]
+	},
+	"Tibet": {
+		"Name": "Tibet",
+		"ID": 361,
+		"provinces": [1587, 1588, 1589, 1590, 1591, 1592, 1593]
+	},
+	"Xinjiang": {
+		"Name": "Xinjiang",
+		"ID": 362,
+		"provinces": [1594, 1595, 1596, 1597, 1598, 1599, 1600, 2607]
+	},
+	"Zhejiang": {
+		"Name": "Zhejiang",
+		"ID": 363,
+		"provinces": [1604, 1605, 1606, 1607, 1608, 1609, 1610, 1611]
+	},
+	"Northern Zhili": {
+		"Name": "Northern Zhili",
+		"ID": 364,
+		"provinces": [1612, 1613, 1615, 1616, 1617, 1618]
+	},
+	"Pyongyang": {
+		"Name": "Pyongyang",
+		"ID": 365,
+		"provinces": [1619, 1620, 1621, 1622, 1623]
+	},
+	"Seoul": {
+		"Name": "Seoul",
+		"ID": 366,
+		"provinces": [1624, 1628, 1630, 1631, 1636]
+	},
+	"Sariwon": {
+		"Name": "Sariwon",
+		"ID": 367,
+		"provinces": [1625, 1626, 1627, 1629]
+	},
+	"Busan": {
+		"Name": "Busan",
+		"ID": 368,
+		"provinces": [1632, 1633, 1634, 1635, 1637]
+	},
+	"Chugoku-Shikoku": {
+		"Name": "Chugoku-Shikoku",
+		"ID": 369,
+		"provinces": [1638, 1639, 1640, 1641, 1665, 1666, 1667]
+	},
+	"Chubu": {
+		"Name": "Chubu",
+		"ID": 370,
+		"provinces": [1645, 1646, 1647, 1648, 1675, 1676, 1677]
+	},
+	"Kanto": {
+		"Name": "Kanto",
+		"ID": 371,
+		"provinces": [1649, 1650, 1651, 1652, 1653, 1674]
+	},
+	"Bonin Islands": {
+		"Name": "Bonin Islands",
+		"ID": 372,
+		"provinces": [1654, 2525]
+	},
+	"Kansai": {
+		"Name": "Kansai",
+		"ID": 373,
+		"provinces": [1655, 1656, 1657, 1658, 1659]
+	},
+	"Kyushu": {
+		"Name": "Kyushu",
+		"ID": 374,
+		"provinces": [1660, 1661, 1662, 1663, 1664, 1678, 1679]
+	},
+	"Tohoku": {
+		"Name": "Tohoku",
+		"ID": 375,
+		"provinces": [1668, 1669, 1670, 1671, 1672, 1673]
+	},
+	"Fez": {
+		"Name": "Fez",
+		"ID": 376,
+		"provinces": [1680, 1681, 1682, 1685]
+	},
+	"Taza": {
+		"Name": "Taza",
+		"ID": 377,
+		"provinces": [1683, 1684, 1697, 1698, 1699]
+	},
+	"al-Rif": {
+		"Name": "al-Rif",
+		"ID": 378,
+		"provinces": [1686, 1687, 1688, 1689]
+	},
+	"Morocco": {
+		"Name": "Morocco",
+		"ID": 379,
+		"provinces": [1690, 1691, 1692, 1693, 2563]
+	},
+	"West Morocco": {
+		"Name": "West Morocco",
+		"ID": 380,
+		"provinces": [1694, 1695, 1696, 1773, 1774, 2136]
+	},
+	"Algiers": {
+		"Name": "Algiers",
+		"ID": 381,
+		"provinces": [1700, 1701, 1704, 1706, 1709]
+	},
+	"Tlemcen": {
+		"Name": "Tlemcen",
+		"ID": 382,
+		"provinces": [1702, 1703, 1705, 1707, 1715]
+	},
+	"Constantine": {
+		"Name": "Constantine",
+		"ID": 383,
+		"provinces": [1708, 1710, 1711, 1712, 1713]
+	},
+	"West Sahara": {
+		"Name": "West Sahara",
+		"ID": 384,
+		"provinces": [1714, 1716, 1717, 1720]
+	},
+	"Sahara": {
+		"Name": "Sahara",
+		"ID": 385,
+		"provinces": [1718, 1719, 1721, 1722, 1724]
+	},
+	"Panama": {
+		"Name": "Panama",
+		"ID": 386,
+		"provinces": [1723, 2204, 2205, 2206, 2208]
+	},
+	"Tunisia": {
+		"Name": "Tunisia",
+		"ID": 387,
+		"provinces": [1725, 1726, 1727, 1728, 1729, 1730]
+	},
+	"Tripoli": {
+		"Name": "Tripoli",
+		"ID": 388,
+		"provinces": [1731, 1732, 1741, 1742, 1743, 1744]
+	},
+	"Libya": {
+		"Name": "Libya",
+		"ID": 389,
+		"provinces": [1733, 1734, 1735, 1736, 1737]
+	},
+	"Libyan Desert": {
+		"Name": "Libyan Desert",
+		"ID": 390,
+		"provinces": [1738, 1739, 1740, 2585]
+	},
+	"Lower Egypt": {
+		"Name": "Lower Egypt",
+		"ID": 391,
+		"provinces": [1745, 1747, 1750, 1751]
+	},
+	"Sinai": {
+		"Name": "Sinai",
+		"ID": 392,
+		"provinces": [1746, 1748, 1749, 1755, 1756, 1757]
+	},
+	"Matruh": {
+		"Name": "Matruh",
+		"ID": 393,
+		"provinces": [1752, 1753, 1754, 1759]
+	},
+	"Egyptian Desert": {
+		"Name": "Egyptian Desert",
+		"ID": 394,
+		"provinces": [1758, 1760, 1761, 1766]
+	},
+	"Middle Egypt": {
+		"Name": "Middle Egypt",
+		"ID": 395,
+		"provinces": [1762, 1763, 1764, 1765, 1772, 2559]
+	},
+	"Upper Egypt": {
+		"Name": "Upper Egypt",
+		"ID": 396,
+		"provinces": [1767, 1768, 1769, 1770, 1771]
+	},
+	"Mauritania": {
+		"Name": "Mauritania",
+		"ID": 397,
+		"provinces": [1775, 1776, 1777, 1778, 1779]
+	},
+	"Inner Mauritania": {
+		"Name": "Inner Mauritania",
+		"ID": 398,
+		"provinces": [1780, 1781, 1782]
+	},
+	"Senegal": {
+		"Name": "Senegal",
+		"ID": 399,
+		"provinces": [1783, 1784, 1786, 1787, 1789, 1790, 2573]
+	},
+	"Gambia": {
+		"Name": "Gambia",
+		"ID": 400,
+		"provinces": [1785, 1788, 1791, 1792, 1793, 1877, 1878]
+	},
+	"Western Mali": {
+		"Name": "Western Mali",
+		"ID": 401,
+		"provinces": [1794, 1795, 1796, 1797, 1801]
+	},
+	"Eastern Mali": {
+		"Name": "Eastern Mali",
+		"ID": 402,
+		"provinces": [1798, 1799, 1800, 1802, 1804]
+	},
+	"Timbuktu": {
+		"Name": "Timbuktu",
+		"ID": 403,
+		"provinces": [1803, 1805, 1806, 1807, 2609]
+	},
+	"Outer Hausaland": {
+		"Name": "Outer Hausaland",
+		"ID": 404,
+		"provinces": [1808, 1809, 1810, 1811, 1815, 1816]
+	},
+	"Niger": {
+		"Name": "Niger",
+		"ID": 405,
+		"provinces": [1812, 1813, 1814, 1817]
+	},
+	"Waddai": {
+		"Name": "Waddai",
+		"ID": 406,
+		"provinces": [1818, 1819, 1820, 1822, 1823]
+	},
+	"Chad": {
+		"Name": "Chad",
+		"ID": 407,
+		"provinces": [1821, 1824, 1825, 1826]
+	},
+	"Sudan": {
+		"Name": "Sudan",
+		"ID": 408,
+		"provinces": [1827, 1828, 1829, 1830, 1831, 1832]
+	},
+	"Dongola": {
+		"Name": "Dongola",
+		"ID": 409,
+		"provinces": [1833, 1834, 1835, 1836, 1837, 2564]
+	},
+	"Kordofan": {
+		"Name": "Kordofan",
+		"ID": 410,
+		"provinces": [1838, 1839, 1840]
+	},
+	"Darfur": {
+		"Name": "Darfur",
+		"ID": 411,
+		"provinces": [1841, 1842]
+	},
+	"Equatoria": {
+		"Name": "Equatoria",
+		"ID": 412,
+		"provinces": [1843, 1844, 1845, 1846, 1847]
+	},
+	"Eritrea": {
+		"Name": "Eritrea",
+		"ID": 413,
+		"provinces": [1848, 1849, 1850, 1851, 1875]
+	},
+	"Gondor-Tigray": {
+		"Name": "Gondor-Tigray",
+		"ID": 414,
+		"provinces": [1852, 1853, 1854, 1855, 1856, 1857, 1858]
+	},
+	"Oromia": {
+		"Name": "Oromia",
+		"ID": 415,
+		"provinces": [1859, 1861, 1865, 1866, 1867]
+	},
+	"Amhara": {
+		"Name": "Amhara",
+		"ID": 416,
+		"provinces": [1860, 1862, 1863, 1864]
+	},
+	"Somaliland": {
+		"Name": "Somaliland",
+		"ID": 417,
+		"provinces": [1868, 1869, 1870, 1871, 1872, 1873, 1874]
+	},
+	"Macaronesia": {
+		"Name": "Macaronesia",
+		"ID": 418,
+		"provinces": [1876, 2134, 2135]
+	},
+	"Guinea": {
+		"Name": "Guinea",
+		"ID": 419,
+		"provinces": [1879, 1880, 1881, 1882, 1883]
+	},
+	"Sierra Leone": {
+		"Name": "Sierra Leone",
+		"ID": 420,
+		"provinces": [1884, 1885, 1886]
+	},
+	"Liberia": {
+		"Name": "Liberia",
+		"ID": 421,
+		"provinces": [1887, 1888, 1889, 1890, 1891]
+	},
+	"Ivory Coast": {
+		"Name": "Ivory Coast",
+		"ID": 422,
+		"provinces": [1892, 1894, 1897, 1898, 1899]
+	},
+	"Windward Coast": {
+		"Name": "Windward Coast",
+		"ID": 423,
+		"provinces": [1893, 1895, 1896, 1900]
+	},
+	"Volta": {
+		"Name": "Volta",
+		"ID": 424,
+		"provinces": [1901, 1902, 1903, 1904, 1905, 1906]
+	},
+	"Ghana": {
+		"Name": "Ghana",
+		"ID": 425,
+		"provinces": [1907, 1908, 1909, 1910, 1911, 1912, 1913]
+	},
+	"Togo": {
+		"Name": "Togo",
+		"ID": 426,
+		"provinces": [1914, 1915, 1916, 1917, 1918]
+	},
+	"Dahomey": {
+		"Name": "Dahomey",
+		"ID": 427,
+		"provinces": [1919, 1920, 1921, 1922]
+	},
+	"Yoruba States": {
+		"Name": "Yoruba States",
+		"ID": 428,
+		"provinces": [1923, 1924, 1925, 1926]
+	},
+	"Hausaland": {
+		"Name": "Hausaland",
+		"ID": 429,
+		"provinces": [1927, 1938, 1940, 1946, 1948]
+	},
+	"Benin": {
+		"Name": "Benin",
+		"ID": 430,
+		"provinces": [1928, 1929, 1930, 1936]
+	},	
+	"Niger Delta": {
+		"Name": "Niger Delta",
+		"ID": 431,
+		"provinces": [1931, 1932, 1933, 1934, 1935]
+	},
+	"Nigeria": {
+		"Name": "Nigeria",
+		"ID": 432,
+		"provinces": [1937, 1942, 1943, 1944, 1950]
+	},	
+	"East Hausaland": {
+		"Name": "East Hausaland",
+		"ID": 433,
+		"provinces": [1939, 1941, 1945, 1947, 1949]
+	},
+	"Bornu": {
+		"Name": "Bornu",
+		"ID": 434,
+		"provinces": [1951, 1952, 1953]
+	},
+	"North Angola": {
+		"Name": "North Angola",
+		"ID": 435,
+		"provinces": [1954, 1999, 2000, 2001]
+	},
+	"South Cameroon": {
+		"Name": "South Cameroon",
+		"ID": 436,
+		"provinces": [1955, 1956, 1957, 1958, 1959, 1962]
+	},
+	"North Cameroon": {
+		"Name": "North Cameroon",
+		"ID": 437,
+		"provinces": [1960, 1961, 1963, 1964]
+	},
+	"Ubangi-Shari": {
+		"Name": "Ubangi-Shari",
+		"ID": 438,
+		"provinces": [1965, 1966, 1967, 1968, 1969, 1970, 1971]
+	},
+	"Gabon": {
+		"Name": "Gabon",
+		"ID": 439,
+		"provinces": [1972, 1973, 1974, 1975, 1976]
+	},
+	"Congo": {
+		"Name": "Congo",
+		"ID": 440,
+		"provinces": [1977, 1978, 1980, 1981, 2624]
+	},
+	"Guayana": {
+		"Name": "Guayana",
+		"ID": 441,
+		"provinces": [1979, 2239, 2240, 2241, 2242, 2243, 2245, 2246]
+	},
+	"Bas-Congo": {
+		"Name": "Bas-Congo",
+		"ID": 442,
+		"provinces": [1982, 1983, 1985]
+	},
+	"Kasai": {
+		"Name": "Kasai",
+		"ID": 443,
+		"provinces": [1984, 1986, 1994]
+	},
+	"Katanga": {
+		"Name": "Katanga",
+		"ID": 444,
+		"provinces": [1987, 1988, 1989]
+	},
+	"Congo Orientale": {
+		"Name": "Congo Orientale",
+		"ID": 445,
+		"provinces": [1990, 1991, 1996, 1997, 1998]
+	},
+	"Equateur": {
+		"Name": "Equateur",
+		"ID": 446,
+		"provinces": [1992, 1993, 1995]
+	},
+	"East Angola": {
+		"Name": "East Angola",
+		"ID": 447,
+		"provinces": [2002, 2006, 2007, 2009, 2010, 2011]
+	},
+	"POR_2003": {
+		"Name": "POR_2008",
+		"ID": 553,
+		"provinces": [2003, 2004, 2005, 2008]
+	},
+	"Kazembe": {
+		"Name": "Kazembe",
+		"ID": 448,
+		"provinces": [2016, 2017, 2018, 2067]
+	},
+	"Uganda": {
+		"Name": "Uganda",
+		"ID": 449,
+		"provinces": [2019, 2020, 2021, 2022, 2023]
+	},
+	"Kenya": {
+		"Name": "Kenya",
+		"ID": 450,
+		"provinces": [2024, 2025, 2030, 2031, 2032]
+	},
+	"Rift Valley": {
+		"Name": "Rift Valley",
+		"ID": 451,
+		"provinces": [2026, 2027, 2028]
+	},
+	"Zanzibar": {
+		"Name": "Zanzibar",
+		"ID": 452,
+		"provinces": [2029, 2033, 2036, 2037, 2045, 2048]
+	},
+	"Tanganyika": {
+		"Name": "Tanganyika",
+		"ID": 453,
+		"provinces": [2034, 2035, 2043, 2044, 2046, 2047]
+	},
+	"Lindi": {
+		"Name": "Lindi",
+		"ID": 454,
+		"provinces": [2038, 2039, 2040, 2041, 2042]
+	},
+	"Louren�o Marques": {
+		"Name": "Louren�o Marques",
+		"ID": 455,
+		"provinces": [2049, 2050, 2051, 2052]
+	},
+	"Zambezia": {
+		"Name": "Zambezia",
+		"ID": 456,
+		"provinces": [2053, 2054, 2055, 2056, 2057, 2058, 2059]
+	},
+	"Mocambique": {
+		"Name": "Mocambique",
+		"ID": 457,
+		"provinces": [2060, 2061, 2063, 2064, 2065, 2066, 2581]
+	},
+	"Zambezi": {
+		"Name": "Zambezi",
+		"ID": 458,
+		"provinces": [2068, 2069, 2070, 2071, 2072, 2073, 2635]
+	},
+	"Botswana": {
+		"Name": "Botswana",
+		"ID": 459,
+		"provinces": [2074, 2075, 2076, 2077, 2574]
+	},
+	"Heroroland": {
+		"Name": "Heroroland",
+		"ID": 460,
+		"provinces": [2078, 2079, 2080, 2081, 2082]
+	},
+	"ENG_2083": {
+		"Name": "ENG_2083",
+		"ID": 554,
+		"provinces": [2083, 2084, 2085, 2086]
+	},
+	"Cape Colony": {
+		"Name": "Cape Colony",
+		"ID": 461,
+		"provinces": [2087, 2088, 2089, 2090, 2091]
+	},
+	"Northern Cape": {
+		"Name": "Northern Cape",
+		"ID": 462,
+		"provinces": [2092, 2093, 2094, 2095, 2558]
+	},
+	"Eastern Cape": {
+		"Name": "Eastern Cape",
+		"ID": 463,
+		"provinces": [2096, 2097, 2098, 2099, 2100]
+	},
+	"Vrystaat": {
+		"Name": "Vrystaat",
+		"ID": 464,
+		"provinces": [2101, 2102, 2103]
+	},
+	"Natal-Zululand": {
+		"Name": "Natal-Zululand",
+		"ID": 465,
+		"provinces": [2104, 2111, 2112, 2113]
+	},
+	"Transvaal": {
+		"Name": "Transvaal",
+		"ID": 466,
+		"provinces": [2105, 2106, 2107, 2108, 2109, 2110, 2114]
+	},
+	"North Madagascar": {
+		"Name": "North Madagascar",
+		"ID": 467,
+		"provinces": [2115, 2119, 2120, 2121]
+	},
+	"South Madagascar": {
+		"Name": "South Madagascar",
+		"ID": 468,
+		"provinces": [2116, 2117, 2118, 2122, 2123]
+	},
+	"Indian Ocean Territory": {
+		"Name": "Indian Ocean Territory",
+		"ID": 469,
+		"provinces": [2124, 2125, 2126, 2127]
+	},
+	"South Atlantic Islands": {
+		"Name": "South Atlantic Islands",
+		"ID": 470,
+		"provinces": [2129, 2130, 2132, 2133]
+	},
+	"Patagonia Meridional": {
+		"Name": "Patagonia Meridional",
+		"ID": 471,
+		"provinces": [2131, 2398, 2399, 2400]
+	},
+	"Sonora": {
+		"Name": "Sonora",
+		"ID": 472,
+		"provinces": [2137, 2138, 2139, 2140, 2141]
+	},
+	"Chihuahua": {
+		"Name": "Chihuahua",
+		"ID": 473,
+		"provinces": [2142, 2143, 2144, 2145, 2147, 2152]
+	},
+	"Nuevo Le�n": {
+		"Name": "Nuevo Le�n",
+		"ID": 474,
+		"provinces": [2146, 2148, 2149, 2150, 2163]
+	},
+	"Durango": {
+		"Name": "Durango",
+		"ID": 475,
+		"provinces": [2151, 2153, 2154, 2155, 2156, 2157]
+	},
+	"MEX_2161": {
+		"Name": "MEX_2161",
+		"ID": 555,
+		"provinces": [2161, 2160, 2168, 2166, 2169]
+	},
+	"Zacatecas": {
+		"Name": "Zacatecas",
+		"ID": 476,
+		"provinces": [2158, 2159, 2167, 2173]
+	},
+	"M�xico": {
+		"Name": "M�xico",
+		"ID": 477,
+		"provinces": [2162, 2164, 2172, 2175, 2176, 2177]
+	},
+	"Morelia": {
+		"Name": "Morelia",
+		"ID": 478,
+		"provinces": [2170, 2171, 2174, 2178, 2179, 2180]
+	},
+	"Yucat�n": {
+		"Name": "Yucat�n",
+		"ID": 479,
+		"provinces": [2181, 2182, 2183, 2184, 2185, 2165]
+	},
+	"Guatemala": {
+		"Name": "Guatemala",
+		"ID": 480,
+		"provinces": [2186, 2187, 2188, 2189, 2190]
+	},
+	"Honduras": {
+		"Name": "Honduras",
+		"ID": 481,
+		"provinces": [2191, 2192, 2193, 2194, 2195, 2196]
+	},
+	"Nicaragua": {
+		"Name": "Nicaragua",
+		"ID": 482,
+		"provinces": [2197, 2198, 2199, 2200]
+	},
+	"Costa Rica": {
+		"Name": "Costa Rica",
+		"ID": 483,
+		"provinces": [2201, 2202, 2203]
+	},
+	"Greater Antilles": {
+		"Name": "Greater Antilles",
+		"ID": 484,
+		"provinces": [2209, 2210, 2211, 2212]
+	},
+	"Hispaniola": {
+		"Name": "Hispaniola",
+		"ID": 485,
+		"provinces": [2213, 2214, 2215, 2216]
+	},
+	"West Indies": {
+		"Name": "West Indies",
+		"ID": 486,
+		"provinces": [2222, 2223, 2224, 2225, 2226, 2227, 2230, 2236]
+	},
+	"Lesser Antilles": {
+		"Name": "Lesser Anitlles",
+		"ID": 487,
+		"provinces": [2228, 2229, 2231, 2232, 2233, 2237, 2238, 2409]
+	},
+	"Zulia": {
+		"Name": "Zulia",
+		"ID": 488,
+		"provinces": [2234, 2235, 2268, 2270, 2271, 2272, 2273]
+	},
+	"Christmas & Cocos Islands": {
+		"Name": "Christmas & Cocos Islands",
+		"ID": 489,
+		"provinces": [2244, 2406]
+	},
+	"Cundinamarca": {
+		"Name": "Cundinamarca",
+		"ID": 490,
+		"provinces": [2247, 2248, 2249, 2250]
+	},
+	"Antioqu�a": {
+		"Name": "Antioqu�a",
+		"ID": 491,
+		"provinces": [2251, 2252, 2253, 2254, 2255]
+	},
+	"Cauca": {
+		"Name": "Cauca",
+		"ID": 492,
+		"provinces": [2256, 2257, 2258, 2259]
+	},
+	"Guaviare": {
+		"Name": "Guaviare",
+		"ID": 493,
+		"provinces": [2260, 2261, 2262, 2263]
+	},
+	"Miranda": {
+		"Name": "Miranda",
+		"ID": 494,
+		"provinces": [2264, 2265, 2266, 2267, 2274]
+	},
+	"Bol�var": {
+		"Name": "Bol�var",
+		"ID": 495,
+		"provinces": [2269, 2275, 2276, 2277, 2278]
+	},
+	"Ecuador": {
+		"Name": "Ecuador",
+		"ID": 496,
+		"provinces": [2279, 2280, 2281, 2282, 2283, 2284, 2285]
+	},
+	"Pastaza": {
+		"Name": "Pastaza",
+		"ID": 497,
+		"provinces": [2286, 2287, 2288, 2289]
+	},
+	"Cajamarca": {
+		"Name": "Cajamarca",
+		"ID": 498,
+		"provinces": [2290, 2291, 2292, 2294]
+	},
+	"Lima": {
+		"Name": "Lima",
+		"ID": 499,
+		"provinces": [2293, 2295, 2296, 2298, 2300]
+	},
+	"Ica": {
+		"Name": "Ica",
+		"ID": 500,
+		"provinces": [2297, 2299, 2301, 2302]
+	},
+	"Arequipa": {
+		"Name": "Arequipa",
+		"ID": 501,
+		"provinces": [2303, 2304, 2578]
+	},
+	"Atacama": {
+		"Name": "Atacama",
+		"ID": 502,
+		"provinces": [2305, 2307, 2308, 2309]
+	},
+		"S�o Paulo": {
+		"Name": "S�o Paulo",
+		"ID": 503,
+		"provinces": [2306, 2450, 2451, 2452, 2453, 2455, 2456]
+	},
+	"La Paz": {
+		"Name": "La Paz",
+		"ID": 504,
+		"provinces": [2310, 2311, 2319, 2320, 2321]
+	},
+	"Santa Cruz": {
+		"Name": "Santa Cruz",
+		"ID": 505,
+		"provinces": [2313, 2316, 2317, 2318]
+	},
+	"Potosi": {
+		"Name": "Potosi",
+		"ID": 506,
+		"provinces": [2312, 2314]
+	},
+	"Jujuy": {
+		"Name": "Jujuy",
+		"ID": 507,
+		"provinces": [2315, 2368, 2369, 2370, 2371, 2372]
+	},
+	"Santiago": {
+		"Name": "Santiago",
+		"ID": 508,
+		"provinces": [2322, 2323, 2324, 2325, 2326]
+	},
+	"Los R�os": {
+		"Name": "Los R�os",
+		"ID": 509,
+		"provinces": [2327, 2328, 2329, 2330, 2331]
+	},
+	"Araucania": {
+		"Name": "Araucania",
+		"ID": 510,
+		"provinces": [2332, 2333, 2334, 2335, 2336]
+	},
+	"Alto Paraguay": {
+		"Name": "Alto Paraguay",
+		"ID": 511,
+		"provinces": [2337, 2338, 2366, 2367]
+	},
+	"Bajo Paraguay": {
+		"Name": "Bajo Paraguay",
+		"ID": 512,
+		"provinces": [2339, 2340, 2341, 2342, 2343]
+	},
+	"Uruguay": {
+		"Name": "Uruguay",
+		"ID": 513,
+		"provinces": [2344, 2345, 2346, 2347]
+	},
+	"Buenos Aires": {
+		"Name": "Buenos Aires",
+		"ID": 514,
+		"provinces": [2348, 2349, 2350, 2351, 2352, 2353, 2354, 2355]
+	},
+	"Corrientes": {
+		"Name": "Corrientes",
+		"ID": 515,
+		"provinces": [2356, 2357, 2358, 2554]
+	},
+	"Santa Fe": {
+		"Name": "Santa Fe",
+		"ID": 516,
+		"provinces": [2359, 2360, 2361, 2362, 2363]
+	},
+	"Chaco": {
+		"Name": "Chaco",
+		"ID": 517,
+		"provinces": [2364, 2365, 2376, 2377, 2378]
+	},
+	"Tucum�n": {
+		"Name": "Tucum�n",
+		"ID": 518,
+		"provinces": [2373, 2374, 2375, 2385, 2386, 2387, 2388]
+	},
+	"La Pampa": {
+		"Name": "La Pampa",
+		"ID": 519,
+		"provinces": [2379, 2380, 2381, 2382, 2383, 2384]
+	},
+	"R�o Negro": {
+		"Name": "R�o Negro",
+		"ID": 520,
+		"provinces": [2389, 2390, 2393, 2395]
+	},
+	"Patagonia Septentrional": {
+		"Name": "Patagonia Septentrional",
+		"ID": 521,
+		"provinces": [2391, 2392, 2394, 2396, 2397]
+	},
+	"Amazonas": {
+		"Name": "Amazonas",
+		"ID": 522,
+		"provinces": [2401, 2403, 2404, 2405, 2407, 2549, 2532]
+	},
+	"Par�": {
+		"Name": "Par�",
+		"ID": 523,
+		"provinces": [2402, 2408, 2412, 2414, 2415]
+	},
+	"Maranh�o": {
+		"Name": "Maranh�o",
+		"ID": 524,
+		"provinces": [2410, 2411, 2413, 2423, 2424, 2425, 2600]
+	},
+	"Mato Grosso": {
+		"Name": "Mato Grosso",
+		"ID": 525,
+		"provinces": [2416, 2417, 2418, 2419, 2420, 2421, 2422, 2550]
+	},
+	"Rio Grande do Norte": {
+		"Name": "Rio Grande do Norte",
+		"ID": 526,
+		"provinces": [2426, 2427, 2429, 2430, 2431]
+	},
+	"Pernambuco": {
+		"Name": "Pernambuco",
+		"ID": 527,
+		"provinces": [2428, 2432, 2433, 2434, 2435]
+	},
+	"Bahia": {
+		"Name": "Bahia",
+		"ID": 528,
+		"provinces": [2436, 2437, 2438, 2439, 2440]
+	},
+	"Minas Gerais": {
+		"Name": "Minas Gerais",
+		"ID": 529,
+		"provinces": [2441, 2442, 2443, 2444, 2445, 2446]
+	},
+	"Rio de Janeiro": {
+		"Name": "Rio de Janeiro",
+		"ID": 530,
+		"provinces": [2447, 2448, 2449]
+	},
+	"Paran�": {
+		"Name": "Paran�",
+		"ID": 531,
+		"provinces": [2457, 2458, 2459, 2460, 2461, 2462]
+	},
+	"Fiji": {
+		"Name": "Fiji",
+		"ID": 532,
+		"provinces": [2454, 2520, 2523, 2548, 2552]
+	},
+	"Rio Grande do Sul": {
+		"Name": "Rio Grande do Sul",
+		"ID": 533,
+		"provinces": [2463, 2464, 2465, 2466, 2467]
+	},
+	"New South Wales": {
+		"Name": "New South Wales",
+		"ID": 534,
+		"provinces": [2468, 2469, 2470, 2471, 2472, 2473, 2474, 2475, 2508]
+	},
+	"Victoria": {
+		"Name": "Victoria",
+		"ID": 535,
+		"provinces": [2476, 2477, 2478, 2479, 2480, 2481, 2482]
+	},
+	"Queensland": {
+		"Name": "Queensland",
+		"ID": 536,
+		"provinces": [2483, 2484, 2485, 2486, 2487, 2488, 2489, 2490, 2604]
+	},
+	"South Australia": {
+		"Name": "South Australia",
+		"ID": 537,
+		"provinces": [2491, 2492, 2493, 2494, 2495, 2496]
+	},
+	"Western Australia": {
+		"Name": "Western Australia",
+		"ID": 538,
+		"provinces": [2497, 2498, 2499, 2500, 2501, 2502, 2503, 2504, 2601, 2602, 2605]
+	},
+	"Northern Territory": {
+		"Name": "Northern Territory",
+		"ID": 539,
+		"provinces": [2505, 2506, 2507, 2603]
+	},
+	"North Island": {
+		"Name": "North Island",
+		"ID": 540,
+		"provinces": [2509, 2510, 2511, 2512, 2571]
+	},
+	"South Island": {
+		"Name": "South Island",
+		"ID": 541,
+		"provinces": [2513, 2514, 2515, 2516]
+	},
+	"Southern New Guinea": {
+		"Name": "Southern New Guinea",
+		"ID": 542,
+		"provinces": [2528, 2529, 2534, 2535, 2536]
+	},
+	"Slavonia": {
+		"Name": "Slavonia",
+		"ID": 543,
+		"provinces": [791, 792, 2538]
+	},
+	"Tonga": {
+		"Name": "Tonga",
+		"ID": 544,
+		"provinces": [2540, 2541, 2543, 2544, 2545, 2546, 2547]
+	},
+	"Coastal Chukotka": {
+		"Name": "Coastal Chukotka",
+		"ID": 545,
+		"provinces": [2590, 2661, 2666, 2637, 2634]
+	},
+	"Lower Yeniseyesk": {
+		"Name": "Lower Yeniseyesk",
+		"ID": 546,
+		"provinces": [2615, 2657, 2658, 2680, 2693]
+	},
+	"Upper Okhotsk": {
+		"Name": "Upper Okhotsk",
+		"ID": 547,
+		"provinces": [2618, 2620, 2638, 2639, 2640]
+	},
+	"North Yakutsk": {
+		"Name": "North Yakutsk",
+		"ID": 548,
+		"provinces": [2619, 2643, 2647, 2665, 2668]
+	},
+	"Inner Chukotka": {
+		"Name": "Inner Chukotka",
+		"ID": 549,
+		"provinces": [2621, 2622, 2660, 2662, 2664]
+	},
+	"North Siberia": {
+		"Name": "North Siberia",
+		"ID": 550,
+		"provinces": [2653, 2654, 2670, 2673, 2674]
+	},
+	"Middle Siberia": {
+		"Name": "Middle Siberia",
+		"ID": 551,
+		"provinces": [2655, 2656, 2675, 2694, 2701]
+	}
+}
+	

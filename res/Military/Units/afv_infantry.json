@@ -27,15 +27,20 @@
         "air_defense": 0.0,
         "air_attack": 0.0,
 
+		"terrain_modifiers": {
+			"forest": {
+				"attack": 0.3,
+				"defense": 0.5,
+				"movement": -0.2
+			}
+		},
+
+		"upgrades_from":[],
+
         "build_goods" : {
 			"luxury_clothes" : 200,
             "ammunition" : 800,
             "tank" : 800
-        },
-        "maintenance" : {
-			"canned_food" : 8,
-            "steel" : 5,
-            "tank" : 5
         }
     }
 }

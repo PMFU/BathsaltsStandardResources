@@ -1,662 +1,765 @@
 {
-    "production_types": {
-        "example_type": {
-            "base_size": 10000,
-            "type": "factory (building type)",
-            "owner": {
-                "poptype": "owner poptype",
-                "stage": "input,throughtput,output",
-                "stage_multiplier": 0
-            },
-            "needs": [
-                { "need_0": 0.5 },
-                { "need_1": 0.05 }
-            ],
-            "worker_types": [
-                {
-                    "max_employee_ratio": 1.0,
-                    "poptype": "employee poptype 1",
-                    "stage": "in/out/throughput",
-                    "stage_multiplier": 0.0
-                }
-            ]
-        },
-        "base_factory_template": {
-            "base_size": 10000,
-            "type": "factory",
-            "owner": {
-                "poptype": "capitalist",
-                "stage": "input",
-                "stage_multiplier": 1.5
-            },
-            "needs": [
-            ],
-            "worker_types": [
-                {
-                    "max_employee_ratio": 0.8,
-                    "poptype": "craftsman",
-                    "stage": "throughput",
-                    "stage_multiplier": 1
-                },
-                {
-                    "max_employee_ratio": 0.2,
-                    "poptype": "clerk",
-                    "stage": "output",
-                    "stage_multiplier": 1.5
-                }
-            ]
-        },
-        "basic_factory_template": {
-            "base_size": 10000,
-            "type": "factory",
-            "owner": {
-                "poptype": "capitalist",
-                "stage": "input",
-                "stage_multiplier": 1.5
-            },
-            "needs": [
-                { "cement": 0.25 }
-            ],
-            "worker_types": [
-                {
-                    "max_employee_ratio": 0.8,
-                    "poptype": "craftsman",
-                    "stage": "throughput",
-                    "stage_multiplier": 1
-                },
-                {
-                    "max_employee_ratio": 0.2,
-                    "poptype": "clerk",
-                    "stage": "output",
-                    "stage_multiplier": 1.5
-                }
-            ]
-        },
-        "rgo_laborer_template": {
-            "base_size": 40000,
-            "type": "rgo",
-            "owner": {
-                "poptype": "aristocrat",
-                "stage": "output",
-                "stage_multiplier": 2.0
-            },
-            "needs": [],
-            "worker_types": [
-                {
-                    "max_employee_ratio": 1,
-                    "poptype": "laborer",
-                    "stage": "throughput",
-                    "stage_multiplier": 1
-                },
-                {
-                    "max_employee_ratio": 1,
-                    "poptype": "slave",
-                    "stage": "output",
-                    "stage_multiplier": 1
-                }
-            ]
-        }
-    },
-    "production": {
-        "example_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "output_good",
-            "output_amount": 2.4,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "example_factory": {
-            "template": "basic_factory_template",
-            "inputs" : [
-                { "input_0": 5.0 },
-                { "input_1": 5.0 }
-            ],
-            "output": "output_good",
-            "output_amount": 5.0,
-            "bonus_conditions": [
-                {
-                    "good": "good_to_check_if_in_state",
-                    "modifier": 0.15
-                }
-            ],
-            "other_flags": 0
-        },
-        "coal_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "coal",
-            "output_amount": 10,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "coffee_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "coffee",
-            "output_amount": 1.5,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "cotton_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "cotton",
-            "output_amount": 2.2,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "dye_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "dye",
-            "output_amount": 0.88,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "fruit_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "fruit",
-            "output_amount": 2.8,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "grain_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "grain",
-            "output_amount": 2.4,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "iron_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "iron",
-            "output_amount": 1.8,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "livestock_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "livestock",
-            "output_amount": 5.0,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "oil_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "oil",
-            "output_amount": 1.0,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "precious_metal_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "precious_metal",
-            "output_amount": 2.0,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "opium_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "opium",
-            "output_amount": 1.0,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "rubber_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "rubber",
-            "output_amount": 0.75,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "silk_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "silk",
-            "output_amount": 0.25,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "sulfur_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "sulfur",
-            "output_amount": 2.0,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "tea_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "tea",
-            "output_amount": 1.75,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "timber_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "timber",
-            "output_amount": 8.0,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "tobacco_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "tobacco",
-            "output_amount": 2.5,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "tropical_wood_rgo": {
-            "template": "rgo_laborer_template",
-            "inputs" : null,
-            "output": "tropical_wood",
-            "output_amount": 4.0,
-            "bonus_conditions": [
-                {
-                    "good": "null",
-                    "modifier": 0.0
-                }
-            ],
-            "other_flags": 0
-        },
-        "cement_factory": {
-            "template": "base_factory_template",
-            "inputs" : [
-                { "coal": 12.0 }
-            ],
-            "output": "cement",
-            "output_amount": 4.0,
-            "bonus_conditions": [
-                {
-                    "good": "coal",
-                    "modifier": 0.25
-                }
-            ],
-            "other_flags": 0
-        },
-        "steel_factory": {
-            "template": "basic_factory_template",
-            "inputs" : [
-                { "iron": 20.0 },
-                { "coal": 5.0 }
-            ],
-            "output": "steel",
-            "output_amount": 20.0,
-            "bonus_conditions": [
-                {
-                    "good": "coal",
-                    "modifier": 0.125
-                },
-                {
-                    "good": "iron",
-                    "modifier": 0.125
-                }
-            ],
-            "other_flags": 0
-        },
-        "machine_parts_factory": {
-            "template": "basic_factory_template",
-            "inputs" : [
-                { "steel": 9.0 }
-            ],
-            "output": "machine_parts",
-            "output_amount": 2.0,
-            "bonus_conditions": [
-                {
-                    "good": "coal",
-                    "modifier": 0.125
-                },
-                {
-                    "good": "steel",
-                    "modifier": 0.25
-                }
-            ],
-            "other_flags": 0
-        },
-        "beverage_factory": {
-            "template": "basic_factory_template",
-            "inputs" : [
-                { "glass": 4.0 },
-                { "grain": 5.0 }
-            ],
-            "output": "beverage",
-            "output_amount": 6.0,
-            "bonus_conditions": [
-                {
-                    "good": "glass",
-                    "modifier": 0.15
-                },
-                {
-                    "good": "grain",
-                    "modifier": 0.1
-                }
-            ],
-            "other_flags": 0
-        },
-        "glass_factory": {
-            "template": "basic_factory_template",
-            "inputs" : [
-                { "coal": 14.0 }
-            ],
-            "output": "glass",
-            "output_amount": 18.0,
-            "bonus_conditions": [
-                {
-                    "good": "coal",
-                    "modifier": 0.15
-                }
-            ],
-            "other_flags": 0
-        },
-        "fabric_factory": {
-            "template": "basic_factory_template",
-            "inputs" : [
-                { "cotton": 18.0 },
-                { "dye": 2.0 }
-            ],
-            "output": "fabric",
-            "output_amount": 45.0,
-            "bonus_conditions": [
-                {
-                    "good": "cotton",
-                    "modifier": 0.15
-                },
-                {
-                    "good": "dye",
-                    "modifier": 0.25
-                }
-            ],
-            "other_flags": 0
-        },
-        "clothes_factory": {
-            "template": "basic_factory_template",
-            "inputs" : [
-                { "fabric": 40.0 }
-            ],
-            "output": "clothes",
-            "output_amount": 18.0,
-            "bonus_conditions": [
-                {
-                    "good": "fabric",
-                    "modifier": 0.25
-                },
-                {
-                    "good": "dye",
-                    "modifier": 0.25
-                }
-            ],
-            "other_flags": 0
-        },
-        "fertilizer_factory": {
-            "template": "basic_factory_template",
-            "inputs" : [
-                { "sulfur": 60.0 }
-            ],
-            "output": "fertilizer",
-            "output_amount": 5.0,
-            "bonus_conditions": [
-                {
-                    "good": "sulfur",
-                    "modifier": 0.25
-                }
-            ],
-            "other_flags": 0
-        }
-    },
-    "artisan_production": {
-        "artisan_paper": {
-            "needs": [
-                { "timber": 20 }
-            ],
-            "output": "paper",
-            "output_amount": 20.0,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        },
-        "artisan_fabric": {
-            "needs": [
-                { "cotton": 8.0 },
-                { "dye": 1.2 }
-            ],
-            "output": "fabric",
-            "output_amount": 45.0,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        },
-        "artisan_clothes": {
-            "needs": [
-                { "cotton": 8.3 },
-                { "dye": 1.0 }
-            ],
-            "output": "clothes",
-            "output_amount": 15.0,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        },
-        "artisan_glass": {
-            "needs": [
-                { "coal": 5.0 }
-            ],
-            "output": "glass",
-            "output_amount": 18.0,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        },
-        "artisan_beverage": {
-            "needs": [
-                { "glass": 1.0 },
-                { "grain": 2.5 }
-            ],
-            "output": "beverage",
-            "output_amount": 5.0,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        },
-        "artisan_fertilizer": {
-            "needs": [
-                { "sulfur": 2.5 }
-            ],
-            "output": "fertilizer",
-            "output_amount": 5.0,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        },
-        "artisan_lumber": {
-            "needs": [
-                { "timber": 50.0 }
-            ],
-            "output": "lumber",
-            "output_amount": 110.0,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        },
-        "artisan_small_arms": {
-            "needs": [
-                { "iron": 2.0 },
-                { "coal": 0.1},
-                { "sulfur" : 0.1}
-            ],
-            "output": "small_arms",
-            "output_amount": 3.0,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        },
-        "artisan_ammunition": {
-            "needs": [
-                { "iron": 2.0 },
-                { "coal": 0.6 },
-                { "sulfur": 0.6 }
-            ],
-            "output": "ammunition",
-            "output_amount": 10.0,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        },
-        "artisan_wine": {
-            "needs": [
-                { "glass": 3.0 },
-                { "fruit": 5.0 }
-            ],
-            "output": "wine",
-            "output_amount": 7.0,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        },
-        "artisan_machine_part": {
-            "needs": [
-                { "iron": 7.0 },
-                { "coal": 3.0 }
-            ],
-            "output": "machine_parts",
-            "output_amount": 2.0,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        },
-        "artisan_furniture": {
-            "needs": [
-                { "timber": 16.0 }
-            ],
-            "output": "furniture",
-            "output_amount": 10.0,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        },
-        "artisan_furniture_lux": {
-            "needs": [
-                { "timber": 1.7 },
-                { "tropical_wood": 3.5 }
-            ],
-            "output": "luxury_furniture",
-            "output_amount": 1.1,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        },
-        "artisan_clothes_lux": {
-            "needs": [
-                { "cotton": 0.2 },
-                { "dye": 0.1},
-                { "silk": 2.0 }
-            ],
-            "output": "luxury_clothes",
-            "output_amount": 1.0,
-            "type": "artisan",
-            "base_size": 60000,
-            "poptype": "artisan"
-        }
-    }
+	"production_types": {
+		"example_type": {
+			"base_size": 10000,
+			"type": "factory (building type)",
+			"owner": {
+				"poptype": "owner poptype",
+				"stage": "input,throughtput,output",
+				"stage_multiplier": 0
+			},
+			"needs": [
+				{ "need_0": 0.5 },
+				{ "need_1": 0.05 }
+			],
+			"worker_types": [
+				{
+					"max_employee_ratio": 1.0,
+					"poptype": "employee poptype 1",
+					"stage": "in/out/throughput",
+					"stage_multiplier": 0.0
+				}
+			]
+		},
+		"base_factory_template": {
+			"base_size": 10000,
+			"type": "factory",
+			"owner": {
+				"poptype": "capitalist",
+				"stage": "input",
+				"stage_multiplier": 1.5
+			},
+			"needs": [
+			],
+			"worker_types": [
+				{
+					"max_employee_ratio": 0.8,
+					"poptype": "craftsman",
+					"stage": "throughput",
+					"stage_multiplier": 1
+				},
+				{
+					"max_employee_ratio": 0.2,
+					"poptype": "clerk",
+					"stage": "output",
+					"stage_multiplier": 1.5
+				}
+			]
+		},
+		"basic_factory_template": {
+			"base_size": 10000,
+			"type": "factory",
+			"owner": {
+				"poptype": "capitalist",
+				"stage": "input",
+				"stage_multiplier": 1.5
+			},
+			"needs": [
+				{ "cement": 0.25 }
+			],
+			"worker_types": [
+				{
+					"max_employee_ratio": 0.8,
+					"poptype": "craftsman",
+					"stage": "throughput",
+					"stage_multiplier": 1
+				},
+				{
+					"max_employee_ratio": 0.2,
+					"poptype": "clerk",
+					"stage": "output",
+					"stage_multiplier": 1.5
+				}
+			]
+		},
+		"rgo_laborer_template": {
+			"base_size": 40000,
+			"type": "rgo",
+			"owner": {
+				"poptype": "aristocrat",
+				"stage": "output",
+				"stage_multiplier": 2.0
+			},
+			"needs": [],
+			"worker_types": [
+				{
+					"max_employee_ratio": 1,
+					"poptype": "laborer",
+					"stage": "throughput",
+					"stage_multiplier": 1
+				},
+				{
+					"max_employee_ratio": 1,
+					"poptype": "slave",
+					"stage": "output",
+					"stage_multiplier": 1
+				}
+			]
+		}
+	},
+	"production": {
+		"example_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "output_good",
+			"output_amount": 2.4,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"example_factory": {
+			"template": "basic_factory_template",
+			"inputs" : [
+				{ "input_0": 5.0 },
+				{ "input_1": 5.0 }
+			],
+			"output": "output_good",
+			"output_amount": 5.0,
+			"bonus_conditions": [
+				{
+					"good": "good_to_check_if_in_state",
+					"modifier": 0.15
+				}
+			],
+			"other_flags": 0
+		},
+		"coal_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "coal",
+			"output_amount": 10,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"coffee_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "coffee",
+			"output_amount": 1.5,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"cotton_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "cotton",
+			"output_amount": 2.2,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"dye_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "dye",
+			"output_amount": 0.88,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"fruit_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "fruit",
+			"output_amount": 2.8,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"grain_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "grain",
+			"output_amount": 2.4,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"iron_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "iron",
+			"output_amount": 1.8,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"livestock_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "livestock",
+			"output_amount": 5.0,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"oil_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "oil",
+			"output_amount": 1.0,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"precious_metal_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "precious_metal",
+			"output_amount": 2.0,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"opium_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "opium",
+			"output_amount": 1.0,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"rubber_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "rubber",
+			"output_amount": 0.75,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"silk_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "silk",
+			"output_amount": 0.25,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"sulfur_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "sulfur",
+			"output_amount": 2.0,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"tea_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "tea",
+			"output_amount": 1.75,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"timber_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "timber",
+			"output_amount": 8.0,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"tobacco_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "tobacco",
+			"output_amount": 2.5,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"tropical_wood_rgo": {
+			"template": "rgo_laborer_template",
+			"inputs" : null,
+			"output": "tropical_wood",
+			"output_amount": 4.0,
+			"bonus_conditions": [
+				{
+					"good": "null",
+					"modifier": 0.0
+				}
+			],
+			"other_flags": 0
+		},
+		"cement_factory": {
+			"template": "base_factory_template",
+			"inputs" : [
+				{ "coal": 12.0 }
+			],
+			"output": "cement",
+			"output_amount": 4.0,
+			"bonus_conditions": [
+				{
+					"good": "coal",
+					"modifier": 0.25
+				}
+			],
+			"other_flags": 0
+		},
+		"steel_factory": {
+			"template": "basic_factory_template",
+			"inputs" : [
+				{ "iron": 20.0 },
+				{ "coal": 5.0 }
+			],
+			"output": "steel",
+			"output_amount": 20.0,
+			"bonus_conditions": [
+				{
+					"good": "coal",
+					"modifier": 0.125
+				},
+				{
+					"good": "iron",
+					"modifier": 0.125
+				}
+			],
+			"other_flags": 0
+		},
+		"machine_parts_factory": {
+			"template": "basic_factory_template",
+			"inputs" : [
+				{ "steel": 9.0 }
+			],
+			"output": "machine_parts",
+			"output_amount": 2.0,
+			"bonus_conditions": [
+				{
+					"good": "coal",
+					"modifier": 0.125
+				},
+				{
+					"good": "steel",
+					"modifier": 0.25
+				}
+			],
+			"other_flags": 0
+		},
+		"beverage_factory": {
+			"template": "basic_factory_template",
+			"inputs" : [
+				{ "glass": 4.0 },
+				{ "grain": 5.0 }
+			],
+			"output": "beverage",
+			"output_amount": 6.0,
+			"bonus_conditions": [
+				{
+					"good": "glass",
+					"modifier": 0.15
+				},
+				{
+					"good": "grain",
+					"modifier": 0.1
+				}
+			],
+			"other_flags": 0
+		},
+		"glass_factory": {
+			"template": "basic_factory_template",
+			"inputs" : [
+				{ "coal": 14.0 }
+			],
+			"output": "glass",
+			"output_amount": 18.0,
+			"bonus_conditions": [
+				{
+					"good": "coal",
+					"modifier": 0.15
+				}
+			],
+			"other_flags": 0
+		},
+		"fabric_factory": {
+			"template": "basic_factory_template",
+			"inputs" : [
+				{ "cotton": 18.0 },
+				{ "dye": 2.0 }
+			],
+			"output": "fabric",
+			"output_amount": 45.0,
+			"bonus_conditions": [
+				{
+					"good": "cotton",
+					"modifier": 0.15
+				},
+				{
+					"good": "dye",
+					"modifier": 0.25
+				}
+			],
+			"other_flags": 0
+		},
+		"clothes_factory": {
+			"template": "basic_factory_template",
+			"inputs" : [
+				{ "fabric": 40.0 }
+			],
+			"output": "clothes",
+			"output_amount": 18.0,
+			"bonus_conditions": [
+				{
+					"good": "fabric",
+					"modifier": 0.25
+				},
+				{
+					"good": "dye",
+					"modifier": 0.25
+				}
+			],
+			"other_flags": 0
+		},
+		"fertilizer_factory": {
+			"template": "basic_factory_template",
+			"inputs" : [
+				{ "sulfur": 60.0 }
+			],
+			"output": "fertilizer",
+			"output_amount": 5.0,
+			"bonus_conditions": [
+				{
+					"good": "sulfur",
+					"modifier": 0.25
+				}
+			],
+			"other_flags": 0
+		},
+		"ammunition_factory": {
+			"template": "basic_factory_template",
+			"inputs": [
+				{ "iron": 2.0 },
+				{ "coal": 0.6 },
+				{ "sulfur": 0.6 }
+			],
+			"output": "ammunition",
+			"output_amount": 10.0,
+			"bonus_conditions": [
+				{
+					"good": "sulfur",
+					"modifier": 0.25
+				},
+				{
+					"good" : "fertilizer",
+					"modifier" : 0.3
+				}
+			],
+			"other_flags": 0
+		},
+		"wine_factory": {
+			"template": "basic_factory_template",
+			"inputs": [
+				{ "glass": 2.5 },
+				{ "fruit": 5.0 }
+			],
+			"output": "wine",
+			"output_amount": 7.0,
+			"bonus_conditions": [
+				{
+					"good": "glass",
+					"modifier": 0.1
+				},
+				{
+					"good": "fruit",
+					"modifier": 0.2
+				}
+			],
+			"other_flags": 0
+		},
+		"paper_factory": {
+			"template": "basic_factory_template",
+			"inputs": [
+				{ "timber": 18 }
+			],
+			"output": "paper",
+			"output_amount": 20.0,
+			"bonus_conditions": [
+				{
+					"good": "timber",
+					"modifier": 0.25
+				},
+				{
+					"good": "lumber",
+					"modifier": 0.15
+				}
+			],
+			"other_flags": 0
+		},
+		"furniture_factory": {
+			"template": "basic_factory_template",
+			"inputs": [
+				{ "timber": 16.0 }
+			],
+			"output": "furniture",
+			"output_amount": 10.0,
+			"bonus_conditions": [
+				{
+					"good": "lumber",
+					"modifier": 0.2
+				},
+				{
+					"good": "iron",
+					"modifier": 0.05
+				},
+				{
+					"good": "timber",
+					"modifier": 0.1
+				}
+			],
+			"other_flags": 0
+		},
+		"luxury_furniture_factory": {
+			"template": "basic_factory_template",
+			"inputs": [
+				{ "timber": 1.7 },
+				{ "tropical_wood": 3.5 }
+			],
+			"output": "luxury_furniture",
+			"output_amount": 1.1,
+			"bonus_conditions": [
+				{
+					"good": "furniture",
+					"modifier": 0.2
+				},
+				{
+					"good": "dye",
+					"modifier": 0.1
+				}
+			],
+			"other_flags": 0
+		}
+	},
+	"artisan_production": {
+		"artisan_paper": {
+			"needs": [
+				{ "timber": 20 }
+			],
+			"output": "paper",
+			"output_amount": 20.0,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		},
+		"artisan_fabric": {
+			"needs": [
+				{ "cotton": 8.0 },
+				{ "dye": 1.2 }
+			],
+			"output": "fabric",
+			"output_amount": 45.0,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		},
+		"artisan_clothes": {
+			"needs": [
+				{ "cotton": 8.3 },
+				{ "dye": 1.0 }
+			],
+			"output": "clothes",
+			"output_amount": 15.0,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		},
+		"artisan_glass": {
+			"needs": [
+				{ "coal": 5.0 }
+			],
+			"output": "glass",
+			"output_amount": 18.0,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		},
+		"artisan_beverage": {
+			"needs": [
+				{ "glass": 1.0 },
+				{ "grain": 2.5 }
+			],
+			"output": "beverage",
+			"output_amount": 5.0,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		},
+		"artisan_fertilizer": {
+			"needs": [
+				{ "sulfur": 2.5 }
+			],
+			"output": "fertilizer",
+			"output_amount": 5.0,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		},
+		"artisan_lumber": {
+			"needs": [
+				{ "timber": 50.0 }
+			],
+			"output": "lumber",
+			"output_amount": 110.0,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		},
+		"artisan_small_arms": {
+			"needs": [
+				{ "iron": 2.0 },
+				{ "coal": 0.1},
+				{ "sulfur" : 0.1}
+			],
+			"output": "small_arms",
+			"output_amount": 3.0,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		},
+		"artisan_ammunition": {
+			"needs": [
+				{ "iron": 2.0 },
+				{ "coal": 0.6 },
+				{ "sulfur": 0.6 }
+			],
+			"output": "ammunition",
+			"output_amount": 10.0,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		},
+		"artisan_wine": {
+			"needs": [
+				{ "glass": 3.0 },
+				{ "fruit": 5.0 }
+			],
+			"output": "wine",
+			"output_amount": 7.0,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		},
+		"artisan_machine_parts": {
+			"needs": [
+				{ "iron": 7.0 },
+				{ "coal": 3.0 }
+			],
+			"output": "machine_parts",
+			"output_amount": 2.0,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		},
+		"artisan_furniture": {
+			"needs": [
+				{ "timber": 16.0 }
+			],
+			"output": "furniture",
+			"output_amount": 10.0,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		},
+		"artisan_furniture_lux": {
+			"needs": [
+				{ "timber": 1.7 },
+				{ "tropical_wood": 3.5 }
+			],
+			"output": "luxury_furniture",
+			"output_amount": 1.1,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		},
+		"artisan_clothes_lux": {
+			"needs": [
+				{ "cotton": 0.2 },
+				{ "dye": 0.1},
+				{ "silk": 2.0 }
+			],
+			"output": "luxury_clothes",
+			"output_amount": 1.0,
+			"type": "artisan",
+			"base_size": 60000,
+			"poptype": "artisan"
+		}
+	}
 }

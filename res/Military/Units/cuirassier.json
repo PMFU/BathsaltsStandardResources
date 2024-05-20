@@ -1,7 +1,7 @@
 {
-    "cuirassier_1": {
+    "cuirassier_regiment_1": {
         "model_path" : "Models/pdx_infantry2.obj",
-        "brigade_tag" : "cuirassier_1",
+        "brigade_tag" : "cuirassier_regiment_1",
         "spriteTextureID": 1,
 
         "suppression": 2.0, 
@@ -17,7 +17,7 @@
 	    "hard_attack": 5.0, 
 	    "defense": 13.0,
 	    "organization": 40.0,
-        "strength": 3000,
+        "strength": 1000,
 	    "max_speed": 7.0, 
 	    "reconnaissance": 3.0, 
 	    "max_entrenchment": 1.0,
@@ -26,14 +26,17 @@
 	    "maneuver": 5.0,
         "air_defense": 0.0,
         "air_attack": 0.0,
-
+		"terrain_modifiers": {
+			"forest": {
+				"attack": 0.3,
+				"defense": 0.5,
+				"movement": -0.2
+			}
+		},
+		"upgrades_from":[],
         "build_goods" : {
             "grain" : 700,
 			"luxury_clothes" : 600
-        },
-        "maintenance" : {
-			"grain" : 10,
-			"canned_food" : 8
         }
     }
 }

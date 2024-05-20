@@ -1,0 +1,50 @@
+[
+    {
+        "categories": [
+            "MTopic1",
+            "MTopic5",
+            "MTopic3",
+            "MTopic4",
+            "MTopic2",
+            "MTopic6"
+        ],
+        "desc_key": "MIL_TECH_CAT_DESC",
+        "folder_name": "Military"
+    },
+    {
+        "categories": [
+            "Financial Institutions",
+            "Monetary System",
+            "Economic Thought and Critique",
+            "Market Functionality",
+            "Organization",
+            "CTopic6"
+        ],
+        "desc_key": "COM_TECH_CAT_DESC",
+        "folder_name": "Commerce"
+    },
+    {
+        "categories": [
+            "Aesthetics",
+            "Philosophy",
+            "Social Thought",
+            "Political Thought",
+            "Psychology",
+            "CtTopic6"
+        ],
+        "desc_key": "CULT_TECH_CAT_DESC",
+        "folder_name": "Culture"
+    },
+    {
+        "categories": [
+            "Power",
+            "Mechanization",
+            "Metallurgy",
+            "Infrastructure",
+            "Chemistry and Electricity",
+            "ITopic6"
+        ],
+        "desc_key": "INDUS_TECH_CAT_DESC",
+        "folder_name": "Industry"
+    }
+]

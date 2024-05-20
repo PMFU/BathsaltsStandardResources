@@ -1,0 +1,12 @@
+{
+	"name" : "EP_NAME",
+	"desc" : "EP_DESC",
+	"date" : {
+		"year" : 1836,
+		"day" : 1
+	},
+	"camX" : -10.0,
+	"camY" : -4.0,
+
+	"other":""
+}

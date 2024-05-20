@@ -1,7 +1,7 @@
 {
-    "irregular_1": {
+    "irregular_regiment_1": {
         "model_path": "Models/pdx_infantry2.obj",
-        "brigade_tag": "irregular_1",
+        "brigade_tag": "irregular_regiment_1",
         "spriteTextureID": 1,
 
         "suppression": 1.0, 
@@ -17,7 +17,7 @@
         "hard_attack": 1.0, 
         "defense": 6.0,
         "organization": 40.0,
-        "strength": 6000,
+        "strength": 1500,
         "max_speed": 4.0, 
         "reconnaissance": 0.0, 
         "max_entrenchment": 1.0,
@@ -26,15 +26,18 @@
         "maneuver": 1.0,
         "air_defense": 0.33,
         "air_attack": 0.0,
-
+        "terrain_modifiers": {
+			"forest": {
+				"attack": 0.3,
+				"defense": 0.5,
+				"movement": -0.2
+			}
+		},
+        "upgrades_from":[],
         "build_goods" : {
             "grain": 500,
             "clothes": 200,
             "small_arms": 200
-        },
-        "maintenance" : {
-            "grain": 10,
-            "small_arms": 20
         }
     }
 }

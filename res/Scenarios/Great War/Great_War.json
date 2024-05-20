@@ -1,0 +1,12 @@
+{
+	"name" : "GW_NAME",
+	"desc" : "GW_DESC",
+	"date" : {
+		"year" : 1914,
+		"day" : 1
+	},
+	"camX" : 1.0,
+	"camY" : -4.0,
+
+	"other":""
+}

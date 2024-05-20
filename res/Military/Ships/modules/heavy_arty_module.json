@@ -1,0 +1,29 @@
+{
+    "heavy_battery_1_module" : 
+    {
+        "slot": "primary_armament",
+        "build_goods" : {
+            "artillery" : 50
+        },
+        "manpower" : 100,
+        "stats": []
+    },
+    "heavy_battery_2_module" : 
+    {
+        "slot": "primary_armament",
+        "build_goods" : {
+            "artillery" : 80
+        },
+        "manpower" : 150,
+        "stats": []
+    },
+    "heavy_battery_3_module" : 
+    {
+        "slot": "primary_armament",
+        "build_goods" : {
+            "artillery" :120
+        },
+        "manpower" : 250,
+        "stats": []
+    }
+}

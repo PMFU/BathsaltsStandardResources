@@ -1,0 +1,12 @@
+{
+    "sails_module":
+    {
+        "slot": "engine_augment",
+        "goods_required" : {
+            "machine_parts" : 50,
+            "fabric" : 200
+        },
+        "manpower" : 100,
+        "stats": []
+    }
+}

@@ -1,7 +1,7 @@
 {
-	"artillery_1": {
+	"artillery_regiment_1": {
 		"model_path": "Models/pdx_infantry2.obj",
-		"brigade_tag": "artillery_1",
+		"brigade_tag": "artillery_regiment_1",
 		"spriteTextureID": 1,
 
 		"suppression": 1.0, 
@@ -17,7 +17,7 @@
 		"hard_attack": 6.0, 
 		"defense": 14.0,
 		"organization": 30.0,
-		"strength": 1000,
+		"strength": 400,
 		"max_speed": 4.0, 
 		"reconnaissance": 0.0,
 		"max_entrenchment": 1.0,
@@ -26,16 +26,18 @@
 		"maneuver": 1.0,
 		"air_defense": 0.33,
 		"air_attack": 0.0,
-
+		"terrain_modifiers": {
+			"forest": {
+				"attack": 0.3,
+				"defense": 0.5,
+				"movement": -0.2
+			}
+		},
+		"upgrades_from":[],
 		"build_goods" : {
 			"artillery" : 72,
 			"luxury_clothes" : 100,
 			"ammunition" : 100
-		},
-		"maintenance" : {
-			"fabric": 1,
-			"ammunition" : 15,
-			"canned_food" : 3
 		}
 	}
 }

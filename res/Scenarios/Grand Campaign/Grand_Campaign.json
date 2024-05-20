@@ -1,0 +1,12 @@
+{
+	"name" : "GC_NAME",
+	"desc" : "GC_DESC",
+	"date" : {
+		"year" : 1836,
+		"day" : 1
+	},
+	"camX" : 1.0,
+	"camY" : -4.0,
+
+	"other":""
+}

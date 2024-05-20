@@ -1,0 +1,29 @@
+{
+    "light_battery_1_module" : 
+    {
+        "slot": "primary_armament",
+        "goods_required" : {
+            "artillery" : 20
+        },
+        "manpower" : 50,
+        "stats": []
+    },
+    "light_battery_2_module" : 
+    {
+        "slot": "primary_armament",
+        "goods_required" : {
+            "artillery" : 40
+        },
+        "manpower" : 80,
+        "stats": []
+    },
+    "light_battery_3_module" : 
+    {
+        "slot": "primary_armament",
+        "goods_required" : {
+                "artillery" : 60
+        },
+        "manpower" : 120,
+        "stats": []
+    }
+}

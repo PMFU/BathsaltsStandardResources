@@ -1,7 +1,7 @@
 {
-    "dragoon_1": {
+    "dragoon_regiment_1": {
         "model_path" : "Models/pdx_infantry2.obj",
-        "brigade_tag" : "dragoon_1",
+        "brigade_tag" : "dragoon_regiment_1",
         "spriteTextureID": 1,
 
         "suppression": 1.0, 
@@ -17,7 +17,7 @@
 	    "hard_attack": 4.0, 
 	    "defense": 11.0,
 	    "organization": 40.0,
-        "strength": 4500,
+        "strength": 1200,
 	    "max_speed": 5.0, 
 	    "reconnaissance": 1.0, 
 	    "max_entrenchment": 1.0,
@@ -26,17 +26,19 @@
 	    "maneuver": 3.0,
         "air_defense": 0.0,
         "air_attack": 0.0,
-
+		"terrain_modifiers": {
+			"forest": {
+				"attack": 0.3,
+				"defense": 0.5,
+				"movement": -0.2
+			}
+		},
+		"upgrades_from":[],
         "build_goods" : {
             "grain" : 600,
 			"luxury_clothes" : 600,
             "small_arms" : 600,
             "ammunition" : 600
-        },
-        "maintenance" : {
-			"grain" : 6,
-			"canned_food" : 5,
-            "small_arms" : 6
         }
     }
 }

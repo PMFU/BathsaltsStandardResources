@@ -1,6 +1,7 @@
 {
 	"aristocrat": {
 		"ID": 11,
+		"flags" : ["is_aristocrat"],
 		"everyday_needs": {
 			"coal": 1.0,
 			"coffee": 5.0,
@@ -29,10 +30,29 @@
 			"steamer": 2.0,
 			"telephone": 10.0
 		},
+		"values": {
+			"conscription": 0.1,
+			"reservists": 0.1,
+			"upper_tax": 0.7,
+			"middle_tax": 0.4,
+			"lower_tax": 0.1,
+			"upper_voting": 0.8,
+			"middle_voting": 0.3,
+			"lower_voting": 0.1,
+			"meetings_allowed": 0.3,
+			"political_representation": 0.4,
+			"opposition_parties_allowed": 0.6,
+			"opposition_party_suppression": 0.5,
+			"free_press": 0.3,
+			"citizenship_extension": 0.2,
+			"education": 0.6,
+			"slavery": 0.1
+		},
 		"strata": "rich"
 	},
 	"artisan": {
 		"ID": 5,
+		"flags" : ["is_artisan"],
 		"everyday_needs": {
 			"coal": 1.0,
 			"furniture": 4.0,
@@ -61,11 +81,30 @@
 			"radio": 1.0,
 			"telephone": 1.25,
 			"wine": 10.0
+		},
+		"values": {
+			"conscription": 0.1,
+			"reservists": 0.1,
+			"upper_tax": 0.7,
+			"middle_tax": 0.4,
+			"lower_tax": 0.1,
+			"upper_voting": 0.8,
+			"middle_voting": 0.3,
+			"lower_voting": 0.1,
+			"meetings_allowed": 0.3,
+			"political_representation": 0.4,
+			"opposition_parties_allowed": 0.6,
+			"opposition_party_suppression": 0.5,
+			"free_press": 0.3,
+			"citizenship_extension": 0.2,
+			"education": 0.6,
+			"slavery": 0.1
 		},
 		"strata": "middle"
 	},
 	"bureaucrat": {
 		"ID": 9,
+		"flags" : ["is_administrator"],
 		"everyday_needs": {
 			"coal": 1.0,
 			"furniture": 4.0,
@@ -95,10 +134,29 @@
 			"telephone": 1.25,
 			"wine": 10.0
 		},
+		"values": {
+			"conscription": 0.1,
+			"reservists": 0.1,
+			"upper_tax": 0.7,
+			"middle_tax": 0.4,
+			"lower_tax": 0.1,
+			"upper_voting": 0.8,
+			"middle_voting": 0.3,
+			"lower_voting": 0.1,
+			"meetings_allowed": 0.3,
+			"political_representation": 0.4,
+			"opposition_parties_allowed": 0.6,
+			"opposition_party_suppression": 0.5,
+			"free_press": 0.3,
+			"citizenship_extension": 0.2,
+			"education": 0.6,
+			"slavery": 0.1
+		},
 		"strata": "middle"
 	},
 	"capitalist": {
 		"ID": 10,
+		"flags" : ["is_capitalist"],
 		"everyday_needs": {
 			"coal": 20.0,
 			"coffee": 20.0,
@@ -129,10 +187,29 @@
 			"steamer": 2.0,
 			"telephone": 20.0
 		},
+		"values": {
+			"conscription": 0.1,
+			"reservists": 0.1,
+			"upper_tax": 0.7,
+			"middle_tax": 0.4,
+			"lower_tax": 0.1,
+			"upper_voting": 0.8,
+			"middle_voting": 0.3,
+			"lower_voting": 0.1,
+			"meetings_allowed": 0.3,
+			"political_representation": 0.4,
+			"opposition_parties_allowed": 0.6,
+			"opposition_party_suppression": 0.5,
+			"free_press": 0.3,
+			"citizenship_extension": 0.2,
+			"education": 0.6,
+			"slavery": 0.1
+		},
 		"strata": "rich"
 	},
 	"clerk": {
 		"ID": 8,
+		"flags" : [],
 		"everyday_needs": {
 			"coal": 1.0,
 			"furniture": 4.0,
@@ -162,10 +239,29 @@
 			"telephone": 1.25,
 			"wine": 10.0
 		},
+		"values": {
+			"conscription": 0.1,
+			"reservists": 0.1,
+			"upper_tax": 0.7,
+			"middle_tax": 0.4,
+			"lower_tax": 0.1,
+			"upper_voting": 0.8,
+			"middle_voting": 0.3,
+			"lower_voting": 0.1,
+			"meetings_allowed": 0.3,
+			"political_representation": 0.4,
+			"opposition_parties_allowed": 0.6,
+			"opposition_party_suppression": 0.5,
+			"free_press": 0.3,
+			"citizenship_extension": 0.2,
+			"education": 0.6,
+			"slavery": 0.1
+		},
 		"strata": "middle"
 	},
 	"craftsman": {
 		"ID": 4,
+		"flags" : ["is_mobilizable"],
 		"everyday_needs": {
 			"coal": 1.0,
 			"furniture": 3.0,
@@ -192,11 +288,30 @@
 			"telephone": 1.0,
 			"tobacco": 0.95
 		},
+		"values": {
+			"conscription": 0.1,
+			"reservists": 0.1,
+			"upper_tax": 0.7,
+			"middle_tax": 0.4,
+			"lower_tax": 0.1,
+			"upper_voting": 0.8,
+			"middle_voting": 0.3,
+			"lower_voting": 0.1,
+			"meetings_allowed": 0.3,
+			"political_representation": 0.4,
+			"opposition_parties_allowed": 0.6,
+			"opposition_party_suppression": 0.5,
+			"free_press": 0.3,
+			"citizenship_extension": 0.2,
+			"education": 0.6,
+			"slavery": 0.1
+		},
 		"strata": "poor"
 	},
 	
 	"intellectual": {
 		"ID": 7,
+		"flags" : ["is_educator"],
 		"everyday_needs": {
 			"coal": 1.0,
 			"furniture": 4.0,
@@ -226,10 +341,31 @@
 			"telephone": 1.25,
 			"wine": 10.0
 		},
+		"values": {
+			"conscription": 0.1,
+			"reservists": 0.1,
+			"upper_tax": 0.7,
+			"middle_tax": 0.4,
+			"lower_tax": 0.1,
+			"upper_voting": 0.8,
+			"middle_voting": 0.3,
+			"lower_voting": 0.1,
+			"meetings_allowed": 0.3,
+			"political_representation": 0.4,
+			"opposition_parties_allowed": 0.6,
+			"opposition_party_suppression": 0.5,
+			"free_press": 0.3,
+			"citizenship_extension": 0.2,
+			"education": 0.6,
+			"slavery": 0.1
+		},
 		"strata": "middle"
 	},
 	"laborer": {
 		"ID": 2,
+		"flags" : ["is_mobilizable"],
+		"color" : [100, 100, 100],
+		"sprite_name" : "laborer",
 		"everyday_needs": {
 			"coal": 1.0,
 			"explosives": 0.25,
@@ -257,10 +393,39 @@
 			"telephone": 1.0,
 			"tobacco": 0.95
 		},
+		"values": {
+			"conscription": 0.1,
+			"reservists": 0.1,
+			"upper_tax": 0.7,
+			"middle_tax": 0.4,
+			"lower_tax": 0.1,
+			"upper_voting": 0.8,
+			"middle_voting": 0.3,
+			"lower_voting": 0.1,
+			"meetings_allowed": 0.3,
+			"political_representation": 0.4,
+			"opposition_parties_allowed": 0.6,
+			"opposition_party_suppression": 0.5,
+			"free_press": 0.3,
+			"citizenship_extension": 0.2,
+			"education": 0.6,
+			"slavery": 0.1
+		},
+		"promote_factors":{
+			"soldier" : 2,
+			"officer" : 2,
+			"aristocrat" : 2,
+			"craftsman" : 2,
+			"intellectual" : 2,
+			"bureaucrat" : 2,
+			"artisan" : 2
+		},
+		"demote_factors": {},
 		"strata": "poor"
 	},
 	"officer": {
 		"ID": 6,
+		"flags" : ["is_officer"],
 		"everyday_needs": {
 			"coal": 1.0,
 			"furniture": 4.0,
@@ -290,10 +455,45 @@
 			"telephone": 1.25,
 			"wine": 10.0
 		},
+		"values": {
+			"conscription": 0.1,
+			"reservists": 0.1,
+			"upper_tax": 0.7,
+			"middle_tax": 0.4,
+			"lower_tax": 0.1,
+			"upper_voting": 0.8,
+			"middle_voting": 0.3,
+			"lower_voting": 0.1,
+			"meetings_allowed": 0.3,
+			"political_representation": 0.4,
+			"opposition_parties_allowed": 0.6,
+			"opposition_party_suppression": 0.5,
+			"free_press": 0.3,
+			"citizenship_extension": 0.2,
+			"education": 0.6,
+			"slavery": 0.1
+		},
+		"promote_factors":{
+			"soldier" : 2,
+			"officer" : 2,
+			"aristocrat" : 2,
+			"craftsman" : 2,
+			"intellectual" : 2,
+			"bureaucrat" : 2,
+			"artisan" : 2
+		},
+		"demote_factors": {
+			"soldier": 2,
+			"aristocrat": 1,
+			"intellectual": 1,
+			"bureaucrat": 1,
+			"laborer": 2
+		},
 		"strata": "middle"
 	},
 	"slave": {
 		"ID": 1,
+		"flags" : ["is_slave"],
 		"everyday_needs": {
 			"coal": 1.0
 		},
@@ -301,10 +501,31 @@
 		"luxury_needs": {
 			"opium": 1.0
 		},
+		"values": {
+			"conscription": 0.1,
+			"reservists": 0.1,
+			"upper_tax": 0.7,
+			"middle_tax": 0.4,
+			"lower_tax": 0.1,
+			"upper_voting": 0.8,
+			"middle_voting": 0.3,
+			"lower_voting": 0.1,
+			"meetings_allowed": 0.3,
+			"political_representation": 0.4,
+			"opposition_parties_allowed": 0.6,
+			"opposition_party_suppression": 0.5,
+			"free_press": 0.3,
+			"citizenship_extension": 0.2,
+			"education": 0.6,
+			"slavery": 0.1
+		},
 		"strata": "poor"
 	},
 	"soldier": {
 		"ID": 3,
+		"flags": [
+			"can_build"
+		],
 		"everyday_needs": {
 			"coal": 1.0,
 			"furniture": 1.0,
@@ -330,6 +551,24 @@
 			"clothes": 3.0,
 			"telephone": 1.0,
 			"tobacco": 0.95
+		},
+		"values": {
+			"conscription": 0.1,
+			"reservists": 0.1,
+			"upper_tax": 0.7,
+			"middle_tax": 0.4,
+			"lower_tax": 0.1,
+			"upper_voting": 0.8,
+			"middle_voting": 0.3,
+			"lower_voting": 0.1,
+			"meetings_allowed": 0.3,
+			"political_representation": 0.4,
+			"opposition_parties_allowed": 0.6,
+			"opposition_party_suppression": 0.5,
+			"free_press": 0.3,
+			"citizenship_extension": 0.2,
+			"education": 0.6,
+			"slavery": 0.1
 		},
 		"strata": "poor"
 	}

@@ -1,0 +1,290 @@
+[
+    {
+        "desc_key": "",
+        "techs": [
+            "ITopic6_tech_1",
+            "ITopic6_tech_2",
+            "ITopic6_tech_3",
+            "ITopic6_tech_4",
+            "ITopic6_tech_5",
+            "ITopic6_tech_6"
+        ],
+        "topic_name": "ITopic6"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "MTopic1_tech_1",
+            "MTopic1_tech_2",
+            "MTopic1_tech_3",
+            "MTopic1_tech_4",
+            "MTopic1_tech_5",
+            "MTopic1_tech_6"
+        ],
+        "topic_name": "MTopic1"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "MTopic2_tech_1",
+            "MTopic2_tech_2",
+            "MTopic2_tech_3",
+            "MTopic2_tech_4",
+            "MTopic2_tech_5",
+            "MTopic2_tech_6"
+        ],
+        "topic_name": "MTopic2"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "MTopic3_tech_1",
+            "MTopic3_tech_2",
+            "MTopic3_tech_3",
+            "MTopic3_tech_4",
+            "MTopic3_tech_5",
+            "MTopic3_tech_6"
+        ],
+        "topic_name": "MTopic3"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "MTopic4_tech_1",
+            "MTopic4_tech_2",
+            "MTopic4_tech_3",
+            "MTopic4_tech_4",
+            "MTopic4_tech_5",
+            "MTopic4_tech_6"
+        ],
+        "topic_name": "MTopic4"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "MTopic5_tech_1",
+            "MTopic5_tech_2",
+            "MTopic5_tech_3",
+            "MTopic5_tech_4",
+            "MTopic5_tech_5",
+            "MTopic5_tech_6"
+        ],
+        "topic_name": "MTopic5"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "MTopic6_tech_1",
+            "MTopic6_tech_2",
+            "MTopic6_tech_3",
+            "MTopic6_tech_4",
+            "MTopic6_tech_5",
+            "MTopic6_tech_6"
+        ],
+        "topic_name": "MTopic6"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "Private Banks",
+            "Stock Exchange",
+            "Business Banks",
+            "Investment Banks",
+            "Bank Inspection Board",
+            "Mutual Funds"
+        ],
+        "topic_name": "Financial Institutions"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "No Standard",
+            "Ad-Hoc Money Bill Printing",
+            "Private Bank Money Bill Printing",
+            "Central Bank Money Bill Printing",
+            "Modern Central Bank System",
+            "Market Determined Exchange Rates"
+        ],
+        "topic_name": "Monetary System"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "Early Classical Theory and Critique",
+            "Late Classical Theory",
+            "Collectivist Theory",
+            "The Austrian Theory",
+            "Neoclassical Theory",
+            "Keynesian Economics"
+        ],
+        "topic_name": "Economic Thought and Critique"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "Freedom Of Trade",
+            "Market Structure",
+            "Business Regulations",
+            "Market Regulations",
+            "Economic Responsibility",
+            "Government Interventionism"
+        ],
+        "topic_name": "Market Functionality"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "Guild-Based Production",
+            "Organized Factories",
+            "Scientific Management",
+            "Time-Saving Measures",
+            "Management Strategy",
+            "Organizational Development"
+        ],
+        "topic_name": "Organization"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "CTopic6_tech_1",
+            "CTopic6_tech_2",
+            "CTopic6_tech_3",
+            "CTopic6_tech_4",
+            "CTopic6_tech_5",
+            "CTopic6_tech_6"
+        ],
+        "topic_name": "CTopic6"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "Classicism and Early Romanticism",
+            "Romanticism",
+            "Realism",
+            "Impressionism",
+            "Expressionism",
+            "Mass Culture & The Avant-Garde"
+        ],
+        "topic_name": "Aesthetics"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "Late Enlightenment Philosophy",
+            "Idealism",
+            "Empiricism",
+            "Analytic Philosophy",
+            "Phenomenology and Hermeneutics",
+            "Anti Rationalism"
+        ],
+        "topic_name": "Philosophy"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "Malthusian Thought",
+            "Positivism",
+            "Functionalism",
+            "Biologism",
+            "Social Science",
+            "Social Alienation"
+        ],
+        "topic_name": "Social Thought"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "The Rights of Man",
+            "Ideological Thought",
+            "State and Government",
+            "Nationalism and Imperialism",
+            "Revolution and Counterrevolution",
+            "Mass Politics"
+        ],
+        "topic_name": "Political Thought"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "Introspectionism",
+            "Associationism",
+            "Phenomenalism",
+            "Experimental Psychology",
+            "Psychoanalysis",
+            "Behaviorism"
+        ],
+        "topic_name": "Psychology"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "CtTopic6_tech_1",
+            "CtTopic6_tech_2",
+            "CtTopic6_tech_3",
+            "CtTopic6_tech_4",
+            "CtTopic6_tech_5",
+            "CtTopic6_tech_6"
+        ],
+        "topic_name": "CtTopic6"
+    },
+    {
+        "desc_key": "Better ways of generating power!",
+        "techs": [
+            "Water-Wheel Power",
+            "Practical Steam Engine",
+            "High and Low Pressure Steam Engines",
+            "Steam Turbine",
+            "Combustion Engine",
+            "Electrical Power Generation"
+        ],
+        "topic_name": "Power"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "Publishing Industry",
+            "Mechanical Production",
+            "Interchangeable Parts",
+            "Semi-Automatization",
+            "Assembly Line",
+            "Shift Work"
+        ],
+        "topic_name": "Mechanization"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "Mechanized Mining",
+            "Clean Coal",
+            "Cheap Iron",
+            "Cheap Steel",
+            "Advanced Metallurgy",
+            "Electric Furnace"
+        ],
+        "topic_name": "Metallurgy"
+    },
+    {
+        "desc_key": "",
+        "techs": [
+            "Experimental Railroad",
+            "Early Railroad",
+            "Iron Railroad",
+            "Steel Railroad",
+            "Integral Rail System",
+            "Limited-Access Roads"
+        ],
+        "topic_name": "Infrastructure"
+    },
+    {
+        "desc_key": "Pop growth tech basically",
+        "techs": [
+            "Basic Chemistry",
+            "Medicine",
+            "Inorganic Chemistry",
+            "Organic Chemistry",
+            "Electricity",
+            "Synthetic Polymers"
+        ],
+        "topic_name": "Chemistry and Electricity"
+    }
+]

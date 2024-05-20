@@ -1,0 +1,101 @@
+{
+    "forest": {
+        "movement" : 1.0,
+        "defense" : 1.0,
+        "air_defense" : 1.0,
+        "width" : 18.0,
+        "attrition" : 0.0,
+        "infrastructure_cost" : 1.0,
+        "color":[10, 10, 10]
+    },
+    "woods": {
+        "movement" : 1.0,
+        "defense" : 1.0,
+        "air_defense" : 1.0,
+        "width" : 18.0,
+        "attrition" : 0.0,
+        "infrastructure_cost" : 1.0,
+        "color":[10, 10, 10]
+    },
+    "plains": {
+        "movement" : 1.0,
+        "defense" : 1.0,
+        "air_defense" : 1.0,
+        "width" : 18.0,
+        "attrition" : 0.0,
+        "infrastructure_cost" : 1.0,
+        "color":[10, 200, 10]
+    },
+    "farmland": {
+        "movement" : 1.0,
+        "defense" : 1.0,
+        "air_defense" : 1.0,
+        "width" : 18.0,
+        "attrition" : 0.0,
+        "infrastructure_cost" : 1.0,
+        "color":[50, 150, 50]
+    },
+    "hills": {
+        "movement" : 1.0,
+        "defense" : 1.0,
+        "air_defense" : 1.0,
+        "width" : 18.0,
+        "attrition" : 0.0,
+        "infrastructure_cost" : 1.0,
+        "color":[10, 10, 150]
+    },
+    "mountains": {
+        "movement" : 1.0,
+        "defense" : 1.0,
+        "air_defense" : 1.0,
+        "width" : 18.0,
+        "attrition" : 0.0,
+        "infrastructure_cost" : 1.0,
+        "color":[150, 10, 10]
+    },
+    "tundra": {
+        "movement" : 1.0,
+        "defense" : 1.0,
+        "air_defense" : 1.0,
+        "width" : 18.0,
+        "attrition" : 0.0,
+        "infrastructure_cost" : 1.0,
+        "color":[10, 100, 200]
+    },
+    "desert": {
+        "movement" : 1.0,
+        "defense" : 1.0,
+        "air_defense" : 1.0,
+        "width" : 18.0,
+        "attrition" : 1.0,
+        "infrastructure_cost" : 1.0,
+        "color":[100, 10, 100]
+    },
+    "drylands": {
+        "movement" : 1.0,
+        "defense" : 1.0,
+        "air_defense" : 1.0,
+        "width" : 18.0,
+        "attrition" : 0.0,
+        "infrastructure_cost" : 1.0,
+        "color":[10, 10, 10]
+    },
+    "marsh": {
+        "movement" : 1.0,
+        "defense" : 1.0,
+        "air_defense" : 1.0,
+        "width" : 18.0,
+        "attrition" : 1.0,
+        "infrastructure_cost" : 1.0,
+        "color":[10, 10, 50]
+    },
+    "urban": {
+        "movement" : 1.0,
+        "defense" : 1.0,
+        "air_defense" : 1.0,
+        "width" : 18.0,
+        "attrition" : 0.0,
+        "infrastructure_cost" : 1.0,
+        "color":[100, 100, 100]
+    }
+}
